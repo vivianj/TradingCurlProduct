@@ -9,41 +9,57 @@ hollister = "http://www.hollisterco.com/shop/us/bettys-skinny-sweatpants/hollist
 def getData(url)
     doc = Nokogiri::HTML(open(url))
     data = doc.css("div[class='data']")
-
+    
     price = data.css("input[name='price']")[0]["value"]
     name = data.css("input[name='name']")[0]["value"]
-    #name = getValue(data1=data, name1='name')
     color = data.css("input[name='color']")[0]["value"] 
     longSkuId = data.css("input[name='longSku']")[0]["value"]
+    longskuid = longSkuId.gsub('-','')
     webCodeId = data.css("input[name='collection']")[0]["value"]
     productId = data.css("input[name='productId']")[0]["value"]
     categoryId = data.css("input[name='catId']")[0]["value"]
     seq = data.css("input[name='cseq']")[0]["value"]
+
+    sizes = doc.css("ul.options li option")
+    for i in 1..sizes.length-1
+       puts sizes[i]["value"]
+       puts sizes[i].text
+    end
 
     if url.include? "hollisterco"
        imgLink = "http://anf.scene7.com/is/image/anf/hol_"+webCodeId+"_"+seq+"_prod1?$holCategoryJPG$" 
     elsif url.include? "abercrombie"
        imgLink = "http://anf.scene7.com/is/image/anf/anf_"+webCodeId+"_"+seq+"_prod1?$anfCategoryJPG$"
     end
-
-    File.open(File.basename(longSkuId.gsub('-','')+".jpg"), 'wb'){|f| f.write(open(imgLink).read)}
-    puts name
-end
-
-def getValue(data1, name1)
-    return data1.css(input[name=name1])[0]["value"]
+    
+    #save img into local disk
+    File.open(File.basename(longskuid+".jpg"), 'wb'){|f| f.write(open(imgLink).read)}
+  
+    #upload img to ftp server, then delete the local one
+    if uploadImg(longskuid + ".jpg") 
+       File.delete(longskuid+".jpg")
+    end
+     
+   puts name
 end
 
 def uploadImg(img)
+   
     host = "waws-prod-blu-003.ftp.azurewebsites.windows.net"
-
     file = File.new(img)
-    ftp = Net::FTP.new(host)
-    ftp.login(user="afapp\$afapp", passwd="Bg8ik95E1uN8hiLq9PBfi7kheHklKpziB8JSE5xi43k7Gn7w0uednrg5l5yA")
-    ftp.putbinaryfile(file, "/site/wwwroot/#{File.basename(file)}")
+    ftp = Net::FTP.new
+    ftp.connect(host)
+    ftp.login(user="afapp\\$afapp", passwd="Bg8ik95E1uN8hiLq9PBfi7kheHklKpziB8JSE5xi43k7Gn7w0uednrg5l5yA")
+    files = ftp.chdir("site/wwwroot/images")
+    ftp.putbinaryfile(file)
     ftp.close()
-    ftp.quit()
+     
+    true
+
+rescue Exception => err
+   puts "upload the img " + img + " error message :" +err.message
+   false
+
 end
 
-uploadImg(img='1564250149023.jpg')
-#getData(url=URL)
+getData(url=URL)
