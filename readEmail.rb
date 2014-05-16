@@ -1,10 +1,12 @@
 require 'mail'
 require 'net/imap'
 require 'net/smtp'
+require 'nokogiri'
 
 def readEmail  
-   af_order_re = /.*?abercrombie & fitch order #.*?\d+ confirmation.*/
-   af_ship_re = /.*abercrombie & fitch order #.\d+ has shipped./
+   af_order_re = /.*?order #.*?\d+ confirmation.*/
+   af_ship_re = /.*?order #.\d+ has shipped./
+   e_receipt_re = /.*?your\s*e-receipt\s*from.*/
  
    imap = Net::IMAP.new('imap.gmail.com',993,true)
    imap.login('jiangyy12@gmail.com', 'jane@8612')
@@ -22,9 +24,10 @@ def readEmail
       puts mail.subject
       puts mail.from
    end
-   processEmail( mail.text_part.body.to_s)
+   #processEmail( mail.text_part.body.to_s)
 
-   #puts mail.text_part.body.to_s
+   #puts mail.html_part.body.decoded
+   puts Nokogiri::HTML(mail.html_part).text
    end
    imap.logout()
    imap.disconnect() 
@@ -34,8 +37,8 @@ def processEmail(emailContent)
     orderId_re =/.*?order\s*#:.*?(\d+).*/ 
     orderDate_re = /.*order\s*date:.*?(\d+\/\d+\/\d+).*/
     shipDate_re = /.*ship\s*date:.*?(\d+\/\d+\/\d+).*/
-    #subTotal_re = 
-    item_re = /.*?\D(\d{9})\D.*?/
+    subTotal_re = /.*?subtotal.*?\$?(\d+\.\d{2}).*?shipping.*?\$?(\d+\.\d{2}).*?tax.*?\$?(\d+\.\d{2}).*?total.*?\$?(\d+\.\d{2}).*/
+    item_re = /.*?\D?(\d{9})\D?.*?/
     price_re = /^\s*(?:price)?\$?(\d+\.\d+).*/
     start_re = /.*item\s*description.*/
     end_re = /.*subtotal.*/
@@ -103,13 +106,28 @@ def processEmail(emailContent)
 
          if result = total_re.match(line.downcase)
             total = false
-            puts totalStr
+            totalStr = totalStr.split.join(' ')
             next
+         end
+
+        if result = subTotal_re.match(totalStr)
+           subtotal,ship,tax,total = result.captures
+           puts subtotal
+           puts ship
+           puts tax
+           puts total
+           return
          end
 
      end
       
     
+end
+
+def processEreceipt()
+end
+
+def processHco()
 end
 
 
