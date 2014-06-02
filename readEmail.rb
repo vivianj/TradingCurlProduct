@@ -2,6 +2,7 @@ require 'mail'
 require 'net/imap'
 require 'net/smtp'
 require 'nokogiri'
+require 'json'
 
 def readEmail  
     af_order_re = /.*?order #.*?\d+ confirmation.*/
@@ -9,32 +10,34 @@ def readEmail
     e_receipt_re = /.*?your\s*e-receipt\s*from.*/
  
     imap = Net::IMAP.new('imap.gmail.com',993,true)
-    imap.login('jiangyy12@gmail.com', 'jane@8612')
+    imap.login('jiangyy12@live.com', 'jane8612')
     imap.select('AF')
      mailIds = imap.search(['ALL'])
      mailIds.each do |id|
         msg = imap.fetch(id,'RFC822')[0].attr['RFC822']
         mail = Mail.read_from_string msg
-     	puts msg
+        data = new Hash()
 
        	if m=af_order_re.match(mail.subject.downcase)
-           processEmail(mail.decode_body)
+           data = processEmail(mail.decode_body)
            imap.copy(id, "OrderConfirmation")
-           imap.store(id, "+FLAGS",[:Deleted])  
+           data[] = "ordered"
         end
 
         if m=af_ship_re.match(mail.subject.downcase)
-           processEmail(mail.decode_body)
+           data = processEmail(mail.decode_body)
+           data[] = "shipped"
            imap.copy(id, "ShippingConfirmation")
-           imap.store(id, "+FLAGS",[:Deleted])
         end
    
         if m = e_receipt_re.match(mail.subject.downcase)
            content = Nokogiri::HTML(mail.decode_body).text
-           processEreceipt(content)
+           data = processEreceipt(content)
+           data[]="shipped"
            imap.copy(id, "ShippingConfirmation")
-           imap.store(id, "+FLAGS",[:Deleted])
         end
+           imap.store(id, "+FLAGS",[:Deleted])
+
    end
    imap.logout()
    imap.disconnect() 
@@ -57,42 +60,47 @@ def processEmail(emailContent)
     items = Hash.new
     totalStr = ''
     total = false
+    dataH = new Hash()
 
      emailContent.each_line do |line|
+         line = line.gsub("/[*|>]|=09/","").downcase + ' '
+         line = line.strip
+
          if line.empty?
             next
          end
     
-        if result = orderId_re.match(line.downcase)
-            puts result.captures
+         if result orderId_re.match(line)
+            orderId = result.captures
+             dataH['orderId']=orderId 
             next
-        end
+         end
 
-
-         if result = shipDate_re.match(line.downcase)
+         if result = shipDate_re.match(line)
              shipDate = result.captures
+             dataH['shipDate'] = shipDate
              puts shipDate 
              next
           end
 
-         if result = orderDate_re.match(line.downcase)
-             puts result.captures
+         if result = orderDate_re.match(line)
+             dataH['orderDate']=result.captures
              next
           end
          
-         if result = start_re.match(line.downcase)
+         if result = start_re.match(line)
              start = true
              next
          end
         
  
          if start
-            if result = item_re.match(line.downcase)
+            if result = item_re.match(line)
                item = result.captures
                puts result.captures
             end
 
-           if result = price_re.match(line.downcase)
+           if result = price_re.match(line)
               price = result.captures
               items.store(item, price)
               puts price
@@ -101,17 +109,17 @@ def processEmail(emailContent)
          end
 
          if  total
-             totalStr.concat(line.downcase)
+             totalStr.concat(line)
          end
 
-         if result = end_re.match(line.downcase)
+         if result = end_re.match(line)
             start = false
-            totalStr.concat(line.downcase)
+            totalStr.concat(line)
             total = true
             next 
          end 
 
-         if result = total_re.match(line.downcase)
+         if result = total_re.match(line)
             total = false
             totalStr = totalStr.split.join(' ')
             next
@@ -119,6 +127,10 @@ def processEmail(emailContent)
 
         if result = subTotal_re.match(totalStr)
            subtotal,ship,tax,total = result.captures
+           dataH[] = subtotal
+           dataH['total'] = total
+           dataH['tax'] = tax
+           dataH['ship'] = ship
            puts subtotal
            puts ship
            puts tax
@@ -149,7 +161,7 @@ def processEreceipt(emailContent)
     total = false
 
      emailContent.each_line do |line|
-         line=line.gsub('\*','')
+         line=line.gsub('\*','').downcase
 
          if line.empty?
             next
@@ -157,16 +169,16 @@ def processEreceipt(emailContent)
 
 
          if  total
-             totalStr.concat(line.downcase)
+             totalStr.concat(line)
          end
 
-         if result = total_re.match(line.downcase)
-            totalStr.concat(line.downcase)
+         if result = total_re.match(line)
+            totalStr.concat(line)
             total = true
             next
          end
 
-         if result = end_re.match(line.downcase)
+         if result = end_re.match(line)
             total = false
             totalStr = totalStr.split.join(' ')
             next
@@ -188,33 +200,33 @@ def processEreceipt(emailContent)
            return
         end
 
-        if result = storeId_re.match(line.downcase)
+        if result = storeId_re.match(line)
             puts "storeID"
             puts result.captures
             next
         end
 
-        if result = trans_re.match(line.downcase)
+        if result = trans_re.match(line)
            puts "transId"
            trans = result.captures
            puts trans
         end
 
-        if result = orderDate_re.match(line.downcase)
+        if result = orderDate_re.match(line)
            puts "Date:"
            date=result.captures
            puts date
            next
         end
 
-        if result = item_re.match(line.downcase)
+        if result = item_re.match(line)
            item = result.captures
            puts "item"
            puts result.captures
            next
          end
 
-        if result = price_re.match(line.downcase)
+        if result = price_re.match(line)
             price = result.captures
             items.store(item, price)
             puts "price"
@@ -223,7 +235,7 @@ def processEreceipt(emailContent)
         end
 
 
-         if result = item_price_re.match(line.downcase)
+         if result = item_price_re.match(line)
             price,item0 = result.captures
             items.store(item,price)
             puts "line matchs item price"
