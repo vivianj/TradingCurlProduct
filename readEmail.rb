@@ -2,6 +2,7 @@ require 'mail'
 require 'net/imap'
 require 'net/smtp'
 require 'nokogiri'
+require 'rest_client'
 require 'json'
 
 def readEmail  
@@ -10,33 +11,42 @@ def readEmail
     e_receipt_re = /.*?your\s*e-receipt\s*from.*/
  
     imap = Net::IMAP.new('imap.gmail.com',993,true)
-    imap.login('jiangyy12@live.com', 'jane8612')
+    imap.login('jiangyy12@gmail.com', 'jane@8612')
     imap.select('AF')
-     mailIds = imap.search(['ALL'])
-     mailIds.each do |id|
+    destFolder = 'other'
+    mailIds = imap.search(['ALL'])
+    mailIds.each do |id|
         msg = imap.fetch(id,'RFC822')[0].attr['RFC822']
         mail = Mail.read_from_string msg
-        data = new Hash()
+        data = Hash.new
 
        	if m=af_order_re.match(mail.subject.downcase)
            data = processEmail(mail.decode_body)
-           imap.copy(id, "OrderConfirmation")
-           data[] = "ordered"
+           destFolder = "OrderConfirmation"
+           data['brand'] = 'AF'
+           data['order_status'] = "ordered"
         end
 
         if m=af_ship_re.match(mail.subject.downcase)
            data = processEmail(mail.decode_body)
-           data[] = "shipped"
-           imap.copy(id, "ShippingConfirmation")
+           data['order_status'] = "shipped"
+           destFolder = "ShippingConfirmation"
         end
    
         if m = e_receipt_re.match(mail.subject.downcase)
            content = Nokogiri::HTML(mail.decode_body).text
            data = processEreceipt(content)
-           data[]="shipped"
-           imap.copy(id, "ShippingConfirmation")
+           data['order_status']="shipped"
+           destFolder = "ShippingConfirmation"
         end
-           imap.store(id, "+FLAGS",[:Deleted])
+          data['email'] = mail.envelope_from
+           
+          print data.to_json
+          response = RestCient.post('http://localhost:3000/api/v1/orders/new_email', data.to_json, :content_type => 'application/json')
+          print response
+
+          imap.copy(id, destFolder)
+          imap.store(id, "+FLAGS",[:Deleted])
 
    end
    imap.logout()
@@ -57,10 +67,11 @@ def processEmail(emailContent)
     start = false
     item = ''
     price = ''
-    items = Hash.new
+    items = Array.new
+    item0 = Hash.new
     totalStr = ''
     total = false
-    dataH = new Hash()
+    dataH = Hash.new
 
      emailContent.each_line do |line|
          line = line.gsub("/[*|>]|=09/","").downcase + ' '
@@ -70,21 +81,21 @@ def processEmail(emailContent)
             next
          end
     
-         if result orderId_re.match(line)
+         if result = orderId_re.match(line)
             orderId = result.captures
-             dataH['orderId']=orderId 
+             dataH['order_no']=orderId 
             next
          end
 
          if result = shipDate_re.match(line)
              shipDate = result.captures
-             dataH['shipDate'] = shipDate
+             dataH['shipping_date'] = shipDate
              puts shipDate 
              next
           end
 
          if result = orderDate_re.match(line)
-             dataH['orderDate']=result.captures
+             dataH['order_date']=result.captures
              next
           end
          
@@ -97,13 +108,13 @@ def processEmail(emailContent)
          if start
             if result = item_re.match(line)
                item = result.captures
-               puts result.captures
+               item0['code'] = item
             end
 
            if result = price_re.match(line)
               price = result.captures
-              items.store(item, price)
-              puts price
+              item0['price'] = price
+              items.push(item0)
               next
            end 
          end
@@ -127,15 +138,12 @@ def processEmail(emailContent)
 
         if result = subTotal_re.match(totalStr)
            subtotal,ship,tax,total = result.captures
-           dataH[] = subtotal
+           dataH['subtotal'] = subtotal
            dataH['total'] = total
            dataH['tax'] = tax
-           dataH['ship'] = ship
-           puts subtotal
-           puts ship
-           puts tax
-           puts total
-           return
+           dataH['shipping'] = ship
+           dataH['items'] = items
+           return dataH
          end
 
      end
