@@ -2,7 +2,7 @@ require 'mail'
 require 'net/imap'
 require 'net/smtp'
 require 'nokogiri'
-require 'rest_client'
+require 'RestClient'
 require 'json'
 
 def readEmail  
