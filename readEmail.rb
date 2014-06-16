@@ -7,22 +7,69 @@ require 'rest_client'
 require 'json'
 require 'date'
 
+def forwardEmail
+     imap = Net::IMAP.new('imap.gmail.com',993,true)
+     imap.login("jiangyy12@gmail.com","jane@8612")
+     imap.select("AF")
+     imap.search(['ALL']).each do |id|
+          email = imap.fetch(id, "BODY[]")[0].attr["BODY[]"]
+	  mail1 = Mail.read_from_string email 
+
+          mail = Mail.new
+          mail = mail1
+          mail.from = "jiangyy12@gmail.com"
+          mail.to = "kangyihong001@gmail.com"
+          mail.subject = "FWd:" + mail1.subject
+         
+          #puts mail
+          
+=begin 
+              subject 'FW:'+ mail1.subject
+              from 'jiangyy12@gmail.com'
+              to 'kangyihong001@gmail.com'
+              
+          end
+         
+          #mail.body= mail1.to_s 
+          
+          puts mail.to_s
+=end
+	  smtp = Net::SMTP.new 'smtp.gmail.com', 587
+          smtp.enable_starttls
+    
+          smtp.start('gmail.com', 'jiangyy12@gmail.com','jane@8612',:plain) do |smtp|
+             smtp.send_message mail.to_s, 'jiangyy12@gmail.com', 'kangyihong001@gmail.com'
+          end
+        
+     end
+   imap.logout()
+   imap.disconnect()
+end
+
 def readEmail  
     af_order_re = /.*?order #\d+ confirmation.*/
     af_ship_re = /.*?order #\d+ has shipped.*/
     e_receipt_re = /.*?your\s*e-receipt\s*from.*/
  
     imap = Net::IMAP.new('imap.gmail.com',993,true)
-    imap.login('kangyihong001@gmail.com', '831218xx')
-    imap.select('test2')
+    imap.login('jiangyy12@gmail.com', 'jane@8612')
+    imap.select('AF')
     destFolder = 'other'
     mailIds = imap.search(['ALL'])
     mailIds.each do |id|
-        msg = imap.fetch(id,'RFC822')[0].attr['RFC822']
+        msg = imap.fetch(id,'BODY[]')[0].attr['BODY[]']
         mail = Mail.read_from_string msg
         data = Hash.new
         body_type = mail.content_type
-        
+
+        smtp = Net::SMTP.new 'smtp.gmail.com', 587
+        smtp.enable_starttls
+      
+        smtp.start('gmail.com', 'jiangyy12@gmail.com','jane@8612',:plain) do |smtp|
+             smtp.send_message mail, 'jiangyy12@gmail.com', 'kangyihong001@gmail.com'
+        end
+      
+=begin  
         subject = mail.subject.downcase
         data['brand'] = getBrandName(subject)
  
@@ -46,26 +93,28 @@ def readEmail
            data['order_status']="shipped"
            data['tracking_no'] = ''
            destFolder = "test"
-           data['order_no'] = getOrderId(content)  
+           orderId = getOrderId(content)
+           data['order_no'] = orderId  
            
-           if not /.*?\d{5,}.*?/.match(subject)  
+           if not /.*?\d{9,}.*?/.match(subject) and not orderId.empty?
               newMail = Mail.new
               newMail = mail
-              newMail.subject = mail.subject<<" Order #"<<data['order_no']
+              newMail.subject = mail.subject<<" Order #"<<orderId
               puts newMail.subject
               imap.append(destFolder,newMail.to_s)
-              imap.store(id, "+FLAGS",[:Deleted])
+              #imap.store(id, "+FLAGS",[:Deleted])
            end
         end
-          data['email'] = "bbbear444@gmail.com"
+          data['email'] = mail.from
           
           puts data.to_json 
-          #response = RestClient.post "http://ourtradingplatform:otp$api*secrect@23.239.13.57/api/v1/orders/new_email", data.to_json, :content_type => :json, :accept => :json
-          #puts response.code
-          #puts response.to_str
+          response = RestClient.post "http://ourtradingplatform:otp$api*secrect@23.239.13.57/api/v1/orders/new_email", data.to_json, :content_type => :json, :accept => :json
+          puts response.code
+          puts response.to_str
 
           #imap.copy(id, destFolder)
           #imap.store(id, "+FLAGS",[:Deleted])
+=end
    end
    imap.logout()
    imap.disconnect() 
@@ -81,9 +130,9 @@ def getBrandName(subject)
     end
 end
 
+#get email content as string
 def getEmailContent(message)
     content = ""
-
     if message.multipart?
        message.parts.each do |part|
          if part.content_type.include? 'plain'
@@ -103,9 +152,10 @@ def getEmailContent(message)
   return content 
 end
 
+#get orderId from E-Receipt
 def getOrderId(emailContent) 
     storeId_re = /.*?store\s*(\d+).*?/
-    transId_re = /.*?trans\W*?(\d+).*?/
+    transId_re = /.*?trans.*?(\d+).*?/
     dateId_re = /.*?date\/time.*?(\d{4}-\d{2}-\d{2}).*/
     orderId = ''
     
@@ -199,7 +249,9 @@ def processEmail(emailContent)
            if result = price_re.match(line)
               price = result.captures[0]
               item0['price'] = price.to_f
-              items.push(item0)
+              if not item0['code'].empty?
+                 items.push(item0)
+              end
               next
            end 
          end
@@ -347,7 +399,9 @@ def processEreceipt(emailContent)
 
            if result = price1_re.match(line)
               item0['price'] = result.captures[0].to_f
-              items.push(item0)
+              if not item0['code'].empty?
+                 items.push(item0)
+              end
               next
            end
 
@@ -374,5 +428,5 @@ def processEreceipt(emailContent)
 end
 
 
-readEmail
-
+#readEmail
+forwardEmail
