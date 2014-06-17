@@ -7,77 +7,94 @@ require 'rest_client'
 require 'json'
 require 'date'
 
-def forwardEmail
-     imap = Net::IMAP.new('imap.gmail.com',993,true)
-     imap.login("jiangyy12@gmail.com","jane@8612")
-     imap.select("AF")
-     imap.search(['ALL']).each do |id|
-          email = imap.fetch(id, "BODY[]")[0].attr["BODY[]"]
-	  mail1 = Mail.read_from_string email 
+def readEmails
+    properties=loadPropertyFile('property.yml')
+    username = properties['email']['username']
+    password = properties['email']['password']
+    mailbox = properties['email']['mailbox']
+    responseUrl = properties['response']['url']
 
-          mail = Mail.new
-          mail = mail1
-          mail.from = "jiangyy12@gmail.com"
-          mail.to = "kangyihong001@gmail.com"
-          mail.subject = "FWd:" + mail1.subject
-         
-          #puts mail
-          
-=begin 
-              subject 'FW:'+ mail1.subject
-              from 'jiangyy12@gmail.com'
-              to 'kangyihong001@gmail.com'
-              
-          end
-         
-          #mail.body= mail1.to_s 
-          
-          puts mail.to_s
-=end
-	  smtp = Net::SMTP.new 'smtp.gmail.com', 587
-          smtp.enable_starttls
-    
-          smtp.start('gmail.com', 'jiangyy12@gmail.com','jane@8612',:plain) do |smtp|
-             smtp.send_message mail.to_s, 'jiangyy12@gmail.com', 'kangyihong001@gmail.com'
-          end
-        
-     end
-   imap.logout()
-   imap.disconnect()
+    readEmail(username,password,mailbox,responseUrl)
+
 end
 
-def readEmail  
-    af_order_re = /.*?order #\d+ confirmation.*/
-    af_ship_re = /.*?order #\d+ has shipped.*/
-    e_receipt_re = /.*?your\s*e-receipt\s*from.*/
- 
+def forwardEmail(message, username, password, to_address)
+     newMail = Mail.new 
+     newMail['from'] = username
+     newMail[:to] = to_address 
+     newMail.subject = "FWd:" + message.subject
+           
+      message.parts.each do |part|
+         if part.content_type.include? 'html'
+              newMail.add_part(part)
+          end
+      end
+           
+      puts newMail.parts[0].content_type 
+          
+      smtp = Net::SMTP.new 'smtp.gmail.com', 587
+      smtp.enable_starttls
+    
+      smtp.start('gmail.com', username,password,:plain) do |smtp|
+       smtp.send_message newMail.to_s, username, to_address 
+      end
+        
+end
+
+def loadPropertyFile(filePath)
+    if File.exist?(filePath)
+       properties = YAML.load_file(filePath)
+       return properties
+    else
+     rescure
+    end
+end
+
+def readEmail(username, password, mailbox, responseUrl)  
     imap = Net::IMAP.new('imap.gmail.com',993,true)
-    imap.login('jiangyy12@gmail.com', 'jane@8612')
-    imap.select('AF')
+    imap.login(username, password)
+    imap.select(mailbox)
     destFolder = 'other'
     mailIds = imap.search(['ALL'])
     mailIds.each do |id|
         msg = imap.fetch(id,'BODY[]')[0].attr['BODY[]']
         mail = Mail.read_from_string msg
         data = Hash.new
-        body_type = mail.content_type
+        
+        data = extractEmail(mail,imap)
+        destFolder = data['destFolder']
+        data.delete('destFolder')
 
-        smtp = Net::SMTP.new 'smtp.gmail.com', 587
-        smtp.enable_starttls
-      
-        smtp.start('gmail.com', 'jiangyy12@gmail.com','jane@8612',:plain) do |smtp|
-             smtp.send_message mail, 'jiangyy12@gmail.com', 'kangyihong001@gmail.com'
+        puts data.to_json 
+        response = RestClient.post responseUrl, data.to_json, :content_type => :json, :accept => :json
+
+        if response.code == "200" || response.code == "201"
+           to_address = response.to_str
+           forwardEmail(mail,username,password,to_address)
         end
-      
-=begin  
-        subject = mail.subject.downcase
-        data['brand'] = getBrandName(subject)
- 
+          
+        puts response.to_str
+
+        imap.copy(id, destFolder)
+        imap.store(id, "+FLAGS",[:Deleted])
+   end
+   imap.logout()
+   imap.disconnect() 
+end
+
+def extractEmail(mail, imap)
+      af_order_re = /.*?order #\d+ confirmation.*/
+      af_ship_re = /.*?order #\d+ has shipped.*/
+      e_receipt_re = /.*?your\s*e-receipt\s*from.*/
+
+        data = Hash.new
+
+        subject = mail.subject.downcase       
         content = getEmailContent(mail)
 
-       	if m=af_order_re.match(subject)
+        if m=af_order_re.match(subject)
            data = processEmail(content)
-           destFolder = "OrderConfirmation"
+           data['destFolder'] = "OrderConfirmation"
            data['order_status'] = "ordered"
         end
 
@@ -85,41 +102,38 @@ def readEmail
            data = processEmail(content)
            data['order_status'] = "shipped"
            data['tracking_no'] = '1234567'
-           destFolder = "ShippingConfirmation"
+           data['destFolder'] = "ShippingConfirmation"
         end
-   
+  
         if m = e_receipt_re.match(subject)
            data = processEreceipt(content)
            data['order_status']="shipped"
            data['tracking_no'] = ''
-           destFolder = "test"
+           data['destFolder'] = "test"
            orderId = getOrderId(content)
-           data['order_no'] = orderId  
-           
+           data['order_no'] = orderId
+
            if not /.*?\d{9,}.*?/.match(subject) and not orderId.empty?
               newMail = Mail.new
               newMail = mail
               newMail.subject = mail.subject<<" Order #"<<orderId
               puts newMail.subject
-              imap.append(destFolder,newMail.to_s)
+              #imap.append(data['destFolder'],newMail.to_s)
               #imap.store(id, "+FLAGS",[:Deleted])
            end
         end
-          data['email'] = mail.from
-          
-          puts data.to_json 
-          response = RestClient.post "http://ourtradingplatform:otp$api*secrect@23.239.13.57/api/v1/orders/new_email", data.to_json, :content_type => :json, :accept => :json
-          puts response.code
-          puts response.to_str
+          data['email'] = mail.from[0]
 
-          #imap.copy(id, destFolder)
-          #imap.store(id, "+FLAGS",[:Deleted])
-=end
-   end
-   imap.logout()
-   imap.disconnect() 
+          data['brand'] = getBrandName(subject)
+          puts "brand name"
+          puts data['brand']
+
+
+ 
+         return data
 end
 
+#getBrandName
 def getBrandName(subject)
     if subject.include? 'abercrombie' 
        return 'Abercrombie & Fitch'
@@ -428,5 +442,5 @@ def processEreceipt(emailContent)
 end
 
 
-#readEmail
-forwardEmail
+readEmails
+#forwardEmail
