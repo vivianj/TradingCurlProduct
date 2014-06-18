@@ -9,10 +9,22 @@ require 'date'
 
 def readEmails
     properties=loadPropertyFile('property.yml')
+    
     username = properties['email']['username']
     password = properties['email']['password']
     mailbox = properties['email']['mailbox']
     responseUrl = properties['response']['url']
+    
+    if username.empty?
+       raise "reading email address is required"
+    elif password.empty?
+       raise "reading email password is required"
+    elif mailbox.empty?
+       mailbox = "Inbox"
+       raise "the mailbox is empty, use default Inbox"
+    elif responseUrl.empty?
+       raise "response Url is required"
+    end
 
     readEmail(username,password,mailbox,responseUrl)
 
@@ -29,8 +41,11 @@ def forwardEmail(message, username, password, to_address)
               newMail.add_part(part)
           end
       end
-           
-      puts newMail.parts[0].content_type 
+      
+      if newMail.parts.length == 0
+         raise "Forward email body is empty"
+      end     
+      #puts newMail.parts[0].content_type 
           
       smtp = Net::SMTP.new 'smtp.gmail.com', 587
       smtp.enable_starttls
@@ -46,7 +61,7 @@ def loadPropertyFile(filePath)
        properties = YAML.load_file(filePath)
        return properties
     else
-     rescure
+     raise "File:"<<filePath<<" not found!" 
     end
 end
 
@@ -68,9 +83,12 @@ def readEmail(username, password, mailbox, responseUrl)
         puts data.to_json 
         response = RestClient.post responseUrl, data.to_json, :content_type => :json, :accept => :json
 
-        if response.code == "200" || response.code == "201"
+        case response.code
+        when 200 || 201
            to_address = response.to_str
-           forwardEmail(mail,username,password,to_address)
+           if not to_address.empty?
+              forwardEmail(mail,username,password,to_address)
+           end
         end
           
         puts response.to_str
@@ -443,4 +461,3 @@ end
 
 
 readEmails
-#forwardEmail
