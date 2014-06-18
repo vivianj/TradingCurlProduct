@@ -6,6 +6,9 @@ require 'nokogiri'
 require 'rest_client'
 require 'json'
 require 'date'
+require_relative "Logger.rb"
+
+include Log
 
 def readEmails
     properties=loadPropertyFile('property.yml')
@@ -17,14 +20,20 @@ def readEmails
     
     if username.empty?
        raise "reading email address is required"
+       logger.error "no email address provided for reading"
     elif password.empty?
        raise "reading email password is required"
+       logger.error "no password provided for reading email"
     elif mailbox.empty?
        mailbox = "Inbox"
        raise "the mailbox is empty, use default Inbox"
+       logger.info "No mailbox is provided, using the default Inbox folder"
     elif responseUrl.empty?
        raise "response Url is required"
+       logger.error "response Url is empty"
     end
+    
+    logger.info "Username :#{username}, Password :#{password}, Mailbox: #{mailbox}, responseUrl: #{responseUrl}"
 
     readEmail(username,password,mailbox,responseUrl)
 
@@ -58,17 +67,24 @@ end
 
 def loadPropertyFile(filePath)
     if File.exist?(filePath)
+       logger.info "Loading the property file #{filePath}"
        properties = YAML.load_file(filePath)
        return properties
     else
      raise "File:"<<filePath<<" not found!" 
+     logger.error "The property file - #{filePath} is not exist"
     end
 end
 
 def readEmail(username, password, mailbox, responseUrl)  
+    
     imap = Net::IMAP.new('imap.gmail.com',993,true)
     imap.login(username, password)
     imap.select(mailbox)
+ 
+    #rescure Net::IMAP::NoResponseError => error 
+     # logger.error "Error message : " + error 
+
     destFolder = 'other'
     mailIds = imap.search(['ALL'])
     mailIds.each do |id|
@@ -76,22 +92,37 @@ def readEmail(username, password, mailbox, responseUrl)
         mail = Mail.read_from_string msg
         data = Hash.new
         
+        if  mail.nil?
+           logger.info "mail is empty, skip it"
+           next
+        end
+ 
         data = extractEmail(mail,imap)
         destFolder = data['destFolder']
         data.delete('destFolder')
 
-        puts data.to_json 
-        response = RestClient.post responseUrl, data.to_json, :content_type => :json, :accept => :json
+        logger.info "Post data to responseurl : #{data.to_json}" 
+        response = RestClient.post responseUrl, :data => data.to_json, :content_type => 'application/json'
+      
+        logger.info "Response code is : #{response.code}"
+        logger.info "Response body is :#{response.body}"
 
         case response.code
         when 200 || 201
+           logger.info "send request successfully! Response code is : #{reponse.code}"
+           logger.info "The response body is : #{response.body}"
+
            to_address = response.to_str
            if not to_address.empty?
+              logger.info "Forward email to bosses : #{to_address} for user : #{username}"
               forwardEmail(mail,username,password,to_address)
+           else
+              logger.warn "No boss email returned for user : #{username}"
            end
+        when 422
+             logger.error "Got an error for processing the email!"
+             logger.error "Response body is :#{response.body}"
         end
-          
-        puts response.to_str
 
         imap.copy(id, destFolder)
         imap.store(id, "+FLAGS",[:Deleted])
@@ -108,7 +139,16 @@ def extractEmail(mail, imap)
         data = Hash.new
 
         subject = mail.subject.downcase       
+        
+        if subject.empty? || subject.nil?
+           logger.error 'no subject for mail!'
+        end
+
         content = getEmailContent(mail)
+
+        if content.empty? || content.nil?
+           logger.error "empty email"
+        end
 
         if m=af_order_re.match(subject)
            data = processEmail(content)
@@ -118,7 +158,7 @@ def extractEmail(mail, imap)
 
         if m=af_ship_re.match(subject)
            data = processEmail(content)
-           data['order_status'] = "shipped"
+           data['order_status'] = 'shipped'
            data['tracking_no'] = '1234567'
            data['destFolder'] = "ShippingConfirmation"
         end
@@ -135,24 +175,23 @@ def extractEmail(mail, imap)
               newMail = Mail.new
               newMail = mail
               newMail.subject = mail.subject<<" Order #"<<orderId
-              puts newMail.subject
               #imap.append(data['destFolder'],newMail.to_s)
               #imap.store(id, "+FLAGS",[:Deleted])
            end
         end
-          data['email'] = mail.from[0]
+          data['email'] = 'bbbear444@gmail.com'
 
           data['brand'] = getBrandName(subject)
-          puts "brand name"
-          puts data['brand']
-
-
- 
-         return data
+         
+          return data
 end
 
 #getBrandName
 def getBrandName(subject)
+    if subject.empty? || subject.nil?
+       logger.error "Email doesn't have subject"
+    end
+
     if subject.include? 'abercrombie' 
        return 'Abercrombie & Fitch'
     elsif subject.include? 'hollister'
@@ -166,6 +205,9 @@ end
 def getEmailContent(message)
     content = ""
     if message.multipart?
+    
+      logger.info "Email is multipart type"
+
        message.parts.each do |part|
          if part.content_type.include? 'plain'
             content+=part.decode_body.force_encoding('UTF-8') 
@@ -176,8 +218,10 @@ def getEmailContent(message)
         end
       end
    elsif message.content_type.include? 'plain' 
+         logger.info "Email body is text type"
          content+=message.decode_body
    elsif message.content_type.include? 'html'
+         logger.info "Email body is html"
          content+=Nokogiri::HTML(message.decode_body).text
    end  
 
@@ -192,10 +236,11 @@ def getOrderId(emailContent)
     orderId = ''
     
     emailContent.each_line do |line|
+         line = line.force_encoding('UTF-8').encode('UTF-8', :invalid => :replace, :replace => '?')
          line = line.gsub("/[*|>]|=09/","").downcase<<' '
          line = line.strip
          
-         if line.empty?
+         if line.empty? || line.nil?
             next
          end
         
@@ -237,17 +282,15 @@ def processEmail(emailContent)
     dataH = Hash.new
 
      emailContent.each_line do |line|
-         line = line.gsub("/[*|>]|=09/","").downcase<<' '
-         line = line.strip
+         line = line.force_encoding('UTF-8').encode('UTF-8', :invalid => :replace, :replace => '?')
+         line = line.gsub("/[\*|>]|=09/","").downcase<<' '
+         line = line.strip.to_s
 
          if line.empty?
             next
          end
    
-         puts line
- 
          if result = orderId_re.match(line)
-            puts line 
             orderId = result.captures[0]
             dataH['order_no']=orderId 
             next
@@ -255,14 +298,13 @@ def processEmail(emailContent)
 
          if result = shipDate_re.match(line)
              shipDate = result.captures[0]
-             dataH['shipping_date'] = Date.parse(shipDate).strftime("%Y-%m-%d")
+             dataH['shipping_date'] = Date.strptime(shipDate, "%m/%d/%Y").strftime("%Y-%m-%d")
              next
           end
 
          if result = orderDate_re.match(line)
              orderDate = result.captures[0]
-             puts orderDate.length
-             dataH['order_date'] = Date.parse(orderDate).strftime("%Y-%m-%d")
+             dataH['order_date'] = Date.strptime(orderDate, "%m/%d/%Y").strftime("%Y-%m-%d")
              next
           end
          
@@ -281,7 +323,7 @@ def processEmail(emailContent)
            if result = price_re.match(line)
               price = result.captures[0]
               item0['price'] = price.to_f
-              if not item0['code'].empty?
+              if not item0['code'].nil?
                  items.push(item0)
               end
               next
@@ -346,7 +388,7 @@ def processEreceipt(emailContent)
 
      emailContent.each_line do |line|
          line=line.gsub('\*|\t','').downcase<<' '
-         line = line.strip
+         line = line.strip.to_s
 
          if line.empty?
             next

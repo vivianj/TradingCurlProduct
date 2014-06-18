@@ -3,7 +3,7 @@ require 'logger'
 module Log
    class << self
      def logger
-         @logger ||=Logger.new($stdout)
+         @logger ||=Logger.new('readEmails.log', 'daily')
      end
 
      def logger=(logger)
