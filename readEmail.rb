@@ -19,17 +19,13 @@ def readEmails
     responseUrl = properties['response']['url']
     
     if username.empty?
-       raise "reading email address is required"
        logger.error "no email address provided for reading"
-    elif password.empty?
-       raise "reading email password is required"
+    elsif password.empty?
        logger.error "no password provided for reading email"
-    elif mailbox.empty?
+    elsif mailbox.empty?
        mailbox = "Inbox"
-       raise "the mailbox is empty, use default Inbox"
        logger.info "No mailbox is provided, using the default Inbox folder"
-    elif responseUrl.empty?
-       raise "response Url is required"
+    elsif responseUrl.empty?
        logger.error "response Url is empty"
     end
     
@@ -52,9 +48,8 @@ def forwardEmail(message, username, password, to_address)
       end
       
       if newMail.parts.length == 0
-         raise "Forward email body is empty"
+         logger.warn "Forward email : #{message.subject} body is empty"
       end     
-      #puts newMail.parts[0].content_type 
           
       smtp = Net::SMTP.new 'smtp.gmail.com', 587
       smtp.enable_starttls
@@ -71,19 +66,19 @@ def loadPropertyFile(filePath)
        properties = YAML.load_file(filePath)
        return properties
     else
-     raise "File:"<<filePath<<" not found!" 
      logger.error "The property file - #{filePath} is not exist"
     end
 end
 
 def readEmail(username, password, mailbox, responseUrl)  
-    
+    begin 
     imap = Net::IMAP.new('imap.gmail.com',993,true)
     imap.login(username, password)
     imap.select(mailbox)
  
-    #rescure Net::IMAP::NoResponseError => error 
-     # logger.error "Error message : " + error 
+    rescue Net::IMAP::NoResponseError => error 
+      logger.error "Error message : " + error 
+    end
 
     destFolder = 'other'
     mailIds = imap.search(['ALL'])
@@ -102,11 +97,9 @@ def readEmail(username, password, mailbox, responseUrl)
         data.delete('destFolder')
 
         logger.info "Post data to responseurl : #{data.to_json}" 
+        begin
         response = RestClient.post responseUrl, :data => data.to_json, :content_type => 'application/json'
       
-        logger.info "Response code is : #{response.code}"
-        logger.info "Response body is :#{response.body}"
-
         case response.code
         when 200 || 201
            logger.info "send request successfully! Response code is : #{reponse.code}"
@@ -114,18 +107,20 @@ def readEmail(username, password, mailbox, responseUrl)
 
            to_address = response.to_str
            if not to_address.empty?
-              logger.info "Forward email to bosses : #{to_address} for user : #{username}"
+              logger.info "Forward email to bosses : #{to_address} for user : #{data['email']}"
               forwardEmail(mail,username,password,to_address)
            else
-              logger.warn "No boss email returned for user : #{username}"
+              logger.error "No boss email returned for user : #{data['email']}"
            end
-        when 422
-             logger.error "Got an error for processing the email!"
-             logger.error "Response body is :#{response.body}"
+         end
+
+         rescue => ex 
+             logger.error "orderId: #{data['order_no']" + ex.inspect
         end
 
         imap.copy(id, destFolder)
         imap.store(id, "+FLAGS",[:Deleted])
+        logger.info "move email : #{data['order_no']} to folder #{destFolder}"
    end
    imap.logout()
    imap.disconnect() 
@@ -179,7 +174,7 @@ def extractEmail(mail, imap)
               #imap.store(id, "+FLAGS",[:Deleted])
            end
         end
-          data['email'] = 'bbbear444@gmail.com'
+          data['email'] = mail.from.to_s 
 
           data['brand'] = getBrandName(subject)
          
@@ -206,7 +201,7 @@ def getEmailContent(message)
     content = ""
     if message.multipart?
     
-      logger.info "Email is multipart type"
+      logger.info "Email : #{message.subject} is multipart type"
 
        message.parts.each do |part|
          if part.content_type.include? 'plain'
@@ -218,10 +213,10 @@ def getEmailContent(message)
         end
       end
    elsif message.content_type.include? 'plain' 
-         logger.info "Email body is text type"
+         logger.info "Email : #{message.subject} is text type"
          content+=message.decode_body
    elsif message.content_type.include? 'html'
-         logger.info "Email body is html"
+         logger.info "Email : #{message.subject} is html"
          content+=Nokogiri::HTML(message.decode_body).text
    end  
 

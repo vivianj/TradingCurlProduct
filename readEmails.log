@@ -104,3 +104,32 @@ I, [2014-06-18T17:00:34.820148 #11195]  INFO -- : Loading the property file prop
 I, [2014-06-18T17:00:34.820915 #11195]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
 I, [2014-06-18T17:00:35.454173 #11195]  INFO -- : Email is multipart type
 I, [2014-06-18T17:00:35.551449 #11195]  INFO -- : Post data to responseurl : {"order_no":"20033616772","order_date":"2014-03-12","shipping_date":"2014-03-14","subtotal":369.18,"total":369.18,"tax":0.0,"shipping":0.0,"items":[{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0}],"order_status":"shipped","tracking_no":"1234567","email":"bbbear444@gmail.com","brand":"Abercrombie & Fitch"}
+I, [2014-06-18T20:51:46.880353 #2246]  INFO -- : Loading the property file property.yml
+I, [2014-06-18T20:51:46.882852 #2246]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-18T20:52:03.878209 #2250]  INFO -- : Loading the property file property.yml
+I, [2014-06-18T20:52:03.878858 #2250]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-18T20:52:57.559930 #2265]  INFO -- : Loading the property file property.yml
+I, [2014-06-18T20:52:57.560504 #2265]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-18T20:53:42.648914 #2269]  INFO -- : Loading the property file property.yml
+I, [2014-06-18T20:53:42.651339 #2269]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-18T20:55:12.711535 #2274]  INFO -- : Loading the property file property.yml
+I, [2014-06-18T20:55:12.712164 #2274]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-18T20:55:13.716328 #2274]  INFO -- : Email is multipart type
+I, [2014-06-18T20:57:16.317864 #2311]  INFO -- : Loading the property file property.yml
+I, [2014-06-18T20:57:16.318137 #2311]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-18T20:57:17.030907 #2311]  INFO -- : Email is multipart type
+I, [2014-06-18T20:57:17.079934 #2311]  INFO -- : Post data to responseurl : {"order_no":"30176197520140519","order_date":"2014-05-19","shipping_date":"2014-05-19","total":48.0,"subtotal":48.0,"tax":0.0,"shipping":0.0,"items":[{"code":610750204,"price":12.0},{"code":610750204,"price":12.0},{"code":610750204,"price":12.0}],"order_status":"shipped","tracking_no":"","email":"bbbear444@gmail.com","brand":"Hollister"}
+I, [2014-06-18T21:06:19.551255 #2335]  INFO -- : Loading the property file property.yml
+I, [2014-06-18T21:06:19.557915 #2335]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-18T21:08:03.831956 #2347]  INFO -- : Loading the property file property.yml
+I, [2014-06-18T21:08:03.832591 #2347]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-18T21:09:17.150441 #2353]  INFO -- : Loading the property file property.yml
+I, [2014-06-18T21:09:17.151085 #2353]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-18T21:10:36.605259 #2357]  INFO -- : Loading the property file property.yml
+I, [2014-06-18T21:10:36.610435 #2357]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-18T21:11:56.908469 #2360]  INFO -- : Loading the property file property.yml
+I, [2014-06-18T21:11:56.909053 #2360]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-18T21:11:57.844271 #2360]  INFO -- : Email is multipart type
+I, [2014-06-18T21:11:57.881697 #2360]  INFO -- : Post data to responseurl : {"order_no":"30176197520140519","order_date":"2014-05-19","shipping_date":"2014-05-19","total":48.0,"subtotal":48.0,"tax":0.0,"shipping":0.0,"items":[{"code":610750204,"price":12.0},{"code":610750204,"price":12.0},{"code":610750204,"price":12.0}],"order_status":"shipped","tracking_no":"","email":"bbbear444@gmail.com","brand":"Hollister"}
+E, [2014-06-18T21:11:58.102277 #2360] ERROR -- : Got an error for processing the email!
+E, [2014-06-18T21:11:58.102666 #2360] ERROR -- : 422 Unprocessable Entity: Brand not found
