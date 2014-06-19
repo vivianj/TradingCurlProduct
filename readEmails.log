@@ -133,3 +133,5 @@ I, [2014-06-18T21:11:57.844271 #2360]  INFO -- : Email is multipart type
 I, [2014-06-18T21:11:57.881697 #2360]  INFO -- : Post data to responseurl : {"order_no":"30176197520140519","order_date":"2014-05-19","shipping_date":"2014-05-19","total":48.0,"subtotal":48.0,"tax":0.0,"shipping":0.0,"items":[{"code":610750204,"price":12.0},{"code":610750204,"price":12.0},{"code":610750204,"price":12.0}],"order_status":"shipped","tracking_no":"","email":"bbbear444@gmail.com","brand":"Hollister"}
 E, [2014-06-18T21:11:58.102277 #2360] ERROR -- : Got an error for processing the email!
 E, [2014-06-18T21:11:58.102666 #2360] ERROR -- : 422 Unprocessable Entity: Brand not found
+I, [2014-06-19T12:12:58.997309 #13442]  INFO -- : Loading the property file property.yml
+I, [2014-06-19T12:12:59.035365 #13442]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email

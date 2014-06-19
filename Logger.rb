@@ -1,6 +1,7 @@
 require 'logger'
 
-module Log
+module EmailProcessor
+ module Log
    class << self
      def logger
          @logger ||=Logger.new('readEmails.log', 'daily')
@@ -22,4 +23,5 @@ module Log
     def logger
         self.class.logger
     end
+ end
 end
