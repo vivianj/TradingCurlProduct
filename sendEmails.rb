@@ -6,24 +6,25 @@ require 'net/smtp'
 
 
 module EmailProcessor
-def sendEmailToUser(message, username, passowrd, error, to_address)
+def sendEmailToUser(account, error, address)
 	mail = Mail.new do
-        from username
+        from account.username
         to to_address
         subject  error
 	end
 
 	if error.include? 'email not found'
 		mail.body = 'Please add your email address : #{to_address} to the USCaigou system.'
-	else
+	else error.include? ''
 		mail.body = "Got error : #{error}"
+    address = 'kangyihong001@gmail.com'
     end
-	sendEmail(mail, username, password, admin)
+	sendEmail(mail, account, address)
 end
 
-def forwardEmail(message, username, password, to_address)
+def forwardEmail(message, account, to_address)
      mail = Mail.new 
-     mail['from'] = username
+     mail['from'] = account.username
      mail[:to] = to_address 
      mail.subject = "Fwd:" + message.subject
            
@@ -37,16 +38,16 @@ def forwardEmail(message, username, password, to_address)
          logger.warn "Forward email : #{message.subject} body is empty"
       end     
           
-      sendEmail(mail, username, password,to_address)
+      sendEmail(mail, account,to_address)
         
 end
 
-def sendEmail(mail, username, password, to_address)
+def sendEmail(mail, account, to_address)
 	  smtp = Net::SMTP.new 'smtp.gmail.com', 587
       smtp.enable_starttls
     
-      smtp.start('gmail.com', username, password, :plain) do |smtp|
-       smtp.send_message mail.to_s, username, to_address 
+      smtp.start('gmail.com', account.username, account.password, :plain) do |smtp|
+       smtp.send_message mail.to_s, account.username, to_address 
       end	
 end
 end

@@ -9,6 +9,7 @@ module_function
 def getBrandName(subject)
     if subject.empty? || subject.nil?
        logger.error "Email doesn't have the subject"
+       return ''
     end
 
     if subject.include? 'abercrombie' 
@@ -80,10 +81,10 @@ def getOrderId(content)
 end
 
 def getDestFolder(imap, brand, orderStatus)
-    if not imap.list(brand, orderStatus) && not brand.empty?
+    if not imap.list(brand, orderStatus) and  not brand.empty?
     	imap.create(brand+'/'+orderStatus)
     	return brand+'/'+orderStatus
-    elsif brand.empty? && not imap.list('', orderStatus)
+    elsif brand.empty? and not imap.list('', orderStatus)
         imap.create(orderStatus)
         return orderStatus
     end

@@ -7,12 +7,12 @@ module EmailProcessor
 		 @username
 		 @password
 		 @imap
-		 @smtp
+		 
 
 		 def initialize(username, password)  
            # Instance variables  
            @username = username
-           @password = passowrd
+           @password = password
            
          end 
 
@@ -37,13 +37,6 @@ module EmailProcessor
          def close_imap
          	 @imap.logout()
              @imap.disconnect() 
-         end
-
-         def create_smtp
-         end
-
-         def self.smtp
-         	@smtp
          end
 
          def self.imap

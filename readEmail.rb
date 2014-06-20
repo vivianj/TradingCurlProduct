@@ -9,11 +9,11 @@ require 'date'
 require File.dirname(__FILE__) + '/Logger'
 require File.dirname(__FILE__) + '/sendEmails'
 require File.dirname(__FILE__) + '/extractEmails'
-
-include Log
+require File.dirname(__FILE__) + '/Account'
 
 module EmailProcessor
 
+include Log
 module_function
 
 def readEmails
@@ -36,8 +36,8 @@ def readEmails
     end
     
     logger.info "Username :#{username}, Password :#{password}, Mailbox: #{mailbox}, responseUrl: #{responseUrl}"
-
-    readEmail(username,password,mailbox,responseUrl)
+    account = Account.new(username, password)
+    readEmail(account,mailbox,responseUrl)
 
 end
 
@@ -64,10 +64,11 @@ def connectEmail(username, password, mailbox)
     return imap
 end
 
-def readEmail(username, password, mailbox, responseUrl)  
+def readEmail(account, mailbox, responseUrl)  
     
-    imap = connectEmail(username, password, mailbox)
-    destFolder = 'other'
+    imap = account.create_imap
+    imap.select(mailbox)
+
     mailIds = imap.search(['ALL'])
     mailIds.each do |id|
         msg = imap.fetch(id,'BODY[]')[0].attr['BODY[]']
@@ -81,11 +82,21 @@ def readEmail(username, password, mailbox, responseUrl)
  
         data = extractEmail(mail,imap)
         destFolder = data['destFolder']
-        data.delete('destFolder')
+        data.delete('destFolder')     
 
-        submitData(data,responseurl)
-
-        imap.copy(id, destFolder)
+        response = submitData(data,responseurl)
+       
+         if not /.*?order\s*#\d+.*/.match(mail.subject.downcase) and not data['order_no'].empty?
+          newMail = Mail.new
+          newMail = mail
+          newMail.subject = mail.subject << "Order #"<< data['order_no']
+           processResponse(newMail,account,response)
+          imap.append(data['destFolder'], newMail.to_s)
+        else
+            processResponse(mail,account,response)
+            imap.copy(id, data['destFolder'])
+        end
+      
         imap.store(id, "+FLAGS",[:Deleted])
         logger.info "move email : #{data['order_no']} to folder #{destFolder}"
    end
@@ -118,6 +129,18 @@ def submitData(data,responseurl)
              return ex.inspect
         end
 end
+
+def processResponse(message,account, response)
+    case response.code
+    when 200 || 201
+         to_address = response.body
+         forwardEmail(message, account, to_address)
+    when 422
+      sendEmailToUser(account, response, message.from.to_s)
+    else
+       logger.error 'Got error when submit the data'
+    end
+end
 end
 
-readEmails
+EmailProcessor.readEmails

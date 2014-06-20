@@ -135,3 +135,9 @@ E, [2014-06-18T21:11:58.102277 #2360] ERROR -- : Got an error for processing the
 E, [2014-06-18T21:11:58.102666 #2360] ERROR -- : 422 Unprocessable Entity: Brand not found
 I, [2014-06-19T12:12:58.997309 #13442]  INFO -- : Loading the property file property.yml
 I, [2014-06-19T12:12:59.035365 #13442]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-20T10:20:31.730426 #18881]  INFO -- : Loading the property file property.yml
+I, [2014-06-20T10:20:31.769049 #18881]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-20T10:22:37.359060 #18994]  INFO -- : Loading the property file property.yml
+I, [2014-06-20T10:22:37.360019 #18994]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-20T10:23:03.681231 #19032]  INFO -- : Loading the property file property.yml
+I, [2014-06-20T10:23:03.682146 #19032]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
