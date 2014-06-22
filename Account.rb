@@ -1,15 +1,18 @@
 require 'mail'
 require 'net/imap'
 require 'net/smtp'
+require File.dirname(__FILE__) + '/Logger'
 
 module EmailProcessor
+ include Log
+
 	class Account
-		 @username
-		 @password
-		 @imap
+		@username
+		@password
+		@@imap
 		 
 
-		 def initialize(username, password)  
+        def initialize(username, password)  
            # Instance variables  
            @username = username
            @password = password
@@ -30,17 +33,27 @@ module EmailProcessor
              @imap.login(@username, @password)
              
              rescue Net::IMAP::NoResponseError, Net::IMAP::ResponseError, Net::IMAP::ByeResponseError => ex
-                    logger.error "Login user : #{@username}, Got Error message : " + ex.message
+                    puts "Login user : #{@username}, Got Error message : " + ex.message
               end
+             
+              return @imap
          end
 
          def close_imap
-         	 @imap.logout()
+             @imap.logout()
              @imap.disconnect() 
          end
 
          def self.imap
-         	@imap
+             @@imap
+         end
+
+         def self.username
+             @username
+         end
+
+         def self.password
+             @password
          end
 
 	end

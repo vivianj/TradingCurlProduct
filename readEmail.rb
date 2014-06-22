@@ -84,7 +84,7 @@ def readEmail(account, mailbox, responseUrl)
         destFolder = data['destFolder']
         data.delete('destFolder')     
 
-        response = submitData(data,responseurl)
+        response = submitData(data,responseUrl)
        
          if not /.*?order\s*#\d+.*/.match(mail.subject.downcase) and not data['order_no'].empty?
           newMail = Mail.new
@@ -100,11 +100,11 @@ def readEmail(account, mailbox, responseUrl)
         imap.store(id, "+FLAGS",[:Deleted])
         logger.info "move email : #{data['order_no']} to folder #{destFolder}"
    end
-   imap.logout()
-   imap.disconnect() 
+   account.close_imap
+
 end
 
-def submitData(data,responseurl)
+def submitData(data,responseUrl)
 
        logger.info "Submit data to responseurl : #{data.to_json}" 
 

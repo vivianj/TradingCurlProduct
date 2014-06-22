@@ -6,6 +6,9 @@ require 'net/smtp'
 
 
 module EmailProcessor
+
+module_function
+
 def sendEmailToUser(account, error, address)
 	mail = Mail.new do
         from account.username

@@ -81,10 +81,12 @@ def getOrderId(content)
 end
 
 def getDestFolder(imap, brand, orderStatus)
-    if not imap.list(brand, orderStatus) and  not brand.empty?
-    	imap.create(brand+'/'+orderStatus)
-    	return brand+'/'+orderStatus
-    elsif brand.empty? and not imap.list('', orderStatus)
+    folder  = brand.gsub(/[^0-9a-zA-Z]/,'')
+    logger.info "cleaned brand name is #{folder}"
+    if not imap.list(folder, orderStatus) and  not folder.nil?
+    	imap.create(folder+'/'+orderStatus)
+    	return folder+'/'+orderStatus
+    elsif folder.nil? and not imap.list('', orderStatus)
         imap.create(orderStatus)
         return orderStatus
     end
@@ -101,6 +103,7 @@ def getOrderStatus(subject)
     	orderStatus = 'other'
 	end
 
+        logger.info "Order status is : #{orderStatus}"
 	return orderStatus
 end
 
@@ -128,8 +131,12 @@ def extractEmail(mail, imap)
 
         data['order_status'] = getOrderStatus(subject)
         data['brand'] = getBrandName(subject)
+        logger.info "Brand name is : #{data['brand']}"
+        
         data['destFolder'] = getDestFolder(imap, data['brand'], data['order_status'])
-        data['email'] = mail.from.to_s
+        logger.info "DestFolder is : #{data['destFolder']}"
+
+        data['email'] = mail.from[0].to_s
 =begin          
         if m = e_receipt_re.match(subject)
            orderId = getOrderId(content)
@@ -367,11 +374,6 @@ def processEreceipt(content)
 
         end
 
-         if result = trans_re.match(line)
-            trans = result.captures[0]
-            next
-         end
-          
      end
 
 end
