@@ -81,20 +81,23 @@ def readEmail(account, mailbox, responseUrl)
         end
  
         data = extractEmail(mail,imap)
-        destFolder = data['destFolder']
-        data.delete('destFolder')     
-
+        
         response = submitData(data,responseUrl)
-       
-         if not /.*?order\s*#\d+.*/.match(mail.subject.downcase) and not data['order_no'].empty?
+         if not /.*?order\s*#\d+.*/.match(mail.subject.downcase) and not data['order_no'].nil?
           newMail = Mail.new
           newMail = mail
           newMail.subject = mail.subject << "Order #"<< data['order_no']
-           processResponse(newMail,account,response)
-          imap.append(data['destFolder'], newMail.to_s)
+          success= processResponse(newMail,account,response)
+          if success
+             destFolder = getDestFolder(imap, data['brand'], data['order_status'])
+             imap.append(destFolder, newMail.to_s)
+           end
         else
-            processResponse(mail,account,response)
-            imap.copy(id, data['destFolder'])
+            success = processResponse(mail,account,response)
+            if success
+               destFolder = getDestFolder(imap,data['brand'], data['order_status'])
+               imap.copy(id, destFolder)
+            end
         end
       
         imap.store(id, "+FLAGS",[:Deleted])
@@ -105,11 +108,11 @@ def readEmail(account, mailbox, responseUrl)
 end
 
 def submitData(data,responseUrl)
-
-       logger.info "Submit data to responseurl : #{data.to_json}" 
+       
+       logger.info "Submit data to responseurl : #{data}" 
 
         begin
-        response = RestClient.post responseUrl, :data => data.to_json, :content_type => 'application/json'
+        response = RestClient.post responseUrl, data, :content_type => 'application/json', :accept => 'application/json'
       
         case response.code
         when 200 || 201
@@ -125,21 +128,24 @@ def submitData(data,responseUrl)
          end
 
          rescue => ex 
-             logger.error "orderId: #{data['order_no']}" + ex.inspect
-             return ex.inspect
+             logger.error "orderId: #{data['order_no']}" + ex.inspect.to_s
+             return ex.inspect.to_s
         end
 end
 
 def processResponse(message,account, response)
-    case response.code
-    when 200 || 201
+    logger.info "response : #{response}"
+    if response.to_s.include? '200' or response.to_s.include? '201'
          to_address = response.body
          forwardEmail(message, account, to_address)
-    when 422
-      sendEmailToUser(account, response, message.from.to_s)
+         return true
+    elsif response.to_s.include? '422'
+      sendEmailToUser(account, response, message.from[0].to_s)
     else
        logger.error 'Got error when submit the data'
     end
+    
+    return false
 end
 end
 

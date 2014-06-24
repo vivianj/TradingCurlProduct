@@ -1,5 +1,9 @@
 require 'mail'
 require 'net/smtp'
+require File.dirname(__FILE__) + '/Logger'
+require File.dirname(__FILE__) + '/sendEmails'
+require File.dirname(__FILE__) + '/extractEmails'
+require File.dirname(__FILE__) + '/Account'
 
 # Author : Yuanyuan Jiang
 # Date : 2014-06-19
@@ -12,16 +16,18 @@ module_function
 def sendEmailToUser(account, error, address)
 	mail = Mail.new do
         from account.username
-        to to_address
+        to address
         subject  error
 	end
 
 	if error.include? 'email not found'
-		mail.body = 'Please add your email address : #{to_address} to the USCaigou system.'
+		mail.body = 'Please add your email address : #{address} to the USCaigou system.'
 	else error.include? ''
-		mail.body = "Got error : #{error}"
-    address = 'kangyihong001@gmail.com'
-    end
+		mail.body = "Hi Admin, Got error when processing order : #{error}"
+        address = 'kangyihong001@gmail.com'
+        mail.to = address
+        end
+
 	sendEmail(mail, account, address)
 end
 

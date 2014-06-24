@@ -7,10 +7,9 @@ module EmailProcessor
  include Log
 
 	class Account
-		@username
-		@password
 		@@imap
-		 
+              attr_reader :username
+              attr_reader :password		 
 
         def initialize(username, password)  
            # Instance variables  
@@ -18,6 +17,10 @@ module EmailProcessor
            @password = password
            
          end 
+         
+        class << self
+           attr_accessor :usernam
+        end
 
          def is_gmail?
              username.downcase.include? 'gmail'
@@ -54,6 +57,14 @@ module EmailProcessor
 
          def self.password
              @password
+         end
+
+         def username=(value)
+             @username = value
+         end
+
+         def password=(value)
+             @password = value
          end
 
 	end

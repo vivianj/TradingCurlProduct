@@ -97,7 +97,7 @@ def getOrderStatus(subject)
 		orderStatus = 'shipped'
 	elsif subject.include? 'shipped'
 		orderStatus = 'shipped'
-	elsif subject.include 'confirmation'
+	elsif subject.include? 'confirmation'
 		orderStatus = 'ordered'
     else
     	orderStatus = 'other'
@@ -108,6 +108,8 @@ def getOrderStatus(subject)
 end
 
 def extractEmail(mail, imap)
+    e_receipt_re = /.*?e-receipt.*?/
+
         data = Hash.new
 
         subject = mail.subject.downcase       
@@ -130,18 +132,22 @@ def extractEmail(mail, imap)
         end
 
         data['order_status'] = getOrderStatus(subject)
+
+        if data['order_status'].include? 'shipped'
+           data['tracking_no'] = ''
+        end
+
         data['brand'] = getBrandName(subject)
         logger.info "Brand name is : #{data['brand']}"
-        
+=begin        
         data['destFolder'] = getDestFolder(imap, data['brand'], data['order_status'])
         logger.info "DestFolder is : #{data['destFolder']}"
-
+=end
         data['email'] = mail.from[0].to_s
-=begin          
         if m = e_receipt_re.match(subject)
            orderId = getOrderId(content)
            data['order_no'] = orderId
-
+=begin
            if not /.*?\d{9,}.*?/.match(subject) and not orderId.empty?
               newMail = Mail.new
               newMail = mail
@@ -150,10 +156,9 @@ def extractEmail(mail, imap)
               #imap.append(data['destFolder'],newMail.to_s)
               #imap.store(id, "+FLAGS",[:Deleted])
            end
-        end
-          
 =end
-         
+	   end
+          
          
           return data
 end
