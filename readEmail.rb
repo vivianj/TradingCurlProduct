@@ -91,17 +91,20 @@ def readEmail(account, mailbox, responseUrl)
           if success
              destFolder = getDestFolder(imap, data['brand'], data['order_status'])
              imap.append(destFolder, newMail.to_s)
+             
+             imap.store(id, "+FLAGS",[:Deleted])
+             logger.info "move email : #{data['order_no']} to folder #{destFolder}"
            end
         else
             success = processResponse(mail,account,response)
             if success
                destFolder = getDestFolder(imap,data['brand'], data['order_status'])
                imap.copy(id, destFolder)
+               
+              imap.store(id, "+FLAGS",[:Deleted])
+             logger.info "move email : #{data['order_no']} to folder #{destFolder}"
             end
         end
-      
-        imap.store(id, "+FLAGS",[:Deleted])
-        logger.info "move email : #{data['order_no']} to folder #{destFolder}"
    end
    account.close_imap
 
@@ -109,10 +112,10 @@ end
 
 def submitData(data,responseUrl)
        
-       logger.info "Submit data to responseurl : #{data}" 
+       logger.info "Submit data to responseurl : #{data.to_json}" 
 
         begin
-        response = RestClient.post responseUrl, data, :content_type => 'application/json', :accept => 'application/json'
+        response = RestClient.post responseUrl, data.to_json, :content_type => 'application/json', :accept => 'application/json'
       
         case response.code
         when 200 || 201
@@ -121,7 +124,7 @@ def submitData(data,responseUrl)
            to_address = response.body.to_s
            if not to_address.empty?
               logger.info "Forward email to bosses : #{to_address} for user : #{data['email']}"
-              retrun response
+              return response
            else
               logger.error "No boss email returned for user : #{data['email']}"
            end
@@ -142,7 +145,7 @@ def processResponse(message,account, response)
     elsif response.to_s.include? '422'
       sendEmailToUser(account, response, message.from[0].to_s)
     else
-       logger.error 'Got error when submit the data'
+       logger.error 'Got error : #{response}'
     end
     
     return false
