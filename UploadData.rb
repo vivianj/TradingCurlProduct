@@ -1,21 +1,23 @@
-require 'net/imap'
 require 'rest-client'
 require 'json'
 require 'rubygems'
 
 require File.dirname(__FILE__) + '/Logger'
 
+module EmailProcessor
+include Log
 class UploadData
    @url
    @@response
-   @@responseStatus
-   @@responseBody
+   @@responseStatus = ''
+   @@responseBody = ''
+
    def initialize(url)
        # Instance variables
        @url = url
   end
  
-  def postData(data)
+  def post(data)
       begin
       @@response = RestClient.post @url, data.to_json, :content_type => 'application/json', :accept => 'application/json'
       @@responseBody =  @@response.to_s
@@ -31,30 +33,21 @@ class UploadData
          puts @@responseBody
    end
 
-  def getResponseCode
-      if @@response.include? "422"      
-         @@responseCOde = 422
+  def isSuccess? 
+      if @@responseStatus.include? "201" or @@responseStatus.include? "200"
+         return true      
       else 
-         @@responseCOde = @@response.headers.to_hash[:status]
+        return false
       end
   end
-
-  def getResponseBody
-       
-  end
   
-  def self.response
-      @@response
-  end
- 
-  def self.responseCode
-      @@responseCode
+  def responseStatus
+      @@responseStatus
   end
 
-  def self.responseBody
+  def responseBody
       @@responseBody
   end
-
 end
 
 url = 'http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email'
@@ -62,4 +55,5 @@ data =JSON.parse(%Q{{"order_no":"92049904053","order_date":"2014-05-23","shippin
 
 uploadData = UploadData.new(url)
 uploadData.postData(data)
-
+puts uploadData.responseBody
+end

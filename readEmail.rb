@@ -8,7 +8,7 @@ require 'json'
 require 'date'
 require File.dirname(__FILE__) + '/Logger'
 require File.dirname(__FILE__) + '/sendEmails'
-require File.dirname(__FILE__) + '/extractEmails'
+require File.dirname(__FILE__) + '/Extractor'
 require File.dirname(__FILE__) + '/Account'
 
 module EmailProcessor
@@ -37,8 +37,51 @@ def readEmails
     
     logger.info "Username :#{username}, Password :#{password}, Mailbox: #{mailbox}, responseUrl: #{responseUrl}"
     account = Account.new(username, password)
-    readEmail(account,mailbox,responseUrl)
+    uploadData = UploadData.new(responseUrl)
+    readEmail(account,mailbox,uploadData)
+end
 
+def readEmail(account, mailbox, uploadData)  
+    
+    imap = account.create_imap
+    imap.select(mailbox)
+
+    mailIds = imap.search(['ALL'])
+    mailIds.each do |id|
+        msg = imap.fetch(id,'BODY[]')[0].attr['BODY[]']
+        mail = Mail.read_from_string msg
+        
+        if  mail.nil?
+           logger.info "email is empty, skip it"
+           next
+        end
+ 
+        extractor = Extractor.new(mail)
+        
+        if extractor.extractEmail?
+           uploadData.post(data)
+
+           if not uploadData.isSuccess?
+              sendErrorMessage(account, uploadData.responseBody)
+            else
+              data = Hash.new
+              data = extractor.orderData
+              destFolder = getDestFolder(imap, data['brand'], data['order_status'])
+              
+              if not /.*?order\s*#\d+.*/.match(mail.subject.downcase) and not data['order_no'].nil?
+                newSubject = mail.subject << "Order #" << data['order_no']
+              else 
+                newSubject = mail.subject
+              end
+
+              forwardEmail(mail, newSubject, account, uploadData.responseBody)
+              moveMessage(imap, destFolder, mail, id, data['order_no'])
+           end
+        else
+           return
+        end
+   end
+   account.close_imap
 end
 
 def loadPropertyFile(filePath)
@@ -51,89 +94,29 @@ def loadPropertyFile(filePath)
     end
 end
 
-def connectEmail(username, password, mailbox)
-    begin 
-    imap = Net::IMAP.new('imap.gmail.com',993,true)
-    imap.login(username, password)
-    imap.select(mailbox)
- 
-    rescue Net::IMAP::NoResponseError, Net::IMAP::ResponseError, Net::IMAP::ByeResponseError => ex
-      logger.error "Error message : " + ex.message
+def getDestFolder(imap, brand, orderStatus)
+    folder  = brand.gsub(/[^0-9a-zA-Z]/,'')
+    logger.info "cleaned brand name is #{folder}"
+    if not imap.list(folder, orderStatus) and  not folder.nil?
+      imap.create(folder+'/'+orderStatus)
+      return folder+'/'+orderStatus
+    elsif folder.nil? and not imap.list('', orderStatus)
+        imap.create(orderStatus)
+        return orderStatus
+    end
+end
+
+def moveMessage(imap, destFolder, mail, messageId, orderId)
+    if not /.*?order\s*#\d+.*/.match(mail.subject.downcase) and not orderId.nil?
+       newMail = Mail.new
+       newMail.subject = mail.subject << "order #{orderId}"
+       imap.append(destFolder, newMail.to_s)
+    else
+      imap.copy(messageId, destFolder)
     end
 
-    return imap
-end
-
-def readEmail(account, mailbox, responseUrl)  
-    
-    imap = account.create_imap
-    imap.select(mailbox)
-
-    mailIds = imap.search(['ALL'])
-    mailIds.each do |id|
-        msg = imap.fetch(id,'BODY[]')[0].attr['BODY[]']
-        mail = Mail.read_from_string msg
-        data = Hash.new
-        
-        if  mail.nil?
-           logger.info "email is empty, skip it"
-           next
-        end
- 
-        data = extractEmail(mail,imap)
-        
-        response = submitData(data,responseUrl)
-         if not /.*?order\s*#\d+.*/.match(mail.subject.downcase) and not data['order_no'].nil?
-          newMail = Mail.new
-          newMail = mail
-          newMail.subject = mail.subject << "Order #"<< data['order_no']
-          success= processResponse(newMail,account,response)
-          if success
-             destFolder = getDestFolder(imap, data['brand'], data['order_status'])
-             imap.append(destFolder, newMail.to_s)
-             
-             imap.store(id, "+FLAGS",[:Deleted])
-             logger.info "move email : #{data['order_no']} to folder #{destFolder}"
-           end
-        else
-            success = processResponse(mail,account,response)
-            if success
-               destFolder = getDestFolder(imap,data['brand'], data['order_status'])
-               imap.copy(id, destFolder)
-               
-              imap.store(id, "+FLAGS",[:Deleted])
-             logger.info "move email : #{data['order_no']} to folder #{destFolder}"
-            end
-        end
-   end
-   account.close_imap
-
-end
-
-def submitData(data,responseUrl)
-       
-       logger.info "Submit data to responseurl : #{data.to_json}" 
-
-        begin
-        response = RestClient.post responseUrl, data.to_json, :content_type => 'application/json', :accept => 'application/json'
-      
-        case response.code
-        when 200 || 201
-           logger.info "Send request successfully! Response code is : #{reponse.code}, Body : #{response.body}"
-
-           to_address = response.body.to_s
-           if not to_address.empty?
-              logger.info "Forward email to bosses : #{to_address} for user : #{data['email']}"
-              return response
-           else
-              logger.error "No boss email returned for user : #{data['email']}"
-           end
-         end
-
-         rescue => ex 
-             logger.error "orderId: #{data['order_no']}" + ex.inspect.to_s
-             return ex.inspect.to_s
-        end
+    logger.info "move email : #{orderId} to folder #{destFolder}"
+    imap.store(messageId, "+FLAGS",[:Deleted])
 end
 
 def processResponse(message,account, response)

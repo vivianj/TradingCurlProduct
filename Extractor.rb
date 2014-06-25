@@ -2,60 +2,97 @@ require 'date'
 require 'mail'
 
 module EmailProcessor
+include Log
 
-module_function
+class Extractor
+      @@brand = ''
+      @@orderStatus = 'other'
+      @@orderId = ''
+      @message
+      @@subject
+      @@content = ''
+      @@items = Hash.new      
+      @@orderDate
+      @@shipDate
+      @@subtotal = 0.0
+      @@total = 0.0
+      @@shipping = 0.0
+      @@tax = 0.0
+      @@tracking = ''
 
-#getBrandName
-def getBrandName(subject)
-    if subject.empty? || subject.nil?
+      def initialize(message) 
+          @message = message
+      end
+
+      def getSubject
+          @@subject = @message.subject.downcase
+      end
+      
+      def isExtractedCorrect?
+          itemtotal = 0.0
+
+          if @@tax + @@shipping + @@subtotal != @@total
+            logger.error "The total is not equal to the sum of subtotal, shipping and tax!"
+            return false
+          elsif @@items.size > 0
+             itemtotal = @@items.values.inject(:+)
+             if itemtotal != @@subtotal
+                logger.error "Subtotal is not equal to the sum of the items price"
+                return false
+             end 
+          else
+            logger.error "No items extracted from email!"
+            return false
+          end
+
+          return true
+      end
+
+def getBrandName
+    if @@subject.empty? || @@subject.nil?
        logger.error "Email doesn't have the subject"
-       return ''
+    elsif subject.include? 'abercrombie' 
+       @@brand='Abercrombie & Fitch'
+    elsif subject.include? 'hollister'
+       @@brand='Hollister'
     end
 
-    if subject.include? 'abercrombie' 
-       return 'Abercrombie & Fitch'
-    elsif subject.include? 'hollister'
-       return 'Hollister'
-    else
-      return ''
-    end
+    logger.info "Brand Name is :#{@@brand}"
 end
 
-#get email content as string
 def getEmailContent(message)
-    content = ""
-    if message.multipart?
     
+    if message.multipart?
       logger.info "Email : #{message.subject} is multipart type"
 
        message.parts.each do |part|
          if part.content_type.include? 'plain'
-            content+=part.decode_body.force_encoding('UTF-8') 
+            @@content+=part.decode_body.force_encoding('UTF-8') 
          elsif part.content_type.include? 'html'
-            content+=Nokogiri::HTML(part.decode_body).text  
+            @@content+=Nokogiri::HTML(part.decode_body).text  
          elsif part.multipart?
-               content+=getEmailContent(part)    
+              @@content+=getEmailContent(part)    
         end
       end
    elsif message.content_type.include? 'plain' 
          logger.info "Email : #{message.subject} is text type"
-         content+=message.decode_body
+         @@content+=message.decode_body
    elsif message.content_type.include? 'html'
          logger.info "Email : #{message.subject} is html"
-         content+=Nokogiri::HTML(message.decode_body).text
+         @@content+=Nokogiri::HTML(message.decode_body).text
    end  
-
-  return content 
 end
 
-#get orderId from E-Receipt
-def getOrderId(content) 
+def getOrderId 
+    subject_re = /.*?order\s*#(\d+).*/
     storeId_re = /.*?store\s*(\d+).*?/
     transId_re = /.*?trans.*?(\d+).*?/
     dateId_re = /.*?date\/time.*?(\d{4}-\d{2}-\d{2}).*/
-    orderId = ''
-    
-    content.each_line do |line|
+   
+    if result = subject_re.match(@@subject)
+       @@orderId = result.captures[0]
+    else 
+    @content.each_line do |line|
          line = line.force_encoding('UTF-8').encode('UTF-8', :invalid => :replace, :replace => '?')
          line = line.gsub("/[*|>]|=09/","").downcase<<' '
          line = line.strip
@@ -65,19 +102,19 @@ def getOrderId(content)
          end
         
          if result = storeId_re.match(line)
-            orderId << result.captures[0]
+            @@orderId << result.captures[0]
             next
          end
          
          if result = transId_re.match(line)
-            orderId << result.captures[0]
+            @@orderId << result.captures[0]
          end
 
          if result = dateId_re.match(line)
-            orderId << result.captures[0].gsub('-','')
-            return orderId
+            @@orderId << result.captures[0].gsub('-','')
          end
    end 
+  end
 end
 
 def getDestFolder(imap, brand, orderStatus)
@@ -92,79 +129,45 @@ def getDestFolder(imap, brand, orderStatus)
     end
 end
 
-def getOrderStatus(subject)
-	if subject.include? 'e-receipt'
-		orderStatus = 'shipped'
-	elsif subject.include? 'shipped'
-		orderStatus = 'shipped'
-	elsif subject.include? 'confirmation'
-		orderStatus = 'ordered'
-    else
-    	orderStatus = 'other'
+def getOrderStatus
+	if @@subject.include? 'e-receipt'
+		@@orderStatus = 'shipped'
+	elsif @@subject.include? 'shipped'
+		@@orderStatus = 'shipped'
+	elsif @@subject.include? 'confirmation'
+		@@orderStatus = 'ordered'
 	end
 
-        logger.info "Order status is : #{orderStatus}"
-	return orderStatus
+        logger.info "Order status is : #{@@orderStatus}"
 end
 
-def extractEmail(mail, imap)
-    e_receipt_re = /.*?e-receipt.*?/
+def extractEmail?
+        e_receipt_re = /.*?e-receipt.*?/
 
-        data = Hash.new
-
-        subject = mail.subject.downcase       
-        
-        if subject.empty? || subject.nil?
+        if @@subject.empty? || @@subject.nil?
            logger.error 'no subject for mail!'
         end
+ 
+        getBrand
+        getOrderStatus
+        getOrderId
 
-        content = getEmailContent(mail)
+        getEmailContent(@@message)
 
-        if content.empty? || content.nil?
+        if @@content.empty? || @@content.nil?
            logger.error "empty email"
         end
 
-
-        if subject.include? 'e-receipt'
-        	data = processEreceipt(content)
+        if @@subject.include? 'e-receipt'
+           processEreceipt
         else
-        	data = processEmail(content)	
+           processEmail	
         end
 
-        data['order_status'] = getOrderStatus(subject)
-
-        if data['order_status'].include? 'shipped'
-           data['tracking_no'] = ''
-        end
-
-        data['brand'] = getBrandName(subject)
-        logger.info "Brand name is : #{data['brand']}"
-=begin        
-        data['destFolder'] = getDestFolder(imap, data['brand'], data['order_status'])
-        logger.info "DestFolder is : #{data['destFolder']}"
-=end
-        data['email'] = mail.from[0].to_s
-        if m = e_receipt_re.match(subject)
-           orderId = getOrderId(content)
-           data['order_no'] = orderId
-=begin
-           if not /.*?\d{9,}.*?/.match(subject) and not orderId.empty?
-              newMail = Mail.new
-              newMail = mail
-              newMail.subject = mail.subject<<" Order #"<<orderId
-              mail = newMail
-              #imap.append(data['destFolder'],newMail.to_s)
-              #imap.store(id, "+FLAGS",[:Deleted])
-           end
-=end
-	   end
-          
-         
-          return data
+        return isExtractedCorrect?
 end
 
-def processEmail(content)
-    orderId_re =/.*?order.*?#:\D*(\d+).*?/ 
+def processEmail
     orderDate_re = /.*?order\s*date:.*?(\d{2}\/\d{2}\/\d{4}).*/
     shipDate_re = /.*?ship\s*date:.*?(\d+\/\d+\/\d+).*/
     subTotal_re = /.*?subtotal.*?\$?(\d+\.\d{2}).*?shipping.*?\$?(\d+\.\d{2}).*?tax.*?\$?(\d+\.\d{2}).*?total.*?\$?(\d+\.\d{2}).*/
@@ -177,13 +180,11 @@ def processEmail(content)
     start = false
     item = ''
     price = ''
-    items = Array.new
     item0 = Hash.new
     totalStr = ''
     total = false
-    dataH = Hash.new
 
-    content.each_line do |line|
+    @@content.each_line do |line|
          line = line.force_encoding('UTF-8').encode('UTF-8', :invalid => :replace, :replace => '?')
          line = line.gsub("/[\*|>]|=09/","").downcase<<' '
          line = line.strip.to_s
@@ -193,20 +194,20 @@ def processEmail(content)
          end
    
          if result = orderId_re.match(line)
-            orderId = result.captures[0]
-            dataH['order_no']=orderId 
+            @@orderId = result.captures[0]
+            orderData['order_no']=orderId 
             next
          end
 
          if result = shipDate_re.match(line)
-             shipDate = result.captures[0]
-             dataH['shipping_date'] = Date.strptime(shipDate, "%m/%d/%Y").strftime("%Y-%m-%d")
+             @@shipDate = result.captures[0]
+             orderData['shipping_date'] = Date.strptime(shipDate, "%m/%d/%Y").strftime("%Y-%m-%d")
              next
           end
 
          if result = orderDate_re.match(line)
-             orderDate = result.captures[0]
-             dataH['order_date'] = Date.strptime(orderDate, "%m/%d/%Y").strftime("%Y-%m-%d")
+             @@orderDate = result.captures[0]
+             orderData['order_date'] = Date.strptime(orderDate, "%m/%d/%Y").strftime("%Y-%m-%d")
              next
           end
          
@@ -215,7 +216,6 @@ def processEmail(content)
              next
          end
         
- 
          if start
             if result = item_re.match(line)
                item = result.captures[0]
@@ -226,7 +226,7 @@ def processEmail(content)
               price = result.captures[0]
               item0['price'] = price.to_f
               if not item0['code'].nil?
-                 items.push(item0)
+                 @@items.push(item0)
               end
               next
            end 
@@ -251,21 +251,22 @@ def processEmail(content)
 
         if result = subTotal_re.match(totalStr)
            subtotal,ship,tax,total = result.captures
-           dataH['subtotal'] = subtotal.to_f
-           dataH['total'] = total.to_f
-           dataH['tax'] = tax.to_f
-           dataH['shipping'] = ship.to_f
-           dataH['items'] = items
-           return dataH
+           @@subtotal = subtotal.to_f
+           @@total = total.to_f
+           @@tax = tax.to_f
+           @@shipping = ship.to_f
+           
+           @@dataData['subtotal'] = subtotal.to_f
+           @@dataData['total'] = total.to_f
+           @@dataData['tax'] = tax.to_f
+           @@dataData['shipping'] = ship.to_f
+           @@dataData['items'] = items
          end
      end
       
 end
 
-def processEreceipt(content)
-    #storeId_re =/.*?store.*?(\d+).*/
-    #trans_re=/.*?trans.*?(\d{4,5}).*/
-    #trans_orderDate_re = /.*?trans.*?(\d+).*?date\/time.*?(\d{4}-\d{2}-\d{2}).*?\d{2}:?\d{2}.*/
+def processEreceipt
     orderDate_re = /.*?date\/time.*?(\d{4}-\d{2}-\d{2}).*?\d{2}:?\d{2}.*/
     subTotal_re = /.*?subtotal.*?\$?(\d+\.\d{2}).*?total.*?\$?(\d+\.\d{2}).*/
     tax_re = /.*?subtotal.*?\$(\d+\.\d{2}).*?tax.*?\$(\d+\.\d{2}).*?total.*?\$(\d+\.\d{2}).*/
@@ -280,15 +281,11 @@ def processEreceipt(content)
     item = ''
     price = ''
     start = false
-    #trans = ''
-    #storeId = ''
     item0 = Hash.new
-    items = Array.new
-    dataH = Hash.new
     totalStr = ''
     total = false
 
-    content.each_line do |line|
+    @@content.each_line do |line|
          line=line.gsub('\*|\t','').downcase<<' '
          line = line.strip.to_s
 
@@ -315,31 +312,36 @@ def processEreceipt(content)
 
         if result = subTotal_re.match(totalStr)
            subtotal,total = result.captures
-           dataH['total'] = total.to_f
-           dataH['subtotal'] = subtotal.to_f
-           dataH['tax'] = 0.00
-           dataH['shipping'] = 0.00
-           dataH['items'] = items
-           puts "total and subtotal"
-           puts subtotal
-           puts total
-           return dataH
+           @@total = total.to_f
+           @@subtotal = subtotal.to_f
+
+           orderData['total'] = total.to_f
+           orderData['subtotal'] = subtotal.to_f
+           orderData['tax'] = @@tax 
+           orderData['shipping'] = @@ship 
+           orderData['items'] = @@items
         end
 
         if result = tax_re.match(totalStr)
            subtotal,tax,total = result.captures
-           dataH['subtotal'] = subtotal.to_f
-           dataH['tax'] = tax.to_f
-           dataH['total'] = total.to_f
-           dataH['shipping'] = '0.00'
-           dataH['items'] = items
-           return dataH
+           @@subtotal = subtotal.to_f
+           @@tax = tax.to_f
+           @@total = total.to_f
+           
+           orderData['subtotal'] = subtotal.to_f
+           orderData['tax'] = tax.to_f
+           orderData['total'] = total.to_f
+           orderDdata['shipping'] = @@shipping 
+           orderData['items'] = @@items
         end
 
         if result = orderDate_re.match(line)
            date = result.captures[0]
-           dataH['order_date'] = date
-           dataH['shipping_date'] = result.captures[0]
+           @@orderDate = date
+           @@shippDate = date
+
+           orderData['order_date'] = date
+           orderData['shipping_date'] = date 
            start = true
            next
         end
@@ -348,7 +350,7 @@ def processEreceipt(content)
             if result = item_price_re.match(line)
               price,code = result.captures
               item0['price'] = price.to_f
-              items.push(item0)
+              @@items.push(item0)
               item0['code'] = code.to_i
               next
             end
@@ -361,7 +363,7 @@ def processEreceipt(content)
            if result = price1_re.match(line)
               item0['price'] = result.captures[0].to_f
               if not item0['code'].empty?
-                 items.push(item0)
+                 @@items.push(item0)
               end
               next
            end
@@ -373,7 +375,7 @@ def processEreceipt(content)
 
            if result = price_re.match(line)
               item0['price'] = result.captures[0].to_f
-              items.push(item0)
+              @@items.push(item0)
               next
            end
 

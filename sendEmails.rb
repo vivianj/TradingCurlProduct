@@ -1,8 +1,7 @@
 require 'mail'
 require 'net/smtp'
 require File.dirname(__FILE__) + '/Logger'
-require File.dirname(__FILE__) + '/sendEmails'
-require File.dirname(__FILE__) + '/extractEmails'
+require File.dirname(__FILE__) + '/Extractor'
 require File.dirname(__FILE__) + '/Account'
 
 # Author : Yuanyuan Jiang
@@ -13,29 +12,29 @@ module EmailProcessor
 
 module_function
 
-def sendEmailToUser(account, error, address)
-	mail = Mail.new do
+def sendErrorMessage(account, error, message)
+	
+    mail = Mail.new do
         from account.username
-        to address
-        subject  error
-	end
+        subject  "Go Error when processing the email in uscaigou system!"
+	  end
 
-	if error.include? 'email not found'
-		mail.body = 'Please add your email address : #{address} to the USCaigou system.'
-	else error.include? ''
-		mail.body = "Hi Admin, Got error when processing order : #{error}"
-        address = 'kangyihong001@gmail.com'
-        mail.to = address
+	  if error.downcase.include? 'email not found'
+       mail.to = message.from
+		    mail.body = 'Please add your email address : #{address} to the USCaigou system.'
+	  else 
+		  mail.body = "Hi Admin, Got error when processing order : #{error}"
+      mail.to = 'kangyihong001@gmail.com'
         end
 
-	sendEmail(mail, account, address)
+	   sendEmail(mail, account, address)
 end
 
-def forwardEmail(message, account, to_address)
+def forwardEmail(message, newSubject,account, to_address)
      mail = Mail.new 
      mail['from'] = account.username
      mail[:to] = to_address 
-     mail.subject = "Fwd:" + message.subject
+     mail.subject = "Fwd:" + newSubject
            
       message.parts.each do |part|
          if part.content_type.include? 'html'
