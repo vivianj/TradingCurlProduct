@@ -1,7 +1,7 @@
 email:
-  username : jiangyy12@gmail.com 
-  password : jane@8612
-  mailbox  : AF
+  username : kangyihong001@gmail.com 
+  password : 831218xx 
+  mailbox  : test 
 
 response:
    url: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email

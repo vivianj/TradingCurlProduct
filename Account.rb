@@ -32,22 +32,22 @@ module EmailProcessor
 
          def create_imap
          	begin 
-             @imap = Net::IMAP.new('imap.gmail.com',993,true)
-             @imap.login(@username, @password)
+             @@imap = Net::IMAP.new('imap.gmail.com',993,true)
+             @@imap.login(@username, @password)
              
              rescue Net::IMAP::NoResponseError, Net::IMAP::ResponseError, Net::IMAP::ByeResponseError => ex
                     puts "Login user : #{@username}, Got Error message : " + ex.message
               end
              
-              return @imap
+              return @@imap
          end
 
          def close_imap
-             @imap.logout()
-             @imap.disconnect() 
+             @@imap.logout()
+             @@imap.disconnect() 
          end
 
-         def self.imap
+         def imap
              @@imap
          end
 

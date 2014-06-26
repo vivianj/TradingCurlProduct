@@ -5,6 +5,12 @@ module EmailProcessor
    class << self
      def logger
          @logger ||=Logger.new('readEmails.log', 'daily')
+
+=begin         
+         @logger.formatter = proc do | severity, datetime, progname, msg|
+           "[#{datetime} - #{progname}] : #{severity} : #{msg}\n" 
+         end
+=end
      end
 
      def logger=(logger)

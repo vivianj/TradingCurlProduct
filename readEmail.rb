@@ -10,6 +10,7 @@ require File.dirname(__FILE__) + '/Logger'
 require File.dirname(__FILE__) + '/sendEmails'
 require File.dirname(__FILE__) + '/Extractor'
 require File.dirname(__FILE__) + '/Account'
+require File.dirname(__FILE__) + '/UploadData'
 
 module EmailProcessor
 
@@ -59,7 +60,9 @@ def readEmail(account, mailbox, uploadData)
         extractor = Extractor.new(mail)
         
         if extractor.extractEmail?
-           uploadData.post(data)
+           data = extractor.orderData
+
+           uploadData.post(data.to_json)
 
            if not uploadData.isSuccess?
               sendErrorMessage(account, uploadData.responseBody)
@@ -86,11 +89,11 @@ end
 
 def loadPropertyFile(filePath)
     if File.exist?(filePath)
-       logger.info "Loading the property file #{filePath}"
+       EmailProcessor::logger.info "Loading the property file #{filePath}"
        properties = YAML.load_file(filePath)
        return properties
     else
-     logger.error "The property file - #{filePath} does not exist"
+       EmailProcessor::logger.error "The property file - #{filePath} does not exist"
     end
 end
 

@@ -1,9 +1,180 @@
-# Logfile created on 2014-06-24 16:27:44 -0400 by logger.rb/44203
-I, [2014-06-24T16:27:44.773841 #2447]  INFO -- : Loading the property file property.yml
-I, [2014-06-24T16:27:44.793165 #2447]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
-I, [2014-06-24T16:27:45.837090 #2447]  INFO -- : Email : Fwd: 转发：Fwd: Abercrombie & Fitch Order #200399 is multipart type
-I, [2014-06-24T16:27:45.996299 #2447]  INFO -- : Order status is : other
-I, [2014-06-24T16:27:45.996459 #2447]  INFO -- : Brand name is : Abercrombie & Fitch
-I, [2014-06-24T16:27:45.999475 #2447]  INFO -- : Submit data to responseurl : {"order_no":"20039904053","order_date":"2014-05-23","shipping_date":"2014-05-24","subtotal":361.8,"total":361.8,"tax":0.0,"shipping":0.0,"items":[{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0}],"order_status":"other","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
-E, [2014-06-24T16:27:46.113975 #2447] ERROR -- : orderId: 20039904053422 Unprocessable Entity: Email is read
-I, [2014-06-24T16:27:46.114476 #2447]  INFO -- : response : 422 Unprocessable Entity: Email is read
+# Logfile created on 2014-06-25 20:21:23 -0400 by logger.rb/31641
+I, [2014-06-25T20:21:23.800718 #2737]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T20:21:23.802022 #2737]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-25T20:24:49.497247 #2749]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T20:24:49.498824 #2749]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-25T20:27:02.989637 #2756]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T20:27:02.990188 #2756]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-25T20:34:41.394129 #2761]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T20:34:41.396373 #2761]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-25T20:35:12.396289 #2765]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T20:35:12.396787 #2765]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+E, [2014-06-25T20:35:13.163674 #2765] ERROR -- : no subject for mail!
+I, [2014-06-25T20:35:48.749028 #2769]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T20:35:48.749699 #2769]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+E, [2014-06-25T20:35:49.581988 #2769] ERROR -- : no subject for mail!
+I, [2014-06-25T20:36:28.197709 #2774]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T20:36:28.199689 #2774]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+E, [2014-06-25T20:36:29.040316 #2774] ERROR -- : no subject for mail!
+E, [2014-06-25T20:36:29.040444 #2774] ERROR -- : Email doesn't have the subject
+I, [2014-06-25T20:38:53.215470 #2778]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T20:38:53.216007 #2778]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-25T20:41:31.585506 #2782]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T20:41:31.587174 #2782]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+E, [2014-06-25T20:41:32.342797 #2782] ERROR -- : no subject for mail!
+E, [2014-06-25T20:41:32.343111 #2782] ERROR -- : Email doesn't have the subject
+I, [2014-06-25T20:41:32.343242 #2782]  INFO -- : Brand Name is :
+I, [2014-06-25T20:41:32.343359 #2782]  INFO -- : Order status is : other
+I, [2014-06-25T20:42:46.222230 #2786]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T20:42:46.222874 #2786]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+E, [2014-06-25T20:42:47.124727 #2786] ERROR -- : no subject for mail!
+E, [2014-06-25T20:42:47.124897 #2786] ERROR -- : Email doesn't have the subject
+I, [2014-06-25T20:42:47.124969 #2786]  INFO -- : Brand Name is :
+I, [2014-06-25T20:42:47.125033 #2786]  INFO -- : Order status is : other
+I, [2014-06-25T20:43:51.685544 #2793]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T20:43:51.687082 #2793]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+E, [2014-06-25T20:43:52.497227 #2793] ERROR -- : no subject for mail!
+E, [2014-06-25T20:43:52.497918 #2793] ERROR -- : Email doesn't have the subject
+I, [2014-06-25T20:43:52.498075 #2793]  INFO -- : Brand Name is :
+I, [2014-06-25T20:43:52.498634 #2793]  INFO -- : Order status is : other
+I, [2014-06-25T20:44:27.329052 #2797]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T20:44:27.329619 #2797]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+E, [2014-06-25T20:44:28.223638 #2797] ERROR -- : no subject for mail!
+E, [2014-06-25T20:44:28.223956 #2797] ERROR -- : Email doesn't have the subject
+I, [2014-06-25T20:44:28.224095 #2797]  INFO -- : Brand Name is :
+I, [2014-06-25T20:44:28.230811 #2797]  INFO -- : Order status is : other
+I, [2014-06-25T20:47:00.011208 #2805]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T20:47:00.012518 #2805]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+E, [2014-06-25T20:47:00.818780 #2805] ERROR -- : no subject for mail!
+E, [2014-06-25T20:47:00.818956 #2805] ERROR -- : Email doesn't have the subject
+I, [2014-06-25T20:47:00.819033 #2805]  INFO -- : Brand Name is :
+I, [2014-06-25T20:47:00.819101 #2805]  INFO -- : Order status is : other
+I, [2014-06-25T20:47:00.820275 #2805]  INFO -- : Email : Fwd: 转发：Fwd: Abercrombie & Fitch Order #20039904053 Has Shipped is multipart type
+I, [2014-06-25T20:49:06.569963 #2810]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T20:49:06.571724 #2810]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+E, [2014-06-25T20:49:07.348501 #2810] ERROR -- : no subject for mail!
+E, [2014-06-25T20:49:07.348805 #2810] ERROR -- : Email doesn't have the subject
+I, [2014-06-25T20:49:07.348939 #2810]  INFO -- : Brand Name is :
+I, [2014-06-25T20:49:07.349091 #2810]  INFO -- : Order status is : other
+I, [2014-06-25T20:49:07.352665 #2810]  INFO -- : Email : Fwd: 转发：Fwd: Abercrombie & Fitch Order #20039904053 Has Shipped is multipart type
+I, [2014-06-25T20:55:14.015161 #2814]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T20:55:14.015713 #2814]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+E, [2014-06-25T20:55:14.950840 #2814] ERROR -- : no subject for mail!
+E, [2014-06-25T20:55:14.951047 #2814] ERROR -- : Email doesn't have the subject
+I, [2014-06-25T20:55:14.951102 #2814]  INFO -- : Brand Name is :
+I, [2014-06-25T20:55:14.951146 #2814]  INFO -- : Order status is : other
+I, [2014-06-25T20:55:14.952950 #2814]  INFO -- : Email : Fwd: 转发：Fwd: Abercrombie & Fitch Order #20039904053 Has Shipped is multipart type
+I, [2014-06-25T20:56:12.066037 #2818]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T20:56:12.066620 #2818]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+E, [2014-06-25T20:56:12.961929 #2818] ERROR -- : no subject for mail!
+E, [2014-06-25T20:56:12.962084 #2818] ERROR -- : Email doesn't have the subject
+I, [2014-06-25T20:56:12.962187 #2818]  INFO -- : Brand Name is :
+I, [2014-06-25T20:56:12.962263 #2818]  INFO -- : Order status is : other
+I, [2014-06-25T20:56:12.967008 #2818]  INFO -- : Email : Fwd: 转发：Fwd: Abercrombie & Fitch Order #20039904053 Has Shipped is multipart type
+I, [2014-06-25T21:00:34.228409 #2834]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T21:00:34.228914 #2834]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+E, [2014-06-25T21:00:34.989428 #2834] ERROR -- : no subject for mail!
+E, [2014-06-25T21:00:34.990081 #2834] ERROR -- : Email doesn't have the subject
+I, [2014-06-25T21:00:34.990194 #2834]  INFO -- : Brand Name is :
+I, [2014-06-25T21:00:34.990263 #2834]  INFO -- : Order status is : other
+I, [2014-06-25T21:00:34.990833 #2834]  INFO -- : Email : Fwd: 转发：Fwd: Abercrombie & Fitch Order #20039904053 Has Shipped is multipart type
+I, [2014-06-25T21:11:02.586805 #2839]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T21:11:02.588235 #2839]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+E, [2014-06-25T21:11:03.473288 #2839] ERROR -- : no subject for mail!
+E, [2014-06-25T21:11:03.474420 #2839] ERROR -- : Email doesn't have the subject
+I, [2014-06-25T21:11:03.474624 #2839]  INFO -- : Brand Name is :
+I, [2014-06-25T21:11:03.474696 #2839]  INFO -- : Order status is : other
+I, [2014-06-25T21:11:03.475998 #2839]  INFO -- : Email : Fwd: 转发：Fwd: Abercrombie & Fitch Order #20039904053 Has Shipped is multipart type
+I, [2014-06-25T21:17:49.744129 #2847]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T21:17:49.744642 #2847]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+E, [2014-06-25T21:17:50.599134 #2847] ERROR -- : no subject for mail!
+E, [2014-06-25T21:17:50.599271 #2847] ERROR -- : Email doesn't have the subject
+I, [2014-06-25T21:17:50.599321 #2847]  INFO -- : Brand Name is :
+I, [2014-06-25T21:17:50.599364 #2847]  INFO -- : Order status is : other
+I, [2014-06-25T21:17:50.600164 #2847]  INFO -- : Email : Fwd: 转发：Fwd: Abercrombie & Fitch Order #20039904053 Has Shipped is multipart type
+I, [2014-06-25T21:18:20.275183 #2851]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T21:18:20.275737 #2851]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+E, [2014-06-25T21:18:21.153535 #2851] ERROR -- : no subject for mail!
+E, [2014-06-25T21:18:21.153730 #2851] ERROR -- : Email doesn't have the subject
+I, [2014-06-25T21:18:21.153811 #2851]  INFO -- : Brand Name is :
+I, [2014-06-25T21:18:21.153878 #2851]  INFO -- : Order status is : other
+I, [2014-06-25T21:18:21.158799 #2851]  INFO -- : Email : Fwd: 转发：Fwd: Abercrombie & Fitch Order #20039904053 Has Shipped is multipart type
+E, [2014-06-25T21:18:21.313140 #2851] ERROR -- : Subtotal is not equal to the sum of the items price
+I, [2014-06-25T21:18:58.769894 #2855]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T21:18:58.771192 #2855]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+E, [2014-06-25T21:18:59.612652 #2855] ERROR -- : no subject for mail!
+E, [2014-06-25T21:18:59.613049 #2855] ERROR -- : Email doesn't have the subject
+I, [2014-06-25T21:18:59.613209 #2855]  INFO -- : Brand Name is :
+I, [2014-06-25T21:18:59.613333 #2855]  INFO -- : Order status is : other
+I, [2014-06-25T21:18:59.616548 #2855]  INFO -- : Email : Fwd: 转发：Fwd: Abercrombie & Fitch Order #20039904053 Has Shipped is multipart type
+E, [2014-06-25T21:18:59.695551 #2855] ERROR -- : Subtotal is not equal to the sum of the items price
+I, [2014-06-25T21:19:09.981268 #2858]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T21:19:09.981732 #2858]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+E, [2014-06-25T21:19:10.851191 #2858] ERROR -- : no subject for mail!
+E, [2014-06-25T21:19:10.851384 #2858] ERROR -- : Email doesn't have the subject
+I, [2014-06-25T21:19:10.851485 #2858]  INFO -- : Brand Name is :
+I, [2014-06-25T21:19:10.851565 #2858]  INFO -- : Order status is : other
+I, [2014-06-25T21:19:10.852887 #2858]  INFO -- : Email : Fwd: 转发：Fwd: Abercrombie & Fitch Order #20039904053 Has Shipped is multipart type
+E, [2014-06-25T21:19:10.997811 #2858] ERROR -- : Subtotal is not equal to the sum of the items price
+I, [2014-06-25T21:24:11.036287 #2869]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T21:24:11.037264 #2869]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+E, [2014-06-25T21:24:11.968091 #2869] ERROR -- : no subject for mail!
+E, [2014-06-25T21:24:11.968220 #2869] ERROR -- : Email doesn't have the subject
+I, [2014-06-25T21:24:11.968269 #2869]  INFO -- : Brand Name is :
+I, [2014-06-25T21:24:11.968313 #2869]  INFO -- : Order status is : other
+I, [2014-06-25T21:24:11.968643 #2869]  INFO -- : Email : FW: Your E-Receipt from Abercrombie & Fitch, Monroeville Order #10947117020140604 is multipart type
+I, [2014-06-25T21:51:17.498354 #2916]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T21:51:17.499250 #2916]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-25T21:53:12.213638 #2919]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T21:53:12.214743 #2919]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-25T21:54:12.265952 #2923]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T21:54:12.267085 #2923]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-25T21:54:12.951261 #2923]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-25T21:54:12.951576 #2923]  INFO -- : Order status is : shipped
+I, [2014-06-25T21:54:12.952034 #2923]  INFO -- : Email : FW: Your E-Receipt from Abercrombie & Fitch, Monroeville Order #10947117020140604 is multipart type
+I, [2014-06-25T21:54:54.940602 #2927]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T21:54:54.941619 #2927]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-25T21:54:55.573785 #2927]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-25T21:54:55.573914 #2927]  INFO -- : Order status is : shipped
+I, [2014-06-25T21:54:55.574074 #2927]  INFO -- : Email : FW: Your E-Receipt from Abercrombie & Fitch, Monroeville Order #10947117020140604 is multipart type
+I, [2014-06-25T21:55:53.929278 #2931]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T21:55:53.930251 #2931]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-25T21:55:54.619405 #2931]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-25T21:55:54.619522 #2931]  INFO -- : Order status is : shipped
+I, [2014-06-25T21:55:54.619672 #2931]  INFO -- : Email : FW: Your E-Receipt from Abercrombie & Fitch, Monroeville Order #10947117020140604 is multipart type
+I, [2014-06-25T21:58:53.992959 #2937]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T21:58:53.993856 #2937]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-25T21:58:54.729816 #2937]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-25T21:58:54.730114 #2937]  INFO -- : Order status is : shipped
+I, [2014-06-25T21:58:54.730702 #2937]  INFO -- : Email : FW: Your E-Receipt from Abercrombie & Fitch, Monroeville Order #10947117020140604 is multipart type
+I, [2014-06-25T22:02:56.584515 #2942]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T22:02:56.585472 #2942]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-25T22:02:58.863444 #2942]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-25T22:02:58.863581 #2942]  INFO -- : Order status is : shipped
+I, [2014-06-25T22:02:58.863746 #2942]  INFO -- : Email : FW: Your E-Receipt from Abercrombie & Fitch, Monroeville Order #10947117020140604 is multipart type
+I, [2014-06-25T22:08:00.800869 #2948]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T22:08:00.801793 #2948]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-25T22:08:01.537989 #2948]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-25T22:08:01.538312 #2948]  INFO -- : Order status is : shipped
+I, [2014-06-25T22:08:01.539759 #2948]  INFO -- : Email : FW: Your E-Receipt from Abercrombie & Fitch, Monroeville Order #10947117020140604 is multipart type
+I, [2014-06-25T22:48:37.130217 #2979]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T22:48:37.130988 #2979]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-25T22:48:37.830895 #2979]  INFO -- : Starting to extrac!
+I, [2014-06-25T22:48:37.831914 #2979]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, monroeville order #10947117020140604
+I, [2014-06-25T22:48:37.832171 #2979]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-25T22:48:37.832331 #2979]  INFO -- : Order status : shipped
+I, [2014-06-25T22:48:37.832774 #2979]  INFO -- : Email : FW: Your E-Receipt from Abercrombie & Fitch, Monroeville Order #10947117020140604 is multipart type
+I, [2014-06-25T22:49:12.332004 #2983]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T22:49:12.332937 #2983]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-25T22:49:13.033391 #2983]  INFO -- : Starting to extrac!
+I, [2014-06-25T22:49:13.033970 #2983]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, monroeville order #10947117020140604
+I, [2014-06-25T22:49:13.034092 #2983]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-25T22:49:13.034371 #2983]  INFO -- : Order status : shipped
+I, [2014-06-25T22:49:13.034746 #2983]  INFO -- : Email : FW: Your E-Receipt from Abercrombie & Fitch, Monroeville Order #10947117020140604 is multipart type
+I, [2014-06-25T22:59:16.721457 #2989]  INFO -- : Loading the property file property.yml
+I, [2014-06-25T22:59:16.722565 #2989]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-25T22:59:17.448548 #2989]  INFO -- : Starting to extrac!
+I, [2014-06-25T22:59:17.449729 #2989]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, monroeville order #10947117020140604
+I, [2014-06-25T22:59:17.449930 #2989]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-25T22:59:17.450058 #2989]  INFO -- : Order status : shipped
+I, [2014-06-25T22:59:17.450614 #2989]  INFO -- : Email : FW: Your E-Receipt from Abercrombie & Fitch, Monroeville Order #10947117020140604 is multipart type

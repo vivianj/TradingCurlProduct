@@ -16,18 +16,18 @@ def sendErrorMessage(account, error, message)
 	
     mail = Mail.new do
         from account.username
-        subject  "Go Error when processing the email in uscaigou system!"
-	  end
-
-	  if error.downcase.include? 'email not found'
+        subject =  "Go Error from uscaiigou system!"
+    end
+   
+    if error.downcase.include? 'email not found'
        mail.to = message.from
-		    mail.body = 'Please add your email address : #{address} to the USCaigou system.'
-	  else 
-		  mail.body = "Hi Admin, Got error when processing order : #{error}"
+       mail.body = 'Please add your email address : #{address} to the USCaigou system.'
+     else 
+      mail.body = "Hi Admin, Got error when processing order : #{error}"
       mail.to = 'kangyihong001@gmail.com'
-        end
+    end
 
-	   sendEmail(mail, account, address)
+   sendEmail(mail, account, address)
 end
 
 def forwardEmail(message, newSubject,account, to_address)
