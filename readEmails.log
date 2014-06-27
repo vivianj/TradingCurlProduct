@@ -178,3 +178,1279 @@ I, [2014-06-25T22:59:17.449729 #2989]  INFO -- : Subject : fw: your e-receipt fr
 I, [2014-06-25T22:59:17.449930 #2989]  INFO -- : Brand Name is :Abercrombie & Fitch
 I, [2014-06-25T22:59:17.450058 #2989]  INFO -- : Order status : shipped
 I, [2014-06-25T22:59:17.450614 #2989]  INFO -- : Email : FW: Your E-Receipt from Abercrombie & Fitch, Monroeville Order #10947117020140604 is multipart type
+I, [2014-06-26T11:20:42.758455 #1462]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T11:20:42.769371 #1462]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T11:20:43.973545 #1462]  INFO -- : Starting to extrac!
+I, [2014-06-26T11:20:43.973891 #1462]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T11:20:43.973965 #1462]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T11:20:43.974031 #1462]  INFO -- : Order status : shipped
+I, [2014-06-26T11:20:43.974316 #1462]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T11:21:36.249480 #1499]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T11:21:36.250629 #1499]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T11:21:36.857318 #1499]  INFO -- : Starting to extrac!
+I, [2014-06-26T11:21:36.857665 #1499]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T11:21:36.857740 #1499]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T11:21:36.857806 #1499]  INFO -- : Order status : shipped
+I, [2014-06-26T11:21:36.858092 #1499]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T11:21:44.772119 #1499]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "total"=>161.23, "subtotal"=>161.23, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>610896191, "price"=>161.23}, {"code"=>610896191, "price"=>161.23}, {"code"=>610896191, "price"=>161.23}, {"code"=>610896191, "price"=>161.23}, {"code"=>610896191, "price"=>161.23}, {"code"=>610896191, "price"=>161.23}, {"code"=>610896191, "price"=>161.23}, {"code"=>610896191, "price"=>161.23}, {"code"=>610896191, "price"=>161.23}, {"code"=>610896191, "price"=>161.23}, {"code"=>610896191, "price"=>161.23}, {"code"=>610896191, "price"=>161.23}, {"code"=>610896191, "price"=>161.23}, {"code"=>610896191, "price"=>161.23}, {"code"=>610896191, "price"=>161.23}]}
+E, [2014-06-26T11:21:44.772339 #1499] ERROR -- : Subtotal is not equal to the sum of the items price
+I, [2014-06-26T11:25:19.104359 #1539]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T11:25:19.105516 #1539]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T11:25:20.220350 #1539]  INFO -- : Starting to extrac!
+I, [2014-06-26T11:25:20.220690 #1539]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T11:25:20.220771 #1539]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T11:25:20.220837 #1539]  INFO -- : Order status : shipped
+I, [2014-06-26T11:25:20.221155 #1539]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T11:26:51.261039 #1576]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T11:26:51.262217 #1576]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T11:26:51.886611 #1576]  INFO -- : Starting to extrac!
+I, [2014-06-26T11:26:51.886964 #1576]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T11:26:51.887041 #1576]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T11:26:51.887109 #1576]  INFO -- : Order status : shipped
+I, [2014-06-26T11:26:51.887448 #1576]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T11:26:51.922653 #1576]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>161.23, "total"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>610896191, "price"=>21.75}, {"code"=>610896191, "price"=>21.75}, {"code"=>610896191, "price"=>21.75}, {"code"=>610896191, "price"=>21.75}, {"code"=>610896191, "price"=>21.75}, {"code"=>610896191, "price"=>21.75}]}
+E, [2014-06-26T11:26:51.922845 #1576] ERROR -- : The total is not equal to the sum of subtotal, shipping and tax!
+I, [2014-06-26T11:32:32.101437 #1622]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T11:32:32.102663 #1622]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T11:32:33.119061 #1622]  INFO -- : Starting to extrac!
+I, [2014-06-26T11:32:33.119474 #1622]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T11:32:33.119593 #1622]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T11:32:33.119660 #1622]  INFO -- : Order status : shipped
+I, [2014-06-26T11:32:33.119938 #1622]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T11:33:49.938452 #1665]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T11:33:49.939643 #1665]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T11:33:50.528826 #1665]  INFO -- : Starting to extrac!
+I, [2014-06-26T11:33:50.529208 #1665]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T11:33:50.529317 #1665]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T11:33:50.529391 #1665]  INFO -- : Order status : shipped
+I, [2014-06-26T11:33:50.529704 #1665]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T11:33:50.561958 #1665]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T11:35:10.637134 #1704]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T11:35:10.638284 #1704]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T11:35:11.271507 #1704]  INFO -- : Starting to extrac!
+I, [2014-06-26T11:35:11.271875 #1704]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T11:35:11.271961 #1704]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T11:35:11.272122 #1704]  INFO -- : Order status : shipped
+I, [2014-06-26T11:35:11.272411 #1704]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T11:35:11.306565 #1704]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T11:36:27.300337 #1742]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T11:36:27.301497 #1742]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T11:36:27.953863 #1742]  INFO -- : Starting to extrac!
+I, [2014-06-26T11:36:27.954209 #1742]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T11:36:27.954284 #1742]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T11:36:27.954397 #1742]  INFO -- : Order status : shipped
+I, [2014-06-26T11:36:27.954672 #1742]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T11:36:27.988211 #1742]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T11:36:48.985610 #1779]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T11:36:48.986767 #1779]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T11:36:49.611831 #1779]  INFO -- : Starting to extrac!
+I, [2014-06-26T11:36:49.612171 #1779]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T11:36:49.612245 #1779]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T11:36:49.612357 #1779]  INFO -- : Order status : shipped
+I, [2014-06-26T11:36:49.612630 #1779]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T11:36:49.643782 #1779]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T11:36:51.059486 #1779]  INFO -- : Starting to extrac!
+I, [2014-06-26T11:36:51.059727 #1779]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T11:36:51.059849 #1779]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T11:36:51.059913 #1779]  INFO -- : Order status : shipped
+I, [2014-06-26T11:36:51.060404 #1779]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T11:36:51.079471 #1779]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+E, [2014-06-26T11:36:51.079623 #1779] ERROR -- : Subtotal is not equal to the sum of the items price
+I, [2014-06-26T11:38:51.117804 #1819]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T11:38:51.119075 #1819]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T11:38:53.910798 #1819]  INFO -- : Starting to extrac!
+I, [2014-06-26T11:38:53.911147 #1819]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T11:38:53.911222 #1819]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T11:38:53.911294 #1819]  INFO -- : Order status : shipped
+I, [2014-06-26T11:38:53.911584 #1819]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T11:38:53.947589 #1819]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T11:38:55.535304 #1819]  INFO -- : Starting to extrac!
+I, [2014-06-26T11:38:55.535570 #1819]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T11:38:55.535988 #1819]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T11:38:55.536058 #1819]  INFO -- : Order status : shipped
+I, [2014-06-26T11:38:55.536624 #1819]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T11:38:55.555178 #1819]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+E, [2014-06-26T11:38:55.555334 #1819] ERROR -- : Subtotal is not equal to the sum of the items price : 322.46000000000004
+I, [2014-06-26T11:42:18.941310 #1862]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T11:42:18.942464 #1862]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T11:42:19.574021 #1862]  INFO -- : Starting to extrac!
+I, [2014-06-26T11:42:19.574398 #1862]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T11:42:19.574480 #1862]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T11:42:19.574584 #1862]  INFO -- : Order status : shipped
+I, [2014-06-26T11:42:19.574871 #1862]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T11:42:19.605978 #1862]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T11:42:50.636592 #1899]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T11:42:50.637756 #1899]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T11:42:51.371324 #1899]  INFO -- : Starting to extrac!
+I, [2014-06-26T11:42:51.371716 #1899]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T11:42:51.371851 #1899]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T11:42:51.371919 #1899]  INFO -- : Order status : shipped
+I, [2014-06-26T11:42:51.372217 #1899]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T11:42:51.402346 #1899]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T11:42:52.932707 #1899]  INFO -- : Starting to extrac!
+I, [2014-06-26T11:42:52.932940 #1899]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T11:42:52.933011 #1899]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T11:42:52.933076 #1899]  INFO -- : Order status : shipped
+I, [2014-06-26T11:42:52.933567 #1899]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T11:42:52.952124 #1899]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+E, [2014-06-26T11:42:52.952285 #1899] ERROR -- : Subtotal is not equal to the sum of the items price : 322.46000000000004
+I, [2014-06-26T11:46:52.891989 #1941]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T11:46:52.893216 #1941]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T11:46:53.944372 #1941]  INFO -- : Starting to extrac!
+I, [2014-06-26T11:46:53.944750 #1941]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T11:46:53.944846 #1941]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T11:46:53.944913 #1941]  INFO -- : Order status : shipped
+I, [2014-06-26T11:46:53.945236 #1941]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T11:46:53.976289 #1941]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T11:46:55.911967 #1941]  INFO -- : Starting to extrac!
+I, [2014-06-26T11:46:55.912203 #1941]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T11:46:55.912277 #1941]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T11:46:55.912419 #1941]  INFO -- : Order status : shipped
+I, [2014-06-26T11:46:55.912951 #1941]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T11:46:55.931161 #1941]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+E, [2014-06-26T11:46:55.931365 #1941] ERROR -- : Subtotal is not equal to the sum of the items price : 322.46000000000004
+I, [2014-06-26T11:54:20.492947 #2002]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T11:54:20.494132 #2002]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T11:54:21.602964 #2002]  INFO -- : Starting to extrac!
+I, [2014-06-26T11:54:21.603308 #2002]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T11:54:21.603428 #2002]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T11:54:21.603513 #2002]  INFO -- : Order status : shipped
+I, [2014-06-26T11:54:21.603790 #2002]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T11:54:21.637356 #2002]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T11:54:23.328562 #2002]  INFO -- : Starting to extrac!
+I, [2014-06-26T11:54:23.328799 #2002]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T11:54:23.328873 #2002]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T11:54:23.328990 #2002]  INFO -- : Order status : shipped
+I, [2014-06-26T11:54:23.329461 #2002]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T11:54:23.353399 #2002]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+E, [2014-06-26T11:54:23.353586 #2002] ERROR -- : Subtotal is not equal to the sum of the items price : 322.46000000000004
+I, [2014-06-26T11:54:42.270319 #2039]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T11:54:42.271482 #2039]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T11:54:42.956980 #2039]  INFO -- : Starting to extrac!
+I, [2014-06-26T11:54:42.957328 #2039]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T11:54:42.957401 #2039]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T11:54:42.957500 #2039]  INFO -- : Order status : shipped
+I, [2014-06-26T11:54:42.957778 #2039]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T11:54:42.991400 #2039]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T11:55:47.791986 #2076]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T11:55:47.793190 #2076]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T11:55:49.451816 #2076]  INFO -- : Starting to extrac!
+I, [2014-06-26T11:55:49.452157 #2076]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T11:55:49.452231 #2076]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T11:55:49.452296 #2076]  INFO -- : Order status : shipped
+I, [2014-06-26T11:55:49.452592 #2076]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T11:57:51.162782 #2112]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T11:57:51.163947 #2112]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T11:57:51.942637 #2112]  INFO -- : Starting to extrac!
+I, [2014-06-26T11:57:51.943014 #2112]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T11:57:51.943088 #2112]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T11:57:51.943155 #2112]  INFO -- : Order status : shipped
+I, [2014-06-26T11:57:51.943496 #2112]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T11:57:51.974761 #2112]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T11:57:53.161430 #2112]  INFO -- : Starting to extrac!
+I, [2014-06-26T11:57:53.161666 #2112]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T11:57:53.161738 #2112]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T11:57:53.161804 #2112]  INFO -- : Order status : shipped
+I, [2014-06-26T11:57:53.162278 #2112]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T11:57:53.182068 #2112]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+E, [2014-06-26T11:57:53.182213 #2112] ERROR -- : Subtotal is not equal to the sum of the items price : 322.46000000000004
+I, [2014-06-26T12:05:42.487862 #2159]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T12:05:42.489024 #2159]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T12:05:43.179051 #2159]  INFO -- : Starting to extract!
+I, [2014-06-26T12:05:43.179468 #2159]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T12:05:43.179546 #2159]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T12:05:43.179612 #2159]  INFO -- : Order status : shipped
+I, [2014-06-26T12:05:43.179966 #2159]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T12:05:43.211484 #2159]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T12:05:44.686103 #2159]  INFO -- : Starting to extract!
+I, [2014-06-26T12:05:44.686335 #2159]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T12:05:44.686407 #2159]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T12:05:44.686474 #2159]  INFO -- : Order status : shipped
+I, [2014-06-26T12:05:44.686941 #2159]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T12:05:44.705815 #2159]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+E, [2014-06-26T12:05:44.705991 #2159] ERROR -- : Subtotal is not equal to the sum of the items price : 322.46000000000004
+I, [2014-06-26T12:07:46.905715 #2200]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T12:07:46.906855 #2200]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T12:07:47.534244 #2200]  INFO -- : Starting to extract!
+I, [2014-06-26T12:07:47.534587 #2200]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T12:07:47.534695 #2200]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T12:07:47.534762 #2200]  INFO -- : Order status : shipped
+I, [2014-06-26T12:07:47.535033 #2200]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T12:07:47.566621 #2200]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T12:07:48.664490 #2200]  INFO -- : Starting to extract!
+I, [2014-06-26T12:07:48.664749 #2200]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T12:07:48.664826 #2200]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T12:07:48.664934 #2200]  INFO -- : Order status : shipped
+I, [2014-06-26T12:07:48.665441 #2200]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T12:07:48.684776 #2200]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+E, [2014-06-26T12:07:48.685059 #2200] ERROR -- : Subtotal is not equal to the sum of the items price : 322.46000000000004
+I, [2014-06-26T12:12:26.276328 #2241]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T12:12:26.277462 #2241]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T12:12:27.484890 #2241]  INFO -- : Starting to extract!
+I, [2014-06-26T12:12:27.485226 #2241]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T12:12:27.485301 #2241]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T12:12:27.485368 #2241]  INFO -- : Order status : shipped
+I, [2014-06-26T12:12:27.485653 #2241]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T12:12:27.514237 #2241]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T12:12:27.517196 #2241]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T12:12:29.132541 #2241]  INFO -- : Starting to extract!
+I, [2014-06-26T12:12:29.133038 #2241]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T12:12:29.133112 #2241]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T12:12:29.133177 #2241]  INFO -- : Order status : shipped
+I, [2014-06-26T12:12:29.133706 #2241]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T12:12:29.149788 #2241]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T12:12:29.152686 #2241]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+E, [2014-06-26T12:12:29.152787 #2241] ERROR -- : Subtotal is not equal to the sum of the items price : 322.46000000000004
+I, [2014-06-26T12:19:34.772440 #2285]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T12:19:34.773579 #2285]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T12:19:35.508398 #2285]  INFO -- : Starting to extract!
+I, [2014-06-26T12:19:35.508760 #2285]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T12:19:35.508837 #2285]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T12:19:35.508909 #2285]  INFO -- : Order status : shipped
+I, [2014-06-26T12:19:35.509207 #2285]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T12:19:35.564090 #2285]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T12:19:35.568112 #2285]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T12:19:35.568248 #2285]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T12:19:35.643787 #2285] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T12:19:35.643988 #2285]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T12:19:35.644055 #2285]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T12:19:37.475940 #2285]  INFO -- : Starting to extract!
+I, [2014-06-26T12:19:37.476171 #2285]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T12:19:37.476244 #2285]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T12:19:37.476315 #2285]  INFO -- : Order status : shipped
+I, [2014-06-26T12:19:37.476924 #2285]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T12:19:37.494052 #2285]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T12:19:37.496841 #2285]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+E, [2014-06-26T12:19:37.496938 #2285] ERROR -- : Subtotal is not equal to the sum of the items price : 322.46000000000004
+I, [2014-06-26T12:20:52.618528 #2326]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T12:20:52.619686 #2326]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T12:20:53.391229 #2326]  INFO -- : Starting to extract!
+I, [2014-06-26T12:20:53.391564 #2326]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T12:20:53.391643 #2326]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T12:20:53.391710 #2326]  INFO -- : Order status : shipped
+I, [2014-06-26T12:20:53.392003 #2326]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T12:20:53.420902 #2326]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T12:20:53.424381 #2326]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T12:20:53.424546 #2326]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T12:20:53.483736 #2326] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T12:20:53.483900 #2326]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T12:20:53.483967 #2326]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T12:20:53.484036 #2326]  INFO -- : Submit the data failure!
+I, [2014-06-26T12:20:54.968597 #2326]  INFO -- : Starting to extract!
+I, [2014-06-26T12:20:54.968833 #2326]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T12:20:54.968905 #2326]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T12:20:54.968970 #2326]  INFO -- : Order status : shipped
+I, [2014-06-26T12:20:54.969451 #2326]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T12:20:54.985639 #2326]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T12:20:54.988318 #2326]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+E, [2014-06-26T12:20:54.988412 #2326] ERROR -- : Subtotal is not equal to the sum of the items price : 322.46000000000004
+I, [2014-06-26T12:22:26.255226 #2365]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T12:22:26.256360 #2365]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T12:22:27.371873 #2365]  INFO -- : Starting to extract!
+I, [2014-06-26T12:22:27.372248 #2365]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T12:22:27.372429 #2365]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T12:22:27.372496 #2365]  INFO -- : Order status : shipped
+I, [2014-06-26T12:22:27.372871 #2365]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T12:22:27.402825 #2365]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T12:22:27.408917 #2365]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T12:22:27.409098 #2365]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T12:22:27.488712 #2365] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T12:22:27.489255 #2365]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T12:22:27.489323 #2365]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T12:22:27.489392 #2365]  INFO -- : Submit the data failure!
+I, [2014-06-26T12:22:27.489457 #2365]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T12:22:28.666803 #2365]  INFO -- : Starting to extract!
+I, [2014-06-26T12:22:28.667065 #2365]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T12:22:28.667137 #2365]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T12:22:28.667202 #2365]  INFO -- : Order status : shipped
+I, [2014-06-26T12:22:28.667696 #2365]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T12:22:28.684001 #2365]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T12:22:28.687397 #2365]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+E, [2014-06-26T12:22:28.687541 #2365] ERROR -- : Subtotal is not equal to the sum of the items price : 322.46000000000004
+I, [2014-06-26T14:25:19.301609 #3449]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T14:25:19.326099 #3449]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T14:25:20.559366 #3449]  INFO -- : Starting to extract!
+I, [2014-06-26T14:25:20.559809 #3449]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T14:25:20.559894 #3449]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T14:25:20.559961 #3449]  INFO -- : Order status : shipped
+I, [2014-06-26T14:25:20.560271 #3449]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T14:25:20.590077 #3449]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T14:25:20.595662 #3449]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T14:25:20.595806 #3449]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T14:25:20.675789 #3449] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T14:25:20.675943 #3449]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T14:25:20.676009 #3449]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T14:25:20.676081 #3449]  INFO -- : Submit the data failure!
+I, [2014-06-26T14:25:20.676150 #3449]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T14:25:21.682022 #3449]  INFO -- : Starting to extract!
+I, [2014-06-26T14:25:21.682252 #3449]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T14:25:21.682324 #3449]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T14:25:21.682417 #3449]  INFO -- : Order status : shipped
+I, [2014-06-26T14:25:21.682912 #3449]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T14:25:21.700563 #3449]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T14:25:21.711256 #3449]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+E, [2014-06-26T14:25:21.711407 #3449] ERROR -- : Subtotal is not equal to the sum of the items price : 322.46000000000004
+I, [2014-06-26T14:25:21.982793 #3449]  INFO -- : Starting to extract!
+I, [2014-06-26T14:25:21.983219 #3449]  INFO -- : Subject : fwd: abercrombie & fitch order #20040982228 confirmation
+I, [2014-06-26T14:25:21.983307 #3449]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T14:25:21.983385 #3449]  INFO -- : Order status : ordered
+I, [2014-06-26T14:25:21.983778 #3449]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation is multipart type
+I, [2014-06-26T14:25:22.091436 #3449]  INFO -- : Process the website order!
+I, [2014-06-26T14:29:49.596250 #3521]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T14:29:49.597408 #3521]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T14:29:50.232475 #3521]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T14:29:50.232611 #3521]  INFO -- : Starting to extract!
+I, [2014-06-26T14:29:50.232749 #3521]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T14:29:50.232833 #3521]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T14:29:50.232936 #3521]  INFO -- : Order status : shipped
+I, [2014-06-26T14:29:50.233210 #3521]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T14:29:50.261424 #3521]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T14:29:50.264229 #3521]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T14:29:50.264327 #3521]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T14:29:50.314456 #3521] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T14:29:50.314717 #3521]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T14:29:50.314812 #3521]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T14:29:50.314906 #3521]  INFO -- : Submit the data failure!
+I, [2014-06-26T14:29:50.314994 #3521]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T14:29:51.259750 #3521]  INFO -- : Start processing the new email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526
+I, [2014-06-26T14:29:51.259949 #3521]  INFO -- : Starting to extract!
+I, [2014-06-26T14:29:51.260087 #3521]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T14:29:51.260158 #3521]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T14:29:51.260224 #3521]  INFO -- : Order status : shipped
+I, [2014-06-26T14:29:51.260699 #3521]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T14:29:51.278076 #3521]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T14:29:51.281337 #3521]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+E, [2014-06-26T14:29:51.281474 #3521] ERROR -- : Subtotal is not equal to the sum of the items price : 322.46000000000004
+I, [2014-06-26T14:29:51.657870 #3521]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation
+I, [2014-06-26T14:29:51.658034 #3521]  INFO -- : Starting to extract!
+I, [2014-06-26T14:29:51.658193 #3521]  INFO -- : Subject : fwd: abercrombie & fitch order #20040982228 confirmation
+I, [2014-06-26T14:29:51.658267 #3521]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T14:29:51.658335 #3521]  INFO -- : Order status : ordered
+I, [2014-06-26T14:29:51.658869 #3521]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation is multipart type
+I, [2014-06-26T14:29:51.718115 #3521]  INFO -- : Process the website order!
+I, [2014-06-26T14:36:26.732021 #3691]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T14:36:26.733252 #3691]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T14:36:27.825535 #3691]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T14:36:27.825670 #3691]  INFO -- : Starting to extract!
+I, [2014-06-26T14:36:27.825806 #3691]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T14:36:27.825876 #3691]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T14:36:27.825942 #3691]  INFO -- : Order status : shipped
+I, [2014-06-26T14:47:50.502195 #3804]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T14:47:50.503393 #3804]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T14:47:51.180032 #3804]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T14:47:51.180202 #3804]  INFO -- : Starting to extract!
+I, [2014-06-26T14:47:51.180341 #3804]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T14:47:51.180414 #3804]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T14:47:51.180480 #3804]  INFO -- : Order status : shipped
+I, [2014-06-26T14:51:50.838712 #3874]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T14:51:50.839971 #3874]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T14:51:51.454950 #3874]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T14:51:51.455082 #3874]  INFO -- : Starting to extract!
+I, [2014-06-26T14:51:51.455237 #3874]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T14:51:51.455307 #3874]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T14:51:51.455371 #3874]  INFO -- : Order status : shipped
+I, [2014-06-26T14:51:51.455663 #3874]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T14:52:36.634724 #3915]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T14:52:36.635887 #3915]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T14:52:37.239905 #3915]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T14:52:37.240077 #3915]  INFO -- : Starting to extract!
+I, [2014-06-26T14:52:37.240281 #3915]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T14:52:37.240374 #3915]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T14:52:37.240462 #3915]  INFO -- : Order status : shipped
+I, [2014-06-26T14:52:37.240843 #3915]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T14:52:37.268880 #3915]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T14:55:31.288663 #3971]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T14:55:31.290287 #3971]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T14:55:32.190278 #3971]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T14:55:32.190433 #3971]  INFO -- : Starting to extract!
+I, [2014-06-26T14:55:32.190574 #3971]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T14:55:32.190685 #3971]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T14:55:32.190751 #3971]  INFO -- : Order status : shipped
+I, [2014-06-26T14:55:32.191041 #3971]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T14:55:32.219731 #3971]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T14:55:32.222738 #3971]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T14:55:32.222833 #3971]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T14:55:32.323181 #3971] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T14:55:32.323381 #3971]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T14:55:32.323492 #3971]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T14:55:32.323597 #3971]  INFO -- : Submit the data failure!
+I, [2014-06-26T14:55:32.323705 #3971]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T14:55:33.770194 #3971]  INFO -- : Start processing the new email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526
+I, [2014-06-26T14:55:33.770397 #3971]  INFO -- : Starting to extract!
+I, [2014-06-26T14:55:33.770546 #3971]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T14:55:33.770616 #3971]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T14:55:33.770680 #3971]  INFO -- : Order status : shipped
+I, [2014-06-26T14:55:33.771187 #3971]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T14:55:33.787901 #3971]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T14:55:33.792735 #3971]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-26", "shipping_date"=>"2014-05-26", "subtotal"=>125.82, "tax"=>0.0, "total"=>125.82, "shipping"=>0.0, "items"=>[{"code"=>610750319, "price"=>11.98}, {"code"=>610750255, "price"=>11.98}, {"code"=>610580778, "price"=>13.98}, {"code"=>610750319, "price"=>11.98}, {"code"=>610750247, "price"=>11.98}, {"code"=>610883197, "price"=>19.98}, {"code"=>610750212, "price"=>11.98}, {"code"=>610750204, "price"=>11.98}, {"code"=>610883200, "price"=>19.98}, {"price"=>125.82}]}
+E, [2014-06-26T14:55:33.792880 #3971] ERROR -- : Subtotal is not equal to the sum of the items price : 251.64000000000001
+I, [2014-06-26T14:55:34.069402 #3971]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation
+I, [2014-06-26T14:55:34.069581 #3971]  INFO -- : Starting to extract!
+I, [2014-06-26T14:55:34.069819 #3971]  INFO -- : Subject : fwd: abercrombie & fitch order #20040982228 confirmation
+I, [2014-06-26T14:55:34.069958 #3971]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T14:55:34.070048 #3971]  INFO -- : Order status : ordered
+I, [2014-06-26T14:55:34.070364 #3971]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation is multipart type
+I, [2014-06-26T14:55:34.118327 #3971]  INFO -- : Process the website order!
+I, [2014-06-26T14:55:34.184193 #3971]  INFO -- : Extracted data : {"order_no"=>"20040982228", "order_date"=>"2014-06-03", "subtotal"=>334.4, "total"=>334.4, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}]}
+E, [2014-06-26T14:55:34.184342 #3971] ERROR -- : Subtotal is not equal to the sum of the items price : 1535.481
+I, [2014-06-26T14:55:34.457162 #3971]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped
+I, [2014-06-26T14:55:34.457327 #3971]  INFO -- : Starting to extract!
+I, [2014-06-26T14:55:34.457518 #3971]  INFO -- : Subject : fwd: abercrombie & fitch order #20040774569 has shipped
+I, [2014-06-26T14:55:34.457586 #3971]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T14:55:34.457650 #3971]  INFO -- : Order status : shipped
+I, [2014-06-26T14:55:34.457975 #3971]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped is multipart type
+I, [2014-06-26T14:55:34.504666 #3971]  INFO -- : Process the website order!
+I, [2014-06-26T14:55:34.546137 #3971]  INFO -- : Extracted data : {"order_no"=>"20040774569", "order_date"=>"2014-06-01", "shipping_date"=>"2014-06-02", "subtotal"=>336.0, "total"=>336.0, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>610490131, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}]}
+E, [2014-06-26T14:55:34.546319 #3971] ERROR -- : Subtotal is not equal to the sum of the items price : 672.0
+I, [2014-06-26T15:01:20.341318 #4055]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T15:01:20.342537 #4055]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T15:01:21.432815 #4055]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T15:01:21.432967 #4055]  INFO -- : Starting to extract!
+I, [2014-06-26T15:01:21.433106 #4055]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T15:01:21.433178 #4055]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:01:21.433310 #4055]  INFO -- : Order status : shipped
+I, [2014-06-26T15:01:21.433581 #4055]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T15:01:21.465660 #4055]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:01:21.471428 #4055]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T15:01:21.471612 #4055]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T15:01:21.527912 #4055] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T15:01:21.528125 #4055]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T15:01:21.528200 #4055]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T15:01:21.528271 #4055]  INFO -- : Submit the data failure!
+I, [2014-06-26T15:01:21.528342 #4055]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T15:01:22.461837 #4055]  INFO -- : Start processing the new email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526
+I, [2014-06-26T15:01:22.462044 #4055]  INFO -- : Starting to extract!
+I, [2014-06-26T15:01:22.462181 #4055]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T15:01:22.462284 #4055]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T15:01:22.462355 #4055]  INFO -- : Order status : shipped
+I, [2014-06-26T15:01:22.462853 #4055]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T15:01:22.479828 #4055]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:01:22.484185 #4055]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-26", "shipping_date"=>"2014-05-26", "subtotal"=>125.82, "tax"=>0.0, "total"=>125.82, "shipping"=>0.0, "items"=>[{"code"=>610750319, "price"=>11.98}, {"code"=>610750255, "price"=>11.98}, {"code"=>610580778, "price"=>13.98}, {"code"=>610750319, "price"=>11.98}, {"code"=>610750247, "price"=>11.98}, {"code"=>610883197, "price"=>19.98}, {"code"=>610750212, "price"=>11.98}, {"code"=>610750204, "price"=>11.98}, {"code"=>610883200, "price"=>19.98}, {"price"=>125.82}]}
+E, [2014-06-26T15:01:22.484309 #4055] ERROR -- : Subtotal is not equal to the sum of the items price : 251.64000000000001
+I, [2014-06-26T15:01:22.662306 #4055]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation
+I, [2014-06-26T15:01:22.662490 #4055]  INFO -- : Starting to extract!
+I, [2014-06-26T15:01:22.662653 #4055]  INFO -- : Subject : fwd: abercrombie & fitch order #20040982228 confirmation
+I, [2014-06-26T15:01:22.662727 #4055]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:01:22.662827 #4055]  INFO -- : Order status : ordered
+I, [2014-06-26T15:01:22.663227 #4055]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation is multipart type
+I, [2014-06-26T15:01:22.709953 #4055]  INFO -- : Process the website order!
+I, [2014-06-26T15:09:37.664011 #4295]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T15:09:37.665453 #4295]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T15:09:38.753198 #4295]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T15:09:38.753350 #4295]  INFO -- : Starting to extract!
+I, [2014-06-26T15:09:38.753501 #4295]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T15:09:38.753572 #4295]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:09:38.753641 #4295]  INFO -- : Order status : shipped
+I, [2014-06-26T15:09:38.753941 #4295]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T15:09:38.789263 #4295]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:10:14.806547 #4339]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T15:10:14.808038 #4339]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T15:10:15.482016 #4339]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T15:10:15.482165 #4339]  INFO -- : Starting to extract!
+I, [2014-06-26T15:10:15.482315 #4339]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T15:10:15.482387 #4339]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:10:15.482453 #4339]  INFO -- : Order status : shipped
+I, [2014-06-26T15:10:15.482812 #4339]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T15:10:15.511214 #4339]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:10:15.514790 #4339]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T15:10:15.514940 #4339]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T15:10:16.037906 #4339] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T15:10:16.038068 #4339]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T15:10:16.038172 #4339]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T15:10:16.038240 #4339]  INFO -- : Submit the data failure!
+I, [2014-06-26T15:10:16.038305 #4339]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T15:10:16.976768 #4339]  INFO -- : Start processing the new email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526
+I, [2014-06-26T15:10:16.976987 #4339]  INFO -- : Starting to extract!
+I, [2014-06-26T15:10:16.977174 #4339]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T15:10:16.977247 #4339]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T15:10:16.977313 #4339]  INFO -- : Order status : shipped
+I, [2014-06-26T15:10:16.977927 #4339]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T15:10:16.999303 #4339]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:10:17.004476 #4339]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-26", "shipping_date"=>"2014-05-26", "subtotal"=>125.82, "tax"=>0.0, "total"=>125.82, "shipping"=>0.0, "items"=>[{"code"=>610750319, "price"=>11.98}, {"code"=>610750255, "price"=>11.98}, {"code"=>610580778, "price"=>13.98}, {"code"=>610750319, "price"=>11.98}, {"code"=>610750247, "price"=>11.98}, {"code"=>610883197, "price"=>19.98}, {"code"=>610750212, "price"=>11.98}, {"code"=>610750204, "price"=>11.98}, {"code"=>610883200, "price"=>19.98}, {"price"=>125.82}]}
+E, [2014-06-26T15:10:17.004631 #4339] ERROR -- : Subtotal is not equal to the sum of the items price : 251.64000000000001
+I, [2014-06-26T15:10:17.365747 #4339]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation
+I, [2014-06-26T15:10:17.366484 #4339]  INFO -- : Starting to extract!
+I, [2014-06-26T15:10:17.366821 #4339]  INFO -- : Subject : fwd: abercrombie & fitch order #20040982228 confirmation
+I, [2014-06-26T15:10:17.366961 #4339]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:10:17.367037 #4339]  INFO -- : Order status : ordered
+I, [2014-06-26T15:10:17.367514 #4339]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation is multipart type
+I, [2014-06-26T15:10:17.418796 #4339]  INFO -- : Process the website order!
+I, [2014-06-26T15:13:04.700921 #4398]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T15:13:04.702047 #4398]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T15:13:05.427654 #4398]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T15:13:05.427810 #4398]  INFO -- : Starting to extract!
+I, [2014-06-26T15:13:05.427952 #4398]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T15:13:05.428022 #4398]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:13:05.428087 #4398]  INFO -- : Order status : shipped
+I, [2014-06-26T15:13:05.428384 #4398]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T15:13:05.459542 #4398]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:13:05.462448 #4398]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T15:13:05.462550 #4398]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T15:13:05.512546 #4398] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T15:13:05.512770 #4398]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T15:13:05.512838 #4398]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T15:13:05.512908 #4398]  INFO -- : Submit the data failure!
+I, [2014-06-26T15:13:05.512974 #4398]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T15:13:06.810894 #4398]  INFO -- : Start processing the new email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526
+I, [2014-06-26T15:13:06.811054 #4398]  INFO -- : Starting to extract!
+I, [2014-06-26T15:13:06.811190 #4398]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T15:13:06.811260 #4398]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T15:13:06.811325 #4398]  INFO -- : Order status : shipped
+I, [2014-06-26T15:13:06.811846 #4398]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T15:13:06.827965 #4398]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:13:06.833615 #4398]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-26", "shipping_date"=>"2014-05-26", "subtotal"=>125.82, "tax"=>0.0, "total"=>125.82, "shipping"=>0.0, "items"=>[{"code"=>610750319, "price"=>11.98}, {"code"=>610750255, "price"=>11.98}, {"code"=>610580778, "price"=>13.98}, {"code"=>610750319, "price"=>11.98}, {"code"=>610750247, "price"=>11.98}, {"code"=>610883197, "price"=>19.98}, {"code"=>610750212, "price"=>11.98}, {"code"=>610750204, "price"=>11.98}, {"code"=>610883200, "price"=>19.98}, {"price"=>125.82}]}
+E, [2014-06-26T15:13:06.833752 #4398] ERROR -- : Subtotal is not equal to the sum of the items price : 251.64000000000001
+I, [2014-06-26T15:13:07.054339 #4398]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation
+I, [2014-06-26T15:13:07.054519 #4398]  INFO -- : Starting to extract!
+I, [2014-06-26T15:13:07.054672 #4398]  INFO -- : Subject : fwd: abercrombie & fitch order #20040982228 confirmation
+I, [2014-06-26T15:13:07.054769 #4398]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:13:07.054835 #4398]  INFO -- : Order status : ordered
+I, [2014-06-26T15:13:07.055171 #4398]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation is multipart type
+I, [2014-06-26T15:13:07.111677 #4398]  INFO -- : Process the website order!
+I, [2014-06-26T15:14:33.743421 #4444]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T15:14:33.744788 #4444]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T15:14:34.424951 #4444]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T15:14:34.425793 #4444]  INFO -- : Starting to extract!
+I, [2014-06-26T15:14:34.425996 #4444]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T15:14:34.426076 #4444]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:14:34.426153 #4444]  INFO -- : Order status : shipped
+I, [2014-06-26T15:14:34.426499 #4444]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T15:14:34.454301 #4444]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:14:34.457925 #4444]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T15:14:34.458081 #4444]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T15:14:34.530365 #4444] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T15:14:34.530516 #4444]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T15:14:34.530588 #4444]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T15:14:34.530661 #4444]  INFO -- : Submit the data failure!
+I, [2014-06-26T15:14:34.530725 #4444]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T15:14:35.828876 #4444]  INFO -- : Start processing the new email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526
+I, [2014-06-26T15:14:35.829041 #4444]  INFO -- : Starting to extract!
+I, [2014-06-26T15:14:35.829177 #4444]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T15:14:35.829251 #4444]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T15:14:35.829345 #4444]  INFO -- : Order status : shipped
+I, [2014-06-26T15:14:35.829893 #4444]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T15:14:35.846167 #4444]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:14:35.852202 #4444]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-26", "shipping_date"=>"2014-05-26", "subtotal"=>125.82, "tax"=>0.0, "total"=>125.82, "shipping"=>0.0, "items"=>[{"code"=>610750319, "price"=>11.98}, {"code"=>610750255, "price"=>11.98}, {"code"=>610580778, "price"=>13.98}, {"code"=>610750319, "price"=>11.98}, {"code"=>610750247, "price"=>11.98}, {"code"=>610883197, "price"=>19.98}, {"code"=>610750212, "price"=>11.98}, {"code"=>610750204, "price"=>11.98}, {"code"=>610883200, "price"=>19.98}, {"price"=>125.82}]}
+E, [2014-06-26T15:14:35.852333 #4444] ERROR -- : Subtotal is not equal to the sum of the items price : 251.64000000000001
+I, [2014-06-26T15:14:36.111130 #4444]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation
+I, [2014-06-26T15:14:36.112049 #4444]  INFO -- : Starting to extract!
+I, [2014-06-26T15:14:36.112230 #4444]  INFO -- : Subject : fwd: abercrombie & fitch order #20040982228 confirmation
+I, [2014-06-26T15:14:36.112300 #4444]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:14:36.112367 #4444]  INFO -- : Order status : ordered
+I, [2014-06-26T15:14:36.112699 #4444]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation is multipart type
+I, [2014-06-26T15:14:36.160412 #4444]  INFO -- : Process the website order!
+I, [2014-06-26T15:18:36.000957 #4551]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T15:18:36.002231 #4551]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T15:18:36.639419 #4551]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T15:18:36.639570 #4551]  INFO -- : Starting to extract!
+I, [2014-06-26T15:18:36.639704 #4551]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T15:18:36.639774 #4551]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:18:36.639919 #4551]  INFO -- : Order status : shipped
+I, [2014-06-26T15:18:36.640188 #4551]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T15:18:36.672219 #4551]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:18:36.675175 #4551]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T15:18:36.675280 #4551]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T15:18:36.732391 #4551] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T15:18:36.732688 #4551]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T15:18:36.732784 #4551]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T15:18:36.732859 #4551]  INFO -- : Submit the data failure!
+I, [2014-06-26T15:18:36.732925 #4551]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T15:18:38.135135 #4551]  INFO -- : Start processing the new email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526
+I, [2014-06-26T15:18:38.135295 #4551]  INFO -- : Starting to extract!
+I, [2014-06-26T15:18:38.135484 #4551]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T15:18:38.135580 #4551]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T15:18:38.135647 #4551]  INFO -- : Order status : shipped
+I, [2014-06-26T15:18:38.136137 #4551]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T15:18:38.154720 #4551]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:18:38.160273 #4551]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-26", "shipping_date"=>"2014-05-26", "subtotal"=>125.82, "tax"=>0.0, "total"=>125.82, "shipping"=>0.0, "items"=>[{"code"=>610750319, "price"=>11.98}, {"code"=>610750255, "price"=>11.98}, {"code"=>610580778, "price"=>13.98}, {"code"=>610750319, "price"=>11.98}, {"code"=>610750247, "price"=>11.98}, {"code"=>610883197, "price"=>19.98}, {"code"=>610750212, "price"=>11.98}, {"code"=>610750204, "price"=>11.98}, {"code"=>610883200, "price"=>19.98}, {"price"=>125.82}]}
+E, [2014-06-26T15:18:38.160395 #4551] ERROR -- : Subtotal is not equal to the sum of the items price : 251.64000000000001
+I, [2014-06-26T15:18:38.399238 #4551]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation
+I, [2014-06-26T15:18:38.399412 #4551]  INFO -- : Starting to extract!
+I, [2014-06-26T15:18:38.400149 #4551]  INFO -- : Subject : fwd: abercrombie & fitch order #20040982228 confirmation
+I, [2014-06-26T15:18:38.400256 #4551]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:18:38.400325 #4551]  INFO -- : Order status : ordered
+I, [2014-06-26T15:18:38.400675 #4551]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation is multipart type
+I, [2014-06-26T15:18:38.457648 #4551]  INFO -- : Process the website order!
+I, [2014-06-26T15:20:21.392181 #4604]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T15:20:21.393520 #4604]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T15:20:22.009494 #4604]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T15:20:22.009647 #4604]  INFO -- : Starting to extract!
+I, [2014-06-26T15:20:22.009817 #4604]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T15:20:22.009889 #4604]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:20:22.009954 #4604]  INFO -- : Order status : shipped
+I, [2014-06-26T15:20:22.010230 #4604]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T15:20:22.038906 #4604]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:20:22.041877 #4604]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T15:20:22.041979 #4604]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T15:20:22.141486 #4604] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T15:20:22.141685 #4604]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T15:20:22.141803 #4604]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T15:20:22.141946 #4604]  INFO -- : Submit the data failure!
+I, [2014-06-26T15:20:22.142046 #4604]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T15:20:23.290800 #4604]  INFO -- : Start processing the new email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526
+I, [2014-06-26T15:20:23.291002 #4604]  INFO -- : Starting to extract!
+I, [2014-06-26T15:20:23.291143 #4604]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T15:20:23.291213 #4604]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T15:20:23.291277 #4604]  INFO -- : Order status : shipped
+I, [2014-06-26T15:20:23.291956 #4604]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T15:20:23.308101 #4604]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:20:23.312926 #4604]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-26", "shipping_date"=>"2014-05-26", "subtotal"=>125.82, "tax"=>0.0, "total"=>125.82, "shipping"=>0.0, "items"=>[{"code"=>610750319, "price"=>11.98}, {"code"=>610750255, "price"=>11.98}, {"code"=>610580778, "price"=>13.98}, {"code"=>610750319, "price"=>11.98}, {"code"=>610750247, "price"=>11.98}, {"code"=>610883197, "price"=>19.98}, {"code"=>610750212, "price"=>11.98}, {"code"=>610750204, "price"=>11.98}, {"code"=>610883200, "price"=>19.98}, {"price"=>125.82}]}
+E, [2014-06-26T15:20:23.313048 #4604] ERROR -- : Subtotal is not equal to the sum of the items price : 251.64000000000001
+I, [2014-06-26T15:20:23.580563 #4604]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation
+I, [2014-06-26T15:20:23.580721 #4604]  INFO -- : Starting to extract!
+I, [2014-06-26T15:20:23.580880 #4604]  INFO -- : Subject : fwd: abercrombie & fitch order #20040982228 confirmation
+I, [2014-06-26T15:20:23.580948 #4604]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:20:23.581013 #4604]  INFO -- : Order status : ordered
+I, [2014-06-26T15:20:23.581294 #4604]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation is multipart type
+I, [2014-06-26T15:20:23.630768 #4604]  INFO -- : Process the website order!
+I, [2014-06-26T15:20:23.677241 #4604]  INFO -- : Extracted data : {"order_no"=>"20040982228", "order_date"=>"2014-06-03", "subtotal"=>334.4, "total"=>334.4, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>610490051, "price"=>28.0}, {"code"=>610490051, "price"=>28.0}, {"code"=>610757211, "price"=>33.6}, {"code"=>610761253, "price"=>33.6}, {"code"=>611120765, "price"=>12.0}, {"code"=>611120765, "price"=>12.0}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>200409822, "price"=>866.681}, {"code"=>610490051, "price"=>28.0}, {"code"=>610490051, "price"=>28.0}, {"code"=>610757211, "price"=>33.6}, {"code"=>610761253, "price"=>33.6}, {"code"=>611120765, "price"=>12.0}, {"code"=>611120765, "price"=>12.0}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}]}
+E, [2014-06-26T15:20:23.677406 #4604] ERROR -- : Subtotal is not equal to the sum of the items price : 1535.481
+I, [2014-06-26T15:20:23.881241 #4604]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped
+I, [2014-06-26T15:20:23.881400 #4604]  INFO -- : Starting to extract!
+I, [2014-06-26T15:20:23.881555 #4604]  INFO -- : Subject : fwd: abercrombie & fitch order #20040774569 has shipped
+I, [2014-06-26T15:20:23.881636 #4604]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:20:23.881701 #4604]  INFO -- : Order status : shipped
+I, [2014-06-26T15:20:23.881985 #4604]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped is multipart type
+I, [2014-06-26T15:20:23.931623 #4604]  INFO -- : Process the website order!
+I, [2014-06-26T15:20:23.986940 #4604]  INFO -- : Extracted data : {"order_no"=>"20040774569", "order_date"=>"2014-06-01", "shipping_date"=>"2014-06-02", "subtotal"=>336.0, "total"=>336.0, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>611825950, "price"=>29.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490035, "price"=>26.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>610757220, "price"=>31.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>611825950, "price"=>29.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>610757220, "price"=>31.5}, {"code"=>610490035, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>611825950, "price"=>29.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490035, "price"=>26.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>610757220, "price"=>31.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>611825950, "price"=>29.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>610757220, "price"=>31.5}, {"code"=>610490035, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}]}
+E, [2014-06-26T15:20:23.987108 #4604] ERROR -- : Subtotal is not equal to the sum of the items price : 672.0
+I, [2014-06-26T15:31:52.939313 #4749]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T15:31:52.940853 #4749]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T15:31:54.228947 #4749]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T15:31:54.229167 #4749]  INFO -- : Starting to extract!
+I, [2014-06-26T15:31:54.229328 #4749]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T15:31:54.229404 #4749]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:31:54.229472 #4749]  INFO -- : Order status : shipped
+I, [2014-06-26T15:31:54.229795 #4749]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T15:31:54.286085 #4749]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:31:54.297545 #4749]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T15:31:54.297750 #4749]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T15:31:54.802065 #4749] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T15:31:54.802253 #4749]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T15:31:54.802322 #4749]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T15:31:54.802477 #4749]  INFO -- : Submit the data failure!
+I, [2014-06-26T15:31:54.802545 #4749]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T15:31:55.903209 #4749]  INFO -- : Start processing the new email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526
+I, [2014-06-26T15:31:55.903387 #4749]  INFO -- : Starting to extract!
+I, [2014-06-26T15:31:55.903525 #4749]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T15:31:55.903595 #4749]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T15:31:55.903659 #4749]  INFO -- : Order status : shipped
+I, [2014-06-26T15:31:55.904228 #4749]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T15:31:55.931936 #4749]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:31:55.958649 #4749]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-26", "shipping_date"=>"2014-05-26", "subtotal"=>125.82, "tax"=>0.0, "total"=>125.82, "shipping"=>0.0, "items"=>[{"code"=>610750319, "price"=>11.98}, {"code"=>610750255, "price"=>11.98}, {"code"=>610580778, "price"=>13.98}, {"code"=>610750319, "price"=>11.98}, {"code"=>610750247, "price"=>11.98}, {"code"=>610883197, "price"=>19.98}, {"code"=>610750212, "price"=>11.98}, {"code"=>610750204, "price"=>11.98}, {"code"=>610883200, "price"=>19.98}]}
+E, [2014-06-26T15:31:55.958888 #4749] ERROR -- : Subtotal != itemtotal: 125.82 != 125.82000000000002
+I, [2014-06-26T15:31:56.259686 #4749]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation
+I, [2014-06-26T15:31:56.259855 #4749]  INFO -- : Starting to extract!
+I, [2014-06-26T15:31:56.260012 #4749]  INFO -- : Subject : fwd: abercrombie & fitch order #20040982228 confirmation
+I, [2014-06-26T15:31:56.260080 #4749]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:31:56.260145 #4749]  INFO -- : Order status : ordered
+I, [2014-06-26T15:31:56.260463 #4749]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation is multipart type
+I, [2014-06-26T15:31:56.325525 #4749]  INFO -- : Process the website order!
+I, [2014-06-26T15:31:56.396644 #4749]  INFO -- : Extracted data : {"order_no"=>"20040982228", "order_date"=>"2014-06-03", "subtotal"=>334.4, "total"=>334.4, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>610490051, "price"=>28.0}, {"code"=>610490051, "price"=>28.0}, {"code"=>610757211, "price"=>33.6}, {"code"=>610761253, "price"=>33.6}, {"code"=>611120765, "price"=>12.0}, {"code"=>611120765, "price"=>12.0}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>200409822, "price"=>866.681}, {"code"=>610490051, "price"=>28.0}, {"code"=>610490051, "price"=>28.0}, {"code"=>610757211, "price"=>33.6}, {"code"=>610761253, "price"=>33.6}, {"code"=>611120765, "price"=>12.0}, {"code"=>611120765, "price"=>12.0}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}]}
+E, [2014-06-26T15:31:56.396811 #4749] ERROR -- : Subtotal != itemtotal: 334.4 != 1535.481
+I, [2014-06-26T15:31:56.828636 #4749]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped
+I, [2014-06-26T15:31:56.828809 #4749]  INFO -- : Starting to extract!
+I, [2014-06-26T15:31:56.828973 #4749]  INFO -- : Subject : fwd: abercrombie & fitch order #20040774569 has shipped
+I, [2014-06-26T15:31:56.829042 #4749]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:31:56.829107 #4749]  INFO -- : Order status : shipped
+I, [2014-06-26T15:31:56.829398 #4749]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped is multipart type
+I, [2014-06-26T15:31:56.896071 #4749]  INFO -- : Process the website order!
+I, [2014-06-26T15:31:56.986685 #4749]  INFO -- : Extracted data : {"order_no"=>"20040774569", "order_date"=>"2014-06-01", "shipping_date"=>"2014-06-02", "subtotal"=>336.0, "total"=>336.0, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>611825950, "price"=>29.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490035, "price"=>26.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>610757220, "price"=>31.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>611825950, "price"=>29.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>610757220, "price"=>31.5}, {"code"=>610490035, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>611825950, "price"=>29.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490035, "price"=>26.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>610757220, "price"=>31.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>611825950, "price"=>29.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>610757220, "price"=>31.5}, {"code"=>610490035, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}]}
+E, [2014-06-26T15:31:56.986968 #4749] ERROR -- : Subtotal != itemtotal: 336.0 != 672.0
+I, [2014-06-26T15:39:00.589290 #4899]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T15:39:00.590577 #4899]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T15:39:01.829913 #4899]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T15:39:01.830160 #4899]  INFO -- : Starting to extract!
+I, [2014-06-26T15:39:01.830325 #4899]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T15:39:01.830402 #4899]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:39:01.830468 #4899]  INFO -- : Order status : shipped
+I, [2014-06-26T15:39:01.831017 #4899]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T15:39:01.986791 #4899]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:39:01.997359 #4899]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T15:39:01.997519 #4899]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T15:39:02.059695 #4899] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T15:39:02.059857 #4899]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T15:39:02.059972 #4899]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T15:39:02.060039 #4899]  INFO -- : Submit the data failure!
+I, [2014-06-26T15:39:02.060109 #4899]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T15:39:03.621453 #4899]  INFO -- : Start processing the new email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526
+I, [2014-06-26T15:39:03.621634 #4899]  INFO -- : Starting to extract!
+I, [2014-06-26T15:39:03.621772 #4899]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T15:39:03.621842 #4899]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T15:39:03.621906 #4899]  INFO -- : Order status : shipped
+I, [2014-06-26T15:39:03.622511 #4899]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T15:39:03.674133 #4899]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:39:03.680900 #4899]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-26", "shipping_date"=>"2014-05-26", "subtotal"=>125.82, "tax"=>0.0, "total"=>125.82, "shipping"=>0.0, "items"=>[{"code"=>610750319, "price"=>11.98}, {"code"=>610750255, "price"=>11.98}, {"code"=>610580778, "price"=>13.98}, {"code"=>610750319, "price"=>11.98}, {"code"=>610750247, "price"=>11.98}, {"code"=>610883197, "price"=>19.98}, {"code"=>610750212, "price"=>11.98}, {"code"=>610750204, "price"=>11.98}, {"code"=>610883200, "price"=>19.98}]}
+I, [2014-06-26T15:39:03.681085 #4899]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T15:39:03.739359 #4899] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T15:39:03.739647 #4899]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T15:39:03.739729 #4899]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T15:39:03.739864 #4899]  INFO -- : Submit the data failure!
+I, [2014-06-26T15:39:03.739934 #4899]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T15:39:04.966904 #4899]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation
+I, [2014-06-26T15:39:04.967125 #4899]  INFO -- : Starting to extract!
+I, [2014-06-26T15:39:04.967279 #4899]  INFO -- : Subject : fwd: abercrombie & fitch order #20040982228 confirmation
+I, [2014-06-26T15:39:04.967398 #4899]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:39:04.967467 #4899]  INFO -- : Order status : ordered
+I, [2014-06-26T15:39:04.972186 #4899]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation is multipart type
+I, [2014-06-26T15:39:05.041040 #4899]  INFO -- : Process the website order!
+I, [2014-06-26T15:39:05.139396 #4899]  INFO -- : Extracted data : {"order_no"=>"20040982228", "order_date"=>"2014-06-03", "subtotal"=>334.4, "total"=>334.4, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>610490051, "price"=>28.0}, {"code"=>610490051, "price"=>28.0}, {"code"=>610757211, "price"=>33.6}, {"code"=>610761253, "price"=>33.6}, {"code"=>611120765, "price"=>12.0}, {"code"=>611120765, "price"=>12.0}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>200409822, "price"=>866.681}, {"code"=>610490051, "price"=>28.0}, {"code"=>610490051, "price"=>28.0}, {"code"=>610757211, "price"=>33.6}, {"code"=>610761253, "price"=>33.6}, {"code"=>611120765, "price"=>12.0}, {"code"=>611120765, "price"=>12.0}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}]}
+E, [2014-06-26T15:39:05.139568 #4899] ERROR -- : Subtotal != itemtotal: 334.4 != 1535.48
+I, [2014-06-26T15:39:05.407023 #4899]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped
+I, [2014-06-26T15:39:05.407186 #4899]  INFO -- : Starting to extract!
+I, [2014-06-26T15:39:05.407379 #4899]  INFO -- : Subject : fwd: abercrombie & fitch order #20040774569 has shipped
+I, [2014-06-26T15:39:05.407446 #4899]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:39:05.407509 #4899]  INFO -- : Order status : shipped
+I, [2014-06-26T15:39:05.407820 #4899]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped is multipart type
+I, [2014-06-26T15:39:05.477879 #4899]  INFO -- : Process the website order!
+I, [2014-06-26T15:39:05.557645 #4899]  INFO -- : Extracted data : {"order_no"=>"20040774569", "order_date"=>"2014-06-01", "shipping_date"=>"2014-06-02", "subtotal"=>336.0, "total"=>336.0, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>611825950, "price"=>29.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490035, "price"=>26.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>610757220, "price"=>31.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>611825950, "price"=>29.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>610757220, "price"=>31.5}, {"code"=>610490035, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>611825950, "price"=>29.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490035, "price"=>26.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>610757220, "price"=>31.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>611825950, "price"=>29.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>610757220, "price"=>31.5}, {"code"=>610490035, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}]}
+E, [2014-06-26T15:39:05.557809 #4899] ERROR -- : Subtotal != itemtotal: 336.0 != 672.0
+I, [2014-06-26T15:43:11.710972 #4958]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T15:43:11.712470 #4958]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T15:43:12.465842 #4958]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T15:43:12.466074 #4958]  INFO -- : Starting to extract!
+I, [2014-06-26T15:43:12.466231 #4958]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T15:43:12.466307 #4958]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:43:12.466419 #4958]  INFO -- : Order status : shipped
+I, [2014-06-26T15:43:12.466713 #4958]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T15:43:12.585991 #4958]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:43:12.590860 #4958]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T15:43:12.591019 #4958]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T15:43:13.003743 #4958] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T15:43:13.003979 #4958]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T15:43:13.004099 #4958]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T15:43:13.004169 #4958]  INFO -- : Submit the data failure!
+I, [2014-06-26T15:43:13.004235 #4958]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T15:43:14.168625 #4958]  INFO -- : Start processing the new email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526
+I, [2014-06-26T15:43:14.168819 #4958]  INFO -- : Starting to extract!
+I, [2014-06-26T15:43:14.169003 #4958]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T15:43:14.169075 #4958]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T15:43:14.169146 #4958]  INFO -- : Order status : shipped
+I, [2014-06-26T15:43:14.181298 #4958]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T15:43:14.207085 #4958]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:43:14.216074 #4958]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-26", "shipping_date"=>"2014-05-26", "subtotal"=>125.82, "tax"=>0.0, "total"=>125.82, "shipping"=>0.0, "items"=>[{"code"=>610750319, "price"=>11.98}, {"code"=>610750255, "price"=>11.98}, {"code"=>610580778, "price"=>13.98}, {"code"=>610750319, "price"=>11.98}, {"code"=>610750247, "price"=>11.98}, {"code"=>610883197, "price"=>19.98}, {"code"=>610750212, "price"=>11.98}, {"code"=>610750204, "price"=>11.98}, {"code"=>610883200, "price"=>19.98}]}
+I, [2014-06-26T15:43:14.216252 #4958]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T15:43:14.413351 #4958] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T15:43:14.413498 #4958]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T15:43:14.413568 #4958]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T15:43:14.413676 #4958]  INFO -- : Submit the data failure!
+I, [2014-06-26T15:43:14.413740 #4958]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T15:43:15.933851 #4958]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation
+I, [2014-06-26T15:43:15.934023 #4958]  INFO -- : Starting to extract!
+I, [2014-06-26T15:43:15.936983 #4958]  INFO -- : Subject : fwd: abercrombie & fitch order #20040982228 confirmation
+I, [2014-06-26T15:43:15.937151 #4958]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:43:15.937220 #4958]  INFO -- : Order status : ordered
+I, [2014-06-26T15:43:15.937484 #4958]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation is multipart type
+I, [2014-06-26T15:43:15.986193 #4958]  INFO -- : Process the website order!
+I, [2014-06-26T15:43:16.054556 #4958]  INFO -- : Extracted data : {"order_no"=>"20040982228", "order_date"=>"2014-06-03", "subtotal"=>334.4, "total"=>334.4, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>610490051, "price"=>28.0}, {"code"=>610490051, "price"=>28.0}, {"code"=>610757211, "price"=>33.6}, {"code"=>610761253, "price"=>33.6}, {"code"=>611120765, "price"=>12.0}, {"code"=>611120765, "price"=>12.0}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>200409822, "price"=>866.681}, {"code"=>610490051, "price"=>28.0}, {"code"=>610490051, "price"=>28.0}, {"code"=>610757211, "price"=>33.6}, {"code"=>610761253, "price"=>33.6}, {"code"=>611120765, "price"=>12.0}, {"code"=>611120765, "price"=>12.0}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}]}
+E, [2014-06-26T15:43:16.054775 #4958] ERROR -- : Subtotal != itemtotal: 334.4 != 1535.48
+I, [2014-06-26T15:43:16.446098 #4958]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped
+I, [2014-06-26T15:43:16.446291 #4958]  INFO -- : Starting to extract!
+I, [2014-06-26T15:43:16.446442 #4958]  INFO -- : Subject : fwd: abercrombie & fitch order #20040774569 has shipped
+I, [2014-06-26T15:43:16.446513 #4958]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:43:16.446581 #4958]  INFO -- : Order status : shipped
+I, [2014-06-26T15:43:16.446870 #4958]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped is multipart type
+I, [2014-06-26T15:43:16.657053 #4958]  INFO -- : Process the website order!
+I, [2014-06-26T15:43:16.732122 #4958]  INFO -- : Extracted data : {"order_no"=>"20040774569", "order_date"=>"2014-06-01", "shipping_date"=>"2014-06-02", "subtotal"=>336.0, "total"=>336.0, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>611825950, "price"=>29.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490035, "price"=>26.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>610757220, "price"=>31.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>611825950, "price"=>29.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>610757220, "price"=>31.5}, {"code"=>610490035, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>611825950, "price"=>29.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490035, "price"=>26.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>610757220, "price"=>31.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>611825950, "price"=>29.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>610757220, "price"=>31.5}, {"code"=>610490035, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}]}
+E, [2014-06-26T15:43:16.732308 #4958] ERROR -- : Subtotal != itemtotal: 336.0 != 672.0
+I, [2014-06-26T15:47:42.476078 #5027]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T15:47:42.477831 #5027]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T15:47:44.355357 #5027]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T15:47:44.355513 #5027]  INFO -- : Starting to extract!
+I, [2014-06-26T15:47:44.355688 #5027]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T15:47:44.355762 #5027]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:47:44.356008 #5027]  INFO -- : Order status : shipped
+I, [2014-06-26T15:47:44.356697 #5027]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T15:47:44.411834 #5027]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:47:44.416598 #5027]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T15:47:44.416754 #5027]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T15:47:44.469308 #5027] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T15:47:44.469477 #5027]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T15:47:44.469546 #5027]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T15:47:44.469622 #5027]  INFO -- : Submit the data failure!
+I, [2014-06-26T15:47:44.469687 #5027]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T15:47:47.431501 #5027]  INFO -- : Start processing the new email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526
+I, [2014-06-26T15:47:47.431748 #5027]  INFO -- : Starting to extract!
+I, [2014-06-26T15:47:47.431972 #5027]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T15:47:47.432054 #5027]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T15:47:47.432121 #5027]  INFO -- : Order status : shipped
+I, [2014-06-26T15:47:47.432706 #5027]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T15:47:47.462759 #5027]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:47:47.474959 #5027]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-26", "shipping_date"=>"2014-05-26", "subtotal"=>125.82, "tax"=>0.0, "total"=>125.82, "shipping"=>0.0, "items"=>[{"code"=>610750319, "price"=>11.98}, {"code"=>610750255, "price"=>11.98}, {"code"=>610580778, "price"=>13.98}, {"code"=>610750319, "price"=>11.98}, {"code"=>610750247, "price"=>11.98}, {"code"=>610883197, "price"=>19.98}, {"code"=>610750212, "price"=>11.98}, {"code"=>610750204, "price"=>11.98}, {"code"=>610883200, "price"=>19.98}]}
+I, [2014-06-26T15:47:47.487769 #5027]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T15:47:47.571051 #5027] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T15:47:47.571220 #5027]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T15:47:47.571287 #5027]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T15:47:47.571355 #5027]  INFO -- : Submit the data failure!
+I, [2014-06-26T15:47:47.571431 #5027]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T15:47:48.592156 #5027]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation
+I, [2014-06-26T15:47:48.592383 #5027]  INFO -- : Starting to extract!
+I, [2014-06-26T15:47:48.592557 #5027]  INFO -- : Subject : fwd: abercrombie & fitch order #20040982228 confirmation
+I, [2014-06-26T15:47:48.592624 #5027]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:47:48.592695 #5027]  INFO -- : Order status : ordered
+I, [2014-06-26T15:47:48.593013 #5027]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation is multipart type
+I, [2014-06-26T15:47:48.664326 #5027]  INFO -- : Process the website order!
+I, [2014-06-26T15:47:48.695772 #5027]  INFO -- : Extracted data : {"order_no"=>"20040982228", "order_date"=>"2014-06-03", "subtotal"=>334.4, "total"=>334.4, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>610490051, "price"=>28.0}, {"code"=>610490051, "price"=>28.0}, {"code"=>610757211, "price"=>33.6}, {"code"=>610761253, "price"=>33.6}, {"code"=>611120765, "price"=>12.0}, {"code"=>611120765, "price"=>12.0}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}]}
+I, [2014-06-26T15:47:48.878312 #5027]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T15:47:48.941832 #5027] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T15:47:48.941999 #5027]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T15:47:48.942065 #5027]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T15:47:48.942187 #5027]  INFO -- : Submit the data failure!
+I, [2014-06-26T15:47:48.942250 #5027]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T15:47:49.878631 #5027]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped
+I, [2014-06-26T15:47:49.878813 #5027]  INFO -- : Starting to extract!
+I, [2014-06-26T15:47:49.878967 #5027]  INFO -- : Subject : fwd: abercrombie & fitch order #20040774569 has shipped
+I, [2014-06-26T15:47:49.879037 #5027]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:47:49.879101 #5027]  INFO -- : Order status : shipped
+I, [2014-06-26T15:47:49.879447 #5027]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped is multipart type
+I, [2014-06-26T15:47:49.936746 #5027]  INFO -- : Process the website order!
+I, [2014-06-26T15:47:49.955214 #5027]  INFO -- : Extracted data : {"order_no"=>"20040774569", "order_date"=>"2014-06-01", "shipping_date"=>"2014-06-02", "subtotal"=>336.0, "total"=>336.0, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>611825950, "price"=>29.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490035, "price"=>26.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>610757220, "price"=>31.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>611825950, "price"=>29.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>610757220, "price"=>31.5}, {"code"=>610490035, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}]}
+I, [2014-06-26T15:47:49.955378 #5027]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T15:47:50.008171 #5027] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T15:47:50.008343 #5027]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T15:47:50.008411 #5027]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T15:47:50.008479 #5027]  INFO -- : Submit the data failure!
+I, [2014-06-26T15:47:50.008545 #5027]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T15:50:55.193404 #5113]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T15:50:55.194579 #5113]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T15:50:55.861777 #5113]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T15:50:55.861921 #5113]  INFO -- : Starting to extract!
+I, [2014-06-26T15:50:55.862062 #5113]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T15:50:55.862132 #5113]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:50:55.862196 #5113]  INFO -- : Order status : shipped
+I, [2014-06-26T15:50:55.862553 #5113]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T15:50:55.893731 #5113]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:50:55.898304 #5113]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T15:50:55.898461 #5113]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T15:50:55.946762 #5113] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T15:50:55.946941 #5113]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T15:50:55.947012 #5113]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T15:50:55.947079 #5113]  INFO -- : Submit the data failure!
+I, [2014-06-26T15:50:55.947170 #5113]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T15:50:57.463910 #5113]  INFO -- : Start processing the new email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526
+I, [2014-06-26T15:50:57.464092 #5113]  INFO -- : Starting to extract!
+I, [2014-06-26T15:50:57.464270 #5113]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T15:50:57.464341 #5113]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T15:50:57.464404 #5113]  INFO -- : Order status : shipped
+I, [2014-06-26T15:50:57.464873 #5113]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T15:50:57.482451 #5113]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:50:57.487593 #5113]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-26", "shipping_date"=>"2014-05-26", "subtotal"=>125.82, "tax"=>0.0, "total"=>125.82, "shipping"=>0.0, "items"=>[{"code"=>610750319, "price"=>11.98}, {"code"=>610750255, "price"=>11.98}, {"code"=>610580778, "price"=>13.98}, {"code"=>610750319, "price"=>11.98}, {"code"=>610750247, "price"=>11.98}, {"code"=>610883197, "price"=>19.98}, {"code"=>610750212, "price"=>11.98}, {"code"=>610750204, "price"=>11.98}, {"code"=>610883200, "price"=>19.98}]}
+I, [2014-06-26T15:50:57.487750 #5113]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T15:50:57.539738 #5113] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T15:50:57.539939 #5113]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T15:50:57.540012 #5113]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T15:50:57.540078 #5113]  INFO -- : Submit the data failure!
+I, [2014-06-26T15:50:57.540143 #5113]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T15:50:58.503610 #5113]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation
+I, [2014-06-26T15:50:58.504296 #5113]  INFO -- : Starting to extract!
+I, [2014-06-26T15:50:58.504552 #5113]  INFO -- : Subject : fwd: abercrombie & fitch order #20040982228 confirmation
+I, [2014-06-26T15:50:58.504624 #5113]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:50:58.504692 #5113]  INFO -- : Order status : ordered
+I, [2014-06-26T15:50:58.504984 #5113]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation is multipart type
+I, [2014-06-26T15:50:58.557200 #5113]  INFO -- : Process the website order!
+I, [2014-06-26T15:50:58.575194 #5113]  INFO -- : Extracted data : {"order_no"=>"20040982228", "order_date"=>"2014-06-03", "subtotal"=>334.4, "total"=>334.4, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>610490051, "price"=>28.0}, {"code"=>610490051, "price"=>28.0}, {"code"=>610757211, "price"=>33.6}, {"code"=>610761253, "price"=>33.6}, {"code"=>611120765, "price"=>12.0}, {"code"=>611120765, "price"=>12.0}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}]}
+I, [2014-06-26T15:50:58.575344 #5113]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T15:50:58.626037 #5113] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T15:50:58.626184 #5113]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T15:50:58.626248 #5113]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T15:50:58.626311 #5113]  INFO -- : Submit the data failure!
+I, [2014-06-26T15:50:58.626374 #5113]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T15:50:59.624855 #5113]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped
+I, [2014-06-26T15:50:59.625023 #5113]  INFO -- : Starting to extract!
+I, [2014-06-26T15:50:59.625226 #5113]  INFO -- : Subject : fwd: abercrombie & fitch order #20040774569 has shipped
+I, [2014-06-26T15:50:59.625304 #5113]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:50:59.625389 #5113]  INFO -- : Order status : shipped
+I, [2014-06-26T15:50:59.625911 #5113]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped is multipart type
+I, [2014-06-26T15:50:59.685800 #5113]  INFO -- : Process the website order!
+I, [2014-06-26T15:50:59.703657 #5113]  INFO -- : Extracted data : {"order_no"=>"20040774569", "order_date"=>"2014-06-01", "shipping_date"=>"2014-06-02", "subtotal"=>336.0, "total"=>336.0, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>611825950, "price"=>29.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490035, "price"=>26.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>610757220, "price"=>31.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>611825950, "price"=>29.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>610757220, "price"=>31.5}, {"code"=>610490035, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}]}
+I, [2014-06-26T15:50:59.703806 #5113]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T15:50:59.754891 #5113] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T15:50:59.755037 #5113]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T15:50:59.755101 #5113]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T15:50:59.755214 #5113]  INFO -- : Submit the data failure!
+I, [2014-06-26T15:50:59.755275 #5113]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T15:55:25.319828 #5194]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T15:55:25.321005 #5194]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T15:55:26.033103 #5194]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T15:55:26.033243 #5194]  INFO -- : Starting to extract!
+I, [2014-06-26T15:55:26.033403 #5194]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T15:55:26.033474 #5194]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:55:26.033539 #5194]  INFO -- : Order status : shipped
+I, [2014-06-26T15:55:26.033834 #5194]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T15:55:26.062673 #5194]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:55:26.066902 #5194]  INFO -- : Extracted data : {"order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}]}
+I, [2014-06-26T15:55:26.067027 #5194]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T15:55:26.552599 #5194] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T15:55:26.552922 #5194]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T15:55:26.553031 #5194]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T15:55:26.553138 #5194]  INFO -- : Submit the data failure!
+I, [2014-06-26T15:55:26.553239 #5194]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T15:55:27.973553 #5194]  INFO -- : Start processing the new email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526
+I, [2014-06-26T15:55:27.973724 #5194]  INFO -- : Starting to extract!
+I, [2014-06-26T15:55:27.973910 #5194]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T15:55:27.973980 #5194]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T15:55:27.974043 #5194]  INFO -- : Order status : shipped
+I, [2014-06-26T15:55:27.974601 #5194]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T15:55:27.991790 #5194]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T15:55:27.995762 #5194]  INFO -- : Extracted data : {"order_no"=>"30176657220140526", "order_date"=>"2014-05-26", "shipping_date"=>"2014-05-26", "subtotal"=>125.82, "tax"=>0.0, "total"=>125.82, "shipping"=>0.0, "items"=>[{"code"=>610750319, "price"=>11.98}, {"code"=>610750255, "price"=>11.98}, {"code"=>610580778, "price"=>13.98}, {"code"=>610750319, "price"=>11.98}, {"code"=>610750247, "price"=>11.98}, {"code"=>610883197, "price"=>19.98}, {"code"=>610750212, "price"=>11.98}, {"code"=>610750204, "price"=>11.98}, {"code"=>610883200, "price"=>19.98}]}
+I, [2014-06-26T15:55:27.995852 #5194]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T15:55:28.043674 #5194] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T15:55:28.043831 #5194]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T15:55:28.043896 #5194]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T15:55:28.044005 #5194]  INFO -- : Submit the data failure!
+I, [2014-06-26T15:55:28.044072 #5194]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T15:55:29.015223 #5194]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation
+I, [2014-06-26T15:55:29.015375 #5194]  INFO -- : Starting to extract!
+I, [2014-06-26T15:55:29.015513 #5194]  INFO -- : Subject : fwd: abercrombie & fitch order #20040982228 confirmation
+I, [2014-06-26T15:55:29.015579 #5194]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:55:29.015644 #5194]  INFO -- : Order status : ordered
+I, [2014-06-26T15:55:29.015923 #5194]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation is multipart type
+I, [2014-06-26T15:55:29.059756 #5194]  INFO -- : Process the website order!
+I, [2014-06-26T15:55:29.074690 #5194]  INFO -- : Extracted data : {"order_no"=>"20040982228", "order_date"=>"2014-06-03", "subtotal"=>334.4, "total"=>334.4, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>610490051, "price"=>28.0}, {"code"=>610490051, "price"=>28.0}, {"code"=>610757211, "price"=>33.6}, {"code"=>610761253, "price"=>33.6}, {"code"=>611120765, "price"=>12.0}, {"code"=>611120765, "price"=>12.0}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}]}
+I, [2014-06-26T15:55:29.074845 #5194]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T15:55:29.126714 #5194] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T15:55:29.126940 #5194]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T15:55:29.127021 #5194]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T15:55:29.127130 #5194]  INFO -- : Submit the data failure!
+I, [2014-06-26T15:55:29.127204 #5194]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T15:55:30.128926 #5194]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped
+I, [2014-06-26T15:55:30.129069 #5194]  INFO -- : Starting to extract!
+I, [2014-06-26T15:55:30.129220 #5194]  INFO -- : Subject : fwd: abercrombie & fitch order #20040774569 has shipped
+I, [2014-06-26T15:55:30.129289 #5194]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T15:55:30.129354 #5194]  INFO -- : Order status : shipped
+I, [2014-06-26T15:55:30.129635 #5194]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped is multipart type
+I, [2014-06-26T15:55:30.175909 #5194]  INFO -- : Process the website order!
+I, [2014-06-26T15:55:30.194280 #5194]  INFO -- : Extracted data : {"order_no"=>"20040774569", "order_date"=>"2014-06-01", "shipping_date"=>"2014-06-02", "subtotal"=>336.0, "total"=>336.0, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>611825950, "price"=>29.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490035, "price"=>26.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>610757220, "price"=>31.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>611825950, "price"=>29.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>610757220, "price"=>31.5}, {"code"=>610490035, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}]}
+I, [2014-06-26T15:55:30.194429 #5194]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T15:55:30.254040 #5194] ERROR -- : Got error: 422 Unprocessable Entity: Brand not found  when submit the data to api 
+I, [2014-06-26T15:55:30.254213 #5194]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T15:55:30.254437 #5194]  INFO -- : Got Response bodd:  Brand not found
+I, [2014-06-26T15:55:30.254513 #5194]  INFO -- : Submit the data failure!
+I, [2014-06-26T15:55:30.254586 #5194]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T16:08:49.005187 #5354]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T16:08:49.006375 #5354]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T16:08:50.008947 #5354]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T16:08:50.009108 #5354]  INFO -- : Starting to extract!
+I, [2014-06-26T16:08:50.009251 #5354]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T16:08:50.009322 #5354]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T16:08:50.009387 #5354]  INFO -- : Order status : shipped
+I, [2014-06-26T16:08:50.009674 #5354]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T16:08:50.037540 #5354]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T16:08:50.041764 #5354]  INFO -- : Extracted data : {"brand"=>"Abercrombie & Fitch", "order_status"=>"shipped", "order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}], ""=>""}
+I, [2014-06-26T16:08:50.041894 #5354]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T16:08:50.547950 #5354] ERROR -- : Got error: 422 Unprocessable Entity: Email not found  when submit the data to api 
+I, [2014-06-26T16:08:50.548149 #5354]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T16:08:50.548246 #5354]  INFO -- : Got Response bodd:  Email not found
+I, [2014-06-26T16:08:50.548376 #5354]  INFO -- : Submit the data failure!
+I, [2014-06-26T16:08:50.548466 #5354]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T16:08:52.085793 #5354]  INFO -- : Start processing the new email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526
+I, [2014-06-26T16:08:52.086002 #5354]  INFO -- : Starting to extract!
+I, [2014-06-26T16:08:52.086225 #5354]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T16:08:52.086334 #5354]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T16:08:52.086435 #5354]  INFO -- : Order status : shipped
+I, [2014-06-26T16:08:52.087186 #5354]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T16:08:52.105832 #5354]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T16:08:52.124891 #5354]  INFO -- : Extracted data : {"brand"=>"Hollister", "order_status"=>"shipped", "order_no"=>"30176657220140526", "order_date"=>"2014-05-26", "shipping_date"=>"2014-05-26", "subtotal"=>125.82, "tax"=>0.0, "total"=>125.82, "shipping"=>0.0, "items"=>[{"code"=>610750319, "price"=>11.98}, {"code"=>610750255, "price"=>11.98}, {"code"=>610580778, "price"=>13.98}, {"code"=>610750319, "price"=>11.98}, {"code"=>610750247, "price"=>11.98}, {"code"=>610883197, "price"=>19.98}, {"code"=>610750212, "price"=>11.98}, {"code"=>610750204, "price"=>11.98}, {"code"=>610883200, "price"=>19.98}], ""=>""}
+I, [2014-06-26T16:08:52.125108 #5354]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T16:08:52.220322 #5354] ERROR -- : Got error: 422 Unprocessable Entity: Email not found  when submit the data to api 
+I, [2014-06-26T16:08:52.220522 #5354]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T16:08:52.220630 #5354]  INFO -- : Got Response bodd:  Email not found
+I, [2014-06-26T16:08:52.220730 #5354]  INFO -- : Submit the data failure!
+I, [2014-06-26T16:08:52.220826 #5354]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T16:08:53.287486 #5354]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation
+I, [2014-06-26T16:08:53.287697 #5354]  INFO -- : Starting to extract!
+I, [2014-06-26T16:08:53.287841 #5354]  INFO -- : Subject : fwd: abercrombie & fitch order #20040982228 confirmation
+I, [2014-06-26T16:08:53.287911 #5354]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T16:08:53.288488 #5354]  INFO -- : Order status : ordered
+I, [2014-06-26T16:08:53.288839 #5354]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation is multipart type
+I, [2014-06-26T16:08:53.350785 #5354]  INFO -- : Process the website order!
+I, [2014-06-26T16:12:18.333368 #5423]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T16:12:18.334533 #5423]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T16:12:18.979483 #5423]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T16:12:18.979659 #5423]  INFO -- : Starting to extract!
+I, [2014-06-26T16:12:18.979846 #5423]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T16:12:18.979942 #5423]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T16:12:18.980010 #5423]  INFO -- : Order status : shipped
+I, [2014-06-26T16:12:18.980354 #5423]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T16:12:19.012722 #5423]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T16:12:19.019106 #5423]  INFO -- : Extracted data : {"brand"=>"Abercrombie & Fitch", "order_status"=>"shipped", "order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}], ""=>""}
+I, [2014-06-26T16:12:19.020111 #5423]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T16:12:19.069946 #5423] ERROR -- : Got error: 422 Unprocessable Entity: Email not found  when submit the data to api 
+I, [2014-06-26T16:12:19.070178 #5423]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T16:12:19.070297 #5423]  INFO -- : Got Response bodd:  Email not found
+I, [2014-06-26T16:12:19.070396 #5423]  INFO -- : Submit the data failure!
+I, [2014-06-26T16:12:19.070480 #5423]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T16:12:20.084851 #5423]  INFO -- : Start processing the new email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526
+I, [2014-06-26T16:12:20.085012 #5423]  INFO -- : Starting to extract!
+I, [2014-06-26T16:12:20.085149 #5423]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T16:12:20.085219 #5423]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T16:12:20.085289 #5423]  INFO -- : Order status : shipped
+I, [2014-06-26T16:12:20.085771 #5423]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T16:12:20.102190 #5423]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T16:12:20.106316 #5423]  INFO -- : Extracted data : {"brand"=>"Hollister", "order_status"=>"shipped", "order_no"=>"30176657220140526", "order_date"=>"2014-05-26", "shipping_date"=>"2014-05-26", "subtotal"=>125.82, "tax"=>0.0, "total"=>125.82, "shipping"=>0.0, "items"=>[{"code"=>610750319, "price"=>11.98}, {"code"=>610750255, "price"=>11.98}, {"code"=>610580778, "price"=>13.98}, {"code"=>610750319, "price"=>11.98}, {"code"=>610750247, "price"=>11.98}, {"code"=>610883197, "price"=>19.98}, {"code"=>610750212, "price"=>11.98}, {"code"=>610750204, "price"=>11.98}, {"code"=>610883200, "price"=>19.98}], ""=>""}
+I, [2014-06-26T16:12:20.106421 #5423]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T16:12:20.158632 #5423] ERROR -- : Got error: 422 Unprocessable Entity: Email not found  when submit the data to api 
+I, [2014-06-26T16:12:20.158928 #5423]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T16:12:20.159031 #5423]  INFO -- : Got Response bodd:  Email not found
+I, [2014-06-26T16:12:20.159131 #5423]  INFO -- : Submit the data failure!
+I, [2014-06-26T16:12:20.159228 #5423]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T16:12:21.123980 #5423]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation
+I, [2014-06-26T16:12:21.124165 #5423]  INFO -- : Starting to extract!
+I, [2014-06-26T16:12:21.124303 #5423]  INFO -- : Subject : fwd: abercrombie & fitch order #20040982228 confirmation
+I, [2014-06-26T16:12:21.124370 #5423]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T16:12:21.124437 #5423]  INFO -- : Order status : ordered
+I, [2014-06-26T16:12:21.124747 #5423]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation is multipart type
+I, [2014-06-26T16:12:21.170049 #5423]  INFO -- : Process the website order!
+I, [2014-06-26T16:12:21.186974 #5423]  INFO -- : Extracted data : {"brand"=>"Abercrombie & Fitch", "order_status"=>"ordered", "order_no"=>"20040982228", "order_date"=>"2014-06-03", "subtotal"=>334.4, "total"=>334.4, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>610490051, "price"=>28.0}, {"code"=>610490051, "price"=>28.0}, {"code"=>610757211, "price"=>33.6}, {"code"=>610761253, "price"=>33.6}, {"code"=>611120765, "price"=>12.0}, {"code"=>611120765, "price"=>12.0}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}]}
+I, [2014-06-26T16:12:21.187151 #5423]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T16:12:21.240126 #5423] ERROR -- : Got error: 422 Unprocessable Entity: Email not found  when submit the data to api 
+I, [2014-06-26T16:12:21.240317 #5423]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T16:12:21.240418 #5423]  INFO -- : Got Response bodd:  Email not found
+I, [2014-06-26T16:12:21.240517 #5423]  INFO -- : Submit the data failure!
+I, [2014-06-26T16:12:21.240668 #5423]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T16:12:22.278837 #5423]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped
+I, [2014-06-26T16:12:22.279006 #5423]  INFO -- : Starting to extract!
+I, [2014-06-26T16:12:22.279324 #5423]  INFO -- : Subject : fwd: abercrombie & fitch order #20040774569 has shipped
+I, [2014-06-26T16:12:22.279466 #5423]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T16:12:22.279540 #5423]  INFO -- : Order status : shipped
+I, [2014-06-26T16:12:22.279849 #5423]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped is multipart type
+I, [2014-06-26T16:12:22.327268 #5423]  INFO -- : Process the website order!
+I, [2014-06-26T16:12:22.344669 #5423]  INFO -- : Extracted data : {"brand"=>"Abercrombie & Fitch", "order_status"=>"shipped", "order_no"=>"20040774569", "order_date"=>"2014-06-01", "shipping_date"=>"2014-06-02", "subtotal"=>336.0, "total"=>336.0, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>611825950, "price"=>29.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490035, "price"=>26.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>610757220, "price"=>31.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>611825950, "price"=>29.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>610757220, "price"=>31.5}, {"code"=>610490035, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}], ""=>""}
+I, [2014-06-26T16:12:22.344816 #5423]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T16:12:22.392994 #5423] ERROR -- : Got error: 422 Unprocessable Entity: Email not found  when submit the data to api 
+I, [2014-06-26T16:12:22.393167 #5423]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T16:12:22.393253 #5423]  INFO -- : Got Response bodd:  Email not found
+I, [2014-06-26T16:12:22.393338 #5423]  INFO -- : Submit the data failure!
+I, [2014-06-26T16:12:22.393420 #5423]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T16:22:54.229481 #5544]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T16:22:54.230594 #5544]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T16:22:54.957430 #5544]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T16:22:54.957571 #5544]  INFO -- : Starting to extract!
+I, [2014-06-26T16:22:54.957718 #5544]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T16:22:54.957790 #5544]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T16:22:54.957857 #5544]  INFO -- : Order status : shipped
+I, [2014-06-26T16:22:54.958141 #5544]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T16:22:54.989621 #5544]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T16:22:54.996578 #5544]  INFO -- : Extracted data : {"brand"=>"Abercrombie & Fitch", "order_status"=>"shipped", "order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}], "tracking_no"=>"", "email"=>["xxkyh@hotmail.com"]}
+I, [2014-06-26T16:22:54.996775 #5544]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T16:22:55.508939 #5544] ERROR -- : Got error: 422 Unprocessable Entity: Email not found  when submit the data to api 
+I, [2014-06-26T16:22:55.509109 #5544]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T16:22:55.509232 #5544]  INFO -- : Got Response bodd:  Email not found
+I, [2014-06-26T16:22:55.509321 #5544]  INFO -- : Submit the data failure!
+I, [2014-06-26T16:22:55.509386 #5544]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T16:22:56.581058 #5544]  INFO -- : Start processing the new email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526
+I, [2014-06-26T16:22:56.581215 #5544]  INFO -- : Starting to extract!
+I, [2014-06-26T16:22:56.581350 #5544]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T16:22:56.581467 #5544]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T16:22:56.581532 #5544]  INFO -- : Order status : shipped
+I, [2014-06-26T16:22:56.582034 #5544]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T16:22:56.598621 #5544]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T16:22:56.605238 #5544]  INFO -- : Extracted data : {"brand"=>"Hollister", "order_status"=>"shipped", "order_no"=>"30176657220140526", "order_date"=>"2014-05-26", "shipping_date"=>"2014-05-26", "subtotal"=>125.82, "tax"=>0.0, "total"=>125.82, "shipping"=>0.0, "items"=>[{"code"=>610750319, "price"=>11.98}, {"code"=>610750255, "price"=>11.98}, {"code"=>610580778, "price"=>13.98}, {"code"=>610750319, "price"=>11.98}, {"code"=>610750247, "price"=>11.98}, {"code"=>610883197, "price"=>19.98}, {"code"=>610750212, "price"=>11.98}, {"code"=>610750204, "price"=>11.98}, {"code"=>610883200, "price"=>19.98}], "tracking_no"=>"", "email"=>["xxkyh@hotmail.com"]}
+I, [2014-06-26T16:22:56.605395 #5544]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T16:22:56.656316 #5544] ERROR -- : Got error: 422 Unprocessable Entity: Email not found  when submit the data to api 
+I, [2014-06-26T16:22:56.656464 #5544]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T16:22:56.656529 #5544]  INFO -- : Got Response bodd:  Email not found
+I, [2014-06-26T16:22:56.656594 #5544]  INFO -- : Submit the data failure!
+I, [2014-06-26T16:22:56.656656 #5544]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T16:22:57.659944 #5544]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation
+I, [2014-06-26T16:22:57.660099 #5544]  INFO -- : Starting to extract!
+I, [2014-06-26T16:22:57.660235 #5544]  INFO -- : Subject : fwd: abercrombie & fitch order #20040982228 confirmation
+I, [2014-06-26T16:22:57.660308 #5544]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T16:22:57.660374 #5544]  INFO -- : Order status : ordered
+I, [2014-06-26T16:22:57.660679 #5544]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation is multipart type
+I, [2014-06-26T16:22:57.706187 #5544]  INFO -- : Process the website order!
+I, [2014-06-26T16:22:57.723420 #5544]  INFO -- : Extracted data : {"brand"=>"Abercrombie & Fitch", "order_status"=>"ordered", "order_no"=>"20040982228", "order_date"=>"2014-06-03", "subtotal"=>334.4, "total"=>334.4, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>610490051, "price"=>28.0}, {"code"=>610490051, "price"=>28.0}, {"code"=>610757211, "price"=>33.6}, {"code"=>610761253, "price"=>33.6}, {"code"=>611120765, "price"=>12.0}, {"code"=>611120765, "price"=>12.0}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}], "email"=>["shuangling.zhang@gmail.com"]}
+I, [2014-06-26T16:22:57.723602 #5544]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T16:22:57.776284 #5544] ERROR -- : Got error: 422 Unprocessable Entity: Email not found  when submit the data to api 
+I, [2014-06-26T16:22:57.776457 #5544]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T16:22:57.776543 #5544]  INFO -- : Got Response bodd:  Email not found
+I, [2014-06-26T16:22:57.776637 #5544]  INFO -- : Submit the data failure!
+I, [2014-06-26T16:22:57.776721 #5544]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T16:22:58.838385 #5544]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped
+I, [2014-06-26T16:22:58.838540 #5544]  INFO -- : Starting to extract!
+I, [2014-06-26T16:22:58.838684 #5544]  INFO -- : Subject : fwd: abercrombie & fitch order #20040774569 has shipped
+I, [2014-06-26T16:22:58.838767 #5544]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T16:22:58.838832 #5544]  INFO -- : Order status : shipped
+I, [2014-06-26T16:22:58.839127 #5544]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped is multipart type
+I, [2014-06-26T16:22:58.890266 #5544]  INFO -- : Process the website order!
+I, [2014-06-26T16:22:58.909184 #5544]  INFO -- : Extracted data : {"brand"=>"Abercrombie & Fitch", "order_status"=>"shipped", "order_no"=>"20040774569", "order_date"=>"2014-06-01", "shipping_date"=>"2014-06-02", "subtotal"=>336.0, "total"=>336.0, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>611825950, "price"=>29.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490035, "price"=>26.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>610757220, "price"=>31.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>611825950, "price"=>29.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>610757220, "price"=>31.5}, {"code"=>610490035, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}], "tracking_no"=>"", "email"=>["zhan3991@umn.edu"]}
+I, [2014-06-26T16:22:58.909329 #5544]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T16:22:58.960664 #5544] ERROR -- : Got error: 422 Unprocessable Entity: Email not found  when submit the data to api 
+I, [2014-06-26T16:22:58.960901 #5544]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T16:22:58.960990 #5544]  INFO -- : Got Response bodd:  Email not found
+I, [2014-06-26T16:22:58.961077 #5544]  INFO -- : Submit the data failure!
+I, [2014-06-26T16:22:58.961162 #5544]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T16:23:43.499516 #5588]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T16:23:43.500698 #5588]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T16:23:44.270647 #5588]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T16:23:44.270873 #5588]  INFO -- : Starting to extract!
+I, [2014-06-26T16:23:44.271064 #5588]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T16:23:44.271141 #5588]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T16:23:44.271209 #5588]  INFO -- : Order status : shipped
+I, [2014-06-26T16:23:44.271544 #5588]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T16:23:44.314376 #5588]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T16:23:44.327045 #5588]  INFO -- : Extracted data : {"brand"=>"Abercrombie & Fitch", "order_status"=>"shipped", "order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}], "tracking_no"=>"", "email"=>"[\"xxkyh@hotmail.com\"]"}
+I, [2014-06-26T16:23:44.327243 #5588]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T16:23:44.389505 #5588] ERROR -- : Got error: 422 Unprocessable Entity: Email not found  when submit the data to api 
+I, [2014-06-26T16:23:44.389676 #5588]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T16:23:44.389741 #5588]  INFO -- : Got Response bodd:  Email not found
+I, [2014-06-26T16:23:44.389818 #5588]  INFO -- : Submit the data failure!
+I, [2014-06-26T16:23:44.389887 #5588]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T16:23:45.448597 #5588]  INFO -- : Start processing the new email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526
+I, [2014-06-26T16:23:45.448806 #5588]  INFO -- : Starting to extract!
+I, [2014-06-26T16:23:45.448978 #5588]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T16:23:45.449093 #5588]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T16:23:45.449192 #5588]  INFO -- : Order status : shipped
+I, [2014-06-26T16:23:45.449843 #5588]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T16:23:45.478512 #5588]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T16:23:45.489228 #5588]  INFO -- : Extracted data : {"brand"=>"Hollister", "order_status"=>"shipped", "order_no"=>"30176657220140526", "order_date"=>"2014-05-26", "shipping_date"=>"2014-05-26", "subtotal"=>125.82, "tax"=>0.0, "total"=>125.82, "shipping"=>0.0, "items"=>[{"code"=>610750319, "price"=>11.98}, {"code"=>610750255, "price"=>11.98}, {"code"=>610580778, "price"=>13.98}, {"code"=>610750319, "price"=>11.98}, {"code"=>610750247, "price"=>11.98}, {"code"=>610883197, "price"=>19.98}, {"code"=>610750212, "price"=>11.98}, {"code"=>610750204, "price"=>11.98}, {"code"=>610883200, "price"=>19.98}], "tracking_no"=>"", "email"=>"[\"xxkyh@hotmail.com\"]"}
+I, [2014-06-26T16:23:45.489503 #5588]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T16:23:45.549889 #5588] ERROR -- : Got error: 422 Unprocessable Entity: Email not found  when submit the data to api 
+I, [2014-06-26T16:23:45.550183 #5588]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T16:23:45.550265 #5588]  INFO -- : Got Response bodd:  Email not found
+I, [2014-06-26T16:23:45.550346 #5588]  INFO -- : Submit the data failure!
+I, [2014-06-26T16:23:45.550431 #5588]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T16:23:46.863037 #5588]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation
+I, [2014-06-26T16:23:46.863199 #5588]  INFO -- : Starting to extract!
+I, [2014-06-26T16:23:46.863350 #5588]  INFO -- : Subject : fwd: abercrombie & fitch order #20040982228 confirmation
+I, [2014-06-26T16:23:46.863421 #5588]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T16:23:46.863488 #5588]  INFO -- : Order status : ordered
+I, [2014-06-26T16:23:46.863812 #5588]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation is multipart type
+I, [2014-06-26T16:23:46.913139 #5588]  INFO -- : Process the website order!
+I, [2014-06-26T16:23:46.930110 #5588]  INFO -- : Extracted data : {"brand"=>"Abercrombie & Fitch", "order_status"=>"ordered", "order_no"=>"20040982228", "order_date"=>"2014-06-03", "subtotal"=>334.4, "total"=>334.4, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>610490051, "price"=>28.0}, {"code"=>610490051, "price"=>28.0}, {"code"=>610757211, "price"=>33.6}, {"code"=>610761253, "price"=>33.6}, {"code"=>611120765, "price"=>12.0}, {"code"=>611120765, "price"=>12.0}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}], "email"=>"[\"shuangling.zhang@gmail.com\"]"}
+I, [2014-06-26T16:23:46.930292 #5588]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T16:23:46.998066 #5588] ERROR -- : Got error: 422 Unprocessable Entity: Email not found  when submit the data to api 
+I, [2014-06-26T16:23:46.998247 #5588]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T16:23:46.998334 #5588]  INFO -- : Got Response bodd:  Email not found
+I, [2014-06-26T16:23:46.998420 #5588]  INFO -- : Submit the data failure!
+I, [2014-06-26T16:23:46.998503 #5588]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T16:23:48.088431 #5588]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped
+I, [2014-06-26T16:23:48.088652 #5588]  INFO -- : Starting to extract!
+I, [2014-06-26T16:23:48.088827 #5588]  INFO -- : Subject : fwd: abercrombie & fitch order #20040774569 has shipped
+I, [2014-06-26T16:23:48.088899 #5588]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T16:23:48.088968 #5588]  INFO -- : Order status : shipped
+I, [2014-06-26T16:23:48.089307 #5588]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped is multipart type
+I, [2014-06-26T16:23:48.166318 #5588]  INFO -- : Process the website order!
+I, [2014-06-26T16:23:48.196061 #5588]  INFO -- : Extracted data : {"brand"=>"Abercrombie & Fitch", "order_status"=>"shipped", "order_no"=>"20040774569", "order_date"=>"2014-06-01", "shipping_date"=>"2014-06-02", "subtotal"=>336.0, "total"=>336.0, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>611825950, "price"=>29.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490035, "price"=>26.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>610757220, "price"=>31.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>611825950, "price"=>29.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>610757220, "price"=>31.5}, {"code"=>610490035, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}], "tracking_no"=>"", "email"=>"[\"zhan3991@umn.edu\"]"}
+I, [2014-06-26T16:23:48.196213 #5588]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T16:23:48.279002 #5588] ERROR -- : Got error: 422 Unprocessable Entity: Email not found  when submit the data to api 
+I, [2014-06-26T16:23:48.279213 #5588]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T16:23:48.279281 #5588]  INFO -- : Got Response bodd:  Email not found
+I, [2014-06-26T16:23:48.279738 #5588]  INFO -- : Submit the data failure!
+I, [2014-06-26T16:23:48.279849 #5588]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T16:31:07.416633 #5690]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T16:31:07.418084 #5690]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T16:31:08.428206 #5690]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T16:31:08.428367 #5690]  INFO -- : Starting to extract!
+I, [2014-06-26T16:31:08.428551 #5690]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T16:31:08.428629 #5690]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T16:31:08.428695 #5690]  INFO -- : Order status : shipped
+I, [2014-06-26T16:31:08.428976 #5690]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T16:31:08.462786 #5690]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T16:31:08.470269 #5690]  INFO -- : Extracted data : {"brand"=>"Abercrombie & Fitch", "order_status"=>"shipped", "order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}], "tracking_no"=>"", "email"=>"xxkyh@hotmail.com"}
+I, [2014-06-26T16:31:08.470478 #5690]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T16:31:08.975495 #5690] ERROR -- : Got error: 422 Unprocessable Entity: Email not found  when submit the data to api 
+I, [2014-06-26T16:31:08.975641 #5690]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T16:31:08.975713 #5690]  INFO -- : Got Response bodd:  Email not found
+I, [2014-06-26T16:31:08.975785 #5690]  INFO -- : Submit the data failure!
+I, [2014-06-26T16:31:08.975849 #5690]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T16:31:10.494858 #5690]  INFO -- : Start processing the new email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526
+I, [2014-06-26T16:31:10.495030 #5690]  INFO -- : Starting to extract!
+I, [2014-06-26T16:31:10.495234 #5690]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T16:31:10.495312 #5690]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T16:31:10.495378 #5690]  INFO -- : Order status : shipped
+I, [2014-06-26T16:31:10.496084 #5690]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T16:31:10.513904 #5690]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T16:31:10.518918 #5690]  INFO -- : Extracted data : {"brand"=>"Hollister", "order_status"=>"shipped", "order_no"=>"30176657220140526", "order_date"=>"2014-05-26", "shipping_date"=>"2014-05-26", "subtotal"=>125.82, "tax"=>0.0, "total"=>125.82, "shipping"=>0.0, "items"=>[{"code"=>610750319, "price"=>11.98}, {"code"=>610750255, "price"=>11.98}, {"code"=>610580778, "price"=>13.98}, {"code"=>610750319, "price"=>11.98}, {"code"=>610750247, "price"=>11.98}, {"code"=>610883197, "price"=>19.98}, {"code"=>610750212, "price"=>11.98}, {"code"=>610750204, "price"=>11.98}, {"code"=>610883200, "price"=>19.98}], "tracking_no"=>"", "email"=>"xxkyh@hotmail.com"}
+I, [2014-06-26T16:31:10.519053 #5690]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T16:31:10.569362 #5690] ERROR -- : Got error: 422 Unprocessable Entity: Email not found  when submit the data to api 
+I, [2014-06-26T16:31:10.569545 #5690]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T16:31:10.569668 #5690]  INFO -- : Got Response bodd:  Email not found
+I, [2014-06-26T16:31:10.569753 #5690]  INFO -- : Submit the data failure!
+I, [2014-06-26T16:31:10.569843 #5690]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T16:31:11.672788 #5690]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation
+I, [2014-06-26T16:31:11.672956 #5690]  INFO -- : Starting to extract!
+I, [2014-06-26T16:31:11.673093 #5690]  INFO -- : Subject : fwd: abercrombie & fitch order #20040982228 confirmation
+I, [2014-06-26T16:31:11.673162 #5690]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T16:31:11.673228 #5690]  INFO -- : Order status : ordered
+I, [2014-06-26T16:31:11.673495 #5690]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation is multipart type
+I, [2014-06-26T16:31:11.721470 #5690]  INFO -- : Process the website order!
+I, [2014-06-26T16:31:11.741310 #5690]  INFO -- : Extracted data : {"brand"=>"Abercrombie & Fitch", "order_status"=>"ordered", "order_no"=>"20040982228", "order_date"=>"2014-06-03", "subtotal"=>334.4, "total"=>334.4, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>610490051, "price"=>28.0}, {"code"=>610490051, "price"=>28.0}, {"code"=>610757211, "price"=>33.6}, {"code"=>610761253, "price"=>33.6}, {"code"=>611120765, "price"=>12.0}, {"code"=>611120765, "price"=>12.0}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}], "email"=>"shuangling.zhang@gmail.com"}
+I, [2014-06-26T16:31:11.741492 #5690]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T16:31:11.805909 #5690] ERROR -- : Got error: 422 Unprocessable Entity: Email not found  when submit the data to api 
+I, [2014-06-26T16:31:11.806059 #5690]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T16:31:11.806204 #5690]  INFO -- : Got Response bodd:  Email not found
+I, [2014-06-26T16:31:11.806272 #5690]  INFO -- : Submit the data failure!
+I, [2014-06-26T16:31:11.806336 #5690]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T16:31:12.832550 #5690]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped
+I, [2014-06-26T16:31:12.832903 #5690]  INFO -- : Starting to extract!
+I, [2014-06-26T16:31:12.833082 #5690]  INFO -- : Subject : fwd: abercrombie & fitch order #20040774569 has shipped
+I, [2014-06-26T16:31:12.833156 #5690]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T16:31:12.833223 #5690]  INFO -- : Order status : shipped
+I, [2014-06-26T16:31:12.833537 #5690]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped is multipart type
+I, [2014-06-26T16:31:12.882399 #5690]  INFO -- : Process the website order!
+I, [2014-06-26T16:31:12.900506 #5690]  INFO -- : Extracted data : {"brand"=>"Abercrombie & Fitch", "order_status"=>"shipped", "order_no"=>"20040774569", "order_date"=>"2014-06-01", "shipping_date"=>"2014-06-02", "subtotal"=>336.0, "total"=>336.0, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>611825950, "price"=>29.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490035, "price"=>26.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>610757220, "price"=>31.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>611825950, "price"=>29.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>610757220, "price"=>31.5}, {"code"=>610490035, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}], "tracking_no"=>"", "email"=>"zhan3991@umn.edu"}
+I, [2014-06-26T16:31:12.900680 #5690]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T16:31:12.956695 #5690] ERROR -- : Got error: 422 Unprocessable Entity: Email not found  when submit the data to api 
+I, [2014-06-26T16:31:12.956871 #5690]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T16:31:12.956958 #5690]  INFO -- : Got Response bodd:  Email not found
+I, [2014-06-26T16:31:12.957045 #5690]  INFO -- : Submit the data failure!
+I, [2014-06-26T16:31:12.957127 #5690]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T16:46:06.739909 #5870]  INFO -- : Loading the property file property.yml
+I, [2014-06-26T16:46:06.741089 #5870]  INFO -- : Username :kangyihong001@gmail.com, Password :831218xx, Mailbox: test, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-26T16:46:07.441529 #5870]  INFO -- : Start processing the new email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531
+I, [2014-06-26T16:46:07.441675 #5870]  INFO -- : Starting to extract!
+I, [2014-06-26T16:46:07.441824 #5870]  INFO -- : Subject : fw: your e-receipt from abercrombie & fitch, ross park order #10667201420140531
+I, [2014-06-26T16:46:07.441900 #5870]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T16:46:07.441966 #5870]  INFO -- : Order status : shipped
+I, [2014-06-26T16:46:07.442257 #5870]  INFO -- : Email : Fw: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667201420140531 is multipart type
+I, [2014-06-26T16:46:07.473634 #5870]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T16:46:07.480622 #5870]  INFO -- : Extracted data : {"brand"=>"Abercrombie & Fitch", "order_status"=>"shipped", "order_no"=>"10667201420140531", "order_date"=>"2014-05-31", "shipping_date"=>"2014-05-31", "subtotal"=>161.23, "tax"=>0.0, "total"=>161.23, "shipping"=>0.0, "items"=>[{"code"=>611825870, "price"=>29.25}, {"code"=>610896191, "price"=>21.74}, {"code"=>611129583, "price"=>29.99}, {"code"=>611825925, "price"=>29.25}, {"code"=>611826004, "price"=>29.25}, {"code"=>610896191, "price"=>21.75}], "tracking_no"=>"", "email"=>"xxkyh@hotmail.com"}
+I, [2014-06-26T16:46:07.480787 #5870]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T16:46:07.956238 #5870] ERROR -- : Got error: 422 Unprocessable Entity: Email not found  when submit the data to api 
+I, [2014-06-26T16:46:07.956409 #5870]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T16:46:07.956485 #5870]  INFO -- : Got Response body:  Email not found
+I, [2014-06-26T16:46:07.956580 #5870]  INFO -- : Submit the data failure!
+I, [2014-06-26T16:46:07.956662 #5870]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T16:46:09.059200 #5870]  INFO -- : Start processing the new email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526
+I, [2014-06-26T16:46:09.059374 #5870]  INFO -- : Starting to extract!
+I, [2014-06-26T16:46:09.059519 #5870]  INFO -- : Subject : fw: your e-receipt from hollister co., ross park order #30176657220140526
+I, [2014-06-26T16:46:09.059643 #5870]  INFO -- : Brand Name is :Hollister
+I, [2014-06-26T16:46:09.059709 #5870]  INFO -- : Order status : shipped
+I, [2014-06-26T16:46:09.060241 #5870]  INFO -- : Email : FW: Your E-Receipt from Hollister Co., Ross Park Order #30176657220140526 is html
+I, [2014-06-26T16:46:09.076423 #5870]  INFO -- : Proces the Ereceipt!
+I, [2014-06-26T16:46:09.082958 #5870]  INFO -- : Extracted data : {"brand"=>"Hollister", "order_status"=>"shipped", "order_no"=>"30176657220140526", "order_date"=>"2014-05-26", "shipping_date"=>"2014-05-26", "subtotal"=>125.82, "tax"=>0.0, "total"=>125.82, "shipping"=>0.0, "items"=>[{"code"=>610750319, "price"=>11.98}, {"code"=>610750255, "price"=>11.98}, {"code"=>610580778, "price"=>13.98}, {"code"=>610750319, "price"=>11.98}, {"code"=>610750247, "price"=>11.98}, {"code"=>610883197, "price"=>19.98}, {"code"=>610750212, "price"=>11.98}, {"code"=>610750204, "price"=>11.98}, {"code"=>610883200, "price"=>19.98}], "tracking_no"=>"", "email"=>"xxkyh@hotmail.com"}
+I, [2014-06-26T16:46:09.083095 #5870]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T16:46:09.132399 #5870] ERROR -- : Got error: 422 Unprocessable Entity: Email not found  when submit the data to api 
+I, [2014-06-26T16:46:09.132691 #5870]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T16:46:09.132783 #5870]  INFO -- : Got Response body:  Email not found
+I, [2014-06-26T16:46:09.132869 #5870]  INFO -- : Submit the data failure!
+I, [2014-06-26T16:46:09.132951 #5870]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T16:46:10.128846 #5870]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation
+I, [2014-06-26T16:46:10.129001 #5870]  INFO -- : Starting to extract!
+I, [2014-06-26T16:46:10.129141 #5870]  INFO -- : Subject : fwd: abercrombie & fitch order #20040982228 confirmation
+I, [2014-06-26T16:46:10.129209 #5870]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T16:46:10.129275 #5870]  INFO -- : Order status : ordered
+I, [2014-06-26T16:46:10.129864 #5870]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040982228 Confirmation is multipart type
+I, [2014-06-26T16:46:10.178854 #5870]  INFO -- : Process the website order!
+I, [2014-06-26T16:46:10.197240 #5870]  INFO -- : Extracted data : {"brand"=>"Abercrombie & Fitch", "order_status"=>"ordered", "order_no"=>"20040982228", "order_date"=>"2014-06-03", "subtotal"=>334.4, "total"=>334.4, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>610490051, "price"=>28.0}, {"code"=>610490051, "price"=>28.0}, {"code"=>610757211, "price"=>33.6}, {"code"=>610761253, "price"=>33.6}, {"code"=>611120765, "price"=>12.0}, {"code"=>611120765, "price"=>12.0}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825941, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825950, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}, {"code"=>611825984, "price"=>31.2}], "email"=>"shuangling.zhang@gmail.com"}
+I, [2014-06-26T16:46:10.197424 #5870]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T16:46:10.310870 #5870] ERROR -- : Got error: 422 Unprocessable Entity: Email not found  when submit the data to api 
+I, [2014-06-26T16:46:10.311050 #5870]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T16:46:10.311135 #5870]  INFO -- : Got Response body:  Email not found
+I, [2014-06-26T16:46:10.311221 #5870]  INFO -- : Submit the data failure!
+I, [2014-06-26T16:46:10.311304 #5870]  INFO -- : Sending one error notification to Admin!
+I, [2014-06-26T16:46:11.701306 #5870]  INFO -- : Start processing the new email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped
+I, [2014-06-26T16:46:11.701454 #5870]  INFO -- : Starting to extract!
+I, [2014-06-26T16:46:11.701619 #5870]  INFO -- : Subject : fwd: abercrombie & fitch order #20040774569 has shipped
+I, [2014-06-26T16:46:11.701687 #5870]  INFO -- : Brand Name is :Abercrombie & Fitch
+I, [2014-06-26T16:46:11.701752 #5870]  INFO -- : Order status : shipped
+I, [2014-06-26T16:46:11.702056 #5870]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20040774569 Has Shipped is multipart type
+I, [2014-06-26T16:46:11.748494 #5870]  INFO -- : Process the website order!
+I, [2014-06-26T16:46:11.768778 #5870]  INFO -- : Extracted data : {"brand"=>"Abercrombie & Fitch", "order_status"=>"shipped", "order_no"=>"20040774569", "order_date"=>"2014-06-01", "shipping_date"=>"2014-06-02", "subtotal"=>336.0, "total"=>336.0, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>611825950, "price"=>29.25}, {"code"=>610490131, "price"=>26.25}, {"code"=>610490035, "price"=>26.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>610757220, "price"=>31.5}, {"code"=>611825933, "price"=>29.25}, {"code"=>611825950, "price"=>29.25}, {"code"=>610674029, "price"=>25.5}, {"code"=>610757220, "price"=>31.5}, {"code"=>610490035, "price"=>26.25}, {"code"=>610490131, "price"=>26.25}], "tracking_no"=>"", "email"=>"zhan3991@umn.edu"}
+I, [2014-06-26T16:46:11.768924 #5870]  INFO -- : Extracted the correct data and starting to submit to the database
+E, [2014-06-26T16:46:11.818448 #5870] ERROR -- : Got error: 422 Unprocessable Entity: Email not found  when submit the data to api 
+I, [2014-06-26T16:46:11.818713 #5870]  INFO -- : Got ResponseStatus: 422 Unprocessable Entity
+I, [2014-06-26T16:46:11.818826 #5870]  INFO -- : Got Response body:  Email not found
+I, [2014-06-26T16:46:11.818925 #5870]  INFO -- : Submit the data failure!
+I, [2014-06-26T16:46:11.819021 #5870]  INFO -- : Sending one error notification to Admin!

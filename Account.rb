@@ -7,7 +7,7 @@ module EmailProcessor
  include Log
 
 	class Account
-		@@imap
+		  @imap
               attr_reader :username
               attr_reader :password		 
 

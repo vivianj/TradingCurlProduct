@@ -1,0 +1,1188 @@
+# Logfile created on 2014-06-22 12:26:38 -0400 by logger.rb/44203
+I, [2014-06-22T12:26:38.986972 #1135]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T12:26:39.024453 #1135]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T12:32:21.807317 #1178]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T12:32:21.808237 #1178]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T12:33:14.690308 #1214]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T12:33:14.691068 #1214]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T12:34:47.126726 #1252]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T12:34:47.127438 #1252]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T12:38:53.347041 #1291]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T12:38:53.347769 #1291]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T12:38:54.615323 #1291]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross ParkOrder #10667794020140503Order #10667794020140503 is html
+I, [2014-06-22T12:41:01.793704 #1331]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T12:41:01.794451 #1331]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T12:41:02.956725 #1331]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross ParkOrder #10667794020140503Order #10667794020140503 is html
+I, [2014-06-22T12:45:09.307584 #1442]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T12:45:09.308345 #1442]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T12:45:10.567369 #1442]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross ParkOrder #10667794020140503Order #10667794020140503 is html
+I, [2014-06-22T12:54:48.738548 #1523]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T12:54:48.739284 #1523]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T12:54:49.922153 #1523]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross ParkOrder #10667794020140503Order #10667794020140503 is html
+I, [2014-06-22T12:54:49.945048 #1523]  INFO -- : Order status is : shipped
+I, [2014-06-22T12:57:35.926924 #1590]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T12:57:35.927733 #1590]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T12:57:36.632916 #1590]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross ParkOrder #10667794020140503Order #10667794020140503 is html
+I, [2014-06-22T12:57:36.647276 #1590]  INFO -- : Order status is : shipped
+I, [2014-06-22T12:57:36.647428 #1590]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T12:58:52.545063 #1627]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T12:58:52.545858 #1627]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T12:58:53.252561 #1627]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross ParkOrder #10667794020140503Order #10667794020140503 is html
+I, [2014-06-22T12:58:53.267105 #1627]  INFO -- : Order status is : shipped
+I, [2014-06-22T12:58:53.267283 #1627]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T13:01:16.434046 #1666]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T13:01:16.434832 #1666]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T13:01:17.600685 #1666]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross ParkOrder #10667794020140503Order #10667794020140503 is html
+I, [2014-06-22T13:01:17.615937 #1666]  INFO -- : Order status is : shipped
+I, [2014-06-22T13:01:17.616143 #1666]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T13:34:31.381437 #1809]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T13:34:31.382235 #1809]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T13:34:32.483765 #1809]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross ParkOrder #10667794020140503Order #10667794020140503 is html
+I, [2014-06-22T13:34:32.499629 #1809]  INFO -- : Order status is : shipped
+I, [2014-06-22T13:34:32.499788 #1809]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T13:34:59.396188 #1845]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T13:34:59.396942 #1845]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T13:35:00.029805 #1845]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross ParkOrder #10667794020140503Order #10667794020140503 is html
+I, [2014-06-22T13:35:00.044523 #1845]  INFO -- : Order status is : shipped
+I, [2014-06-22T13:35:00.044671 #1845]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T13:35:00.458498 #1845]  INFO -- : DestFolder is : shipped
+I, [2014-06-22T13:37:16.774398 #1883]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T13:37:16.775137 #1883]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T13:37:17.865910 #1883]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross ParkOrder #10667794020140503Order #10667794020140503 is html
+I, [2014-06-22T13:37:17.883130 #1883]  INFO -- : Order status is : shipped
+I, [2014-06-22T13:37:17.883277 #1883]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T13:37:18.062052 #1883]  INFO -- : DestFolder is : 
+I, [2014-06-22T13:37:18.065330 #1883]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-03","shipping_date":"2014-05-03","total":65.55,"subtotal":63.0,"tax":0.0,"shipping":0.0,"items":[{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55}],"order_status":"shipped","brand":"Abercrombie & Fitch","email":"[\"abercrombie@abercrombie-email.com\"]"}
+E, [2014-06-22T13:37:18.065516 #1883] ERROR -- : orderId: #<NameError: undefined local variable or method `responseUrl' for EmailProcessor:Module>
+I, [2014-06-22T13:46:10.542833 #1933]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T13:46:10.543572 #1933]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T13:46:11.267077 #1933]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross ParkOrder #10667794020140503Order #10667794020140503 is html
+I, [2014-06-22T13:46:11.283807 #1933]  INFO -- : Order status is : shipped
+I, [2014-06-22T13:46:11.283989 #1933]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T13:46:11.284076 #1933]  INFO -- : cleaned brand name is 
+I, [2014-06-22T13:46:11.498684 #1933]  INFO -- : DestFolder is : 
+I, [2014-06-22T13:46:11.501967 #1933]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-03","shipping_date":"2014-05-03","total":65.55,"subtotal":63.0,"tax":0.0,"shipping":0.0,"items":[{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55}],"order_status":"shipped","brand":"Abercrombie & Fitch","email":"[\"abercrombie@abercrombie-email.com\"]"}
+E, [2014-06-22T13:46:11.502148 #1933] ERROR -- : orderId: #<NameError: undefined local variable or method `responseUrl' for EmailProcessor:Module>
+I, [2014-06-22T13:47:22.947336 #1972]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T13:47:22.948113 #1972]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T13:47:23.641320 #1972]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross ParkOrder #10667794020140503Order #10667794020140503 is html
+I, [2014-06-22T13:47:23.656291 #1972]  INFO -- : Order status is : shipped
+I, [2014-06-22T13:47:23.656496 #1972]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T13:47:23.656588 #1972]  INFO -- : cleaned brand name is 
+I, [2014-06-22T13:47:23.827293 #1972]  INFO -- : DestFolder is : 
+I, [2014-06-22T13:47:23.830986 #1972]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-03","shipping_date":"2014-05-03","total":65.55,"subtotal":63.0,"tax":0.0,"shipping":0.0,"items":[{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55}],"order_status":"shipped","brand":"Abercrombie & Fitch","email":"[\"abercrombie@abercrombie-email.com\"]"}
+E, [2014-06-22T13:47:23.831187 #1972] ERROR -- : orderId: #<NameError: undefined local variable or method `responseUrl' for EmailProcessor:Module>
+I, [2014-06-22T13:47:23.831466 #1972]  INFO -- : Response : #<NameError: undefined local variable or method `responseUrl' for EmailProcessor:Module>
+I, [2014-06-22T13:48:53.278599 #2010]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T13:48:53.279353 #2010]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T13:48:53.995692 #2010]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross ParkOrder #10667794020140503Order #10667794020140503 is html
+I, [2014-06-22T13:48:54.010368 #2010]  INFO -- : Order status is : shipped
+I, [2014-06-22T13:48:54.010542 #2010]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T13:48:54.010632 #2010]  INFO -- : cleaned brand name is 
+I, [2014-06-22T13:48:54.200788 #2010]  INFO -- : DestFolder is : 
+I, [2014-06-22T13:48:54.204188 #2010]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-03","shipping_date":"2014-05-03","total":65.55,"subtotal":63.0,"tax":0.0,"shipping":0.0,"items":[{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55}],"order_status":"shipped","brand":"Abercrombie & Fitch","email":"[\"abercrombie@abercrombie-email.com\"]"}
+E, [2014-06-22T13:48:54.333194 #2010] ERROR -- : orderId: 422 Unprocessable Entity: Brand not found
+I, [2014-06-22T13:48:54.333514 #2010]  INFO -- : Response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-22T14:11:31.688032 #2382]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T14:11:31.688802 #2382]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T14:11:33.020305 #2382]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T14:11:33.120474 #2382]  INFO -- : Order status is : shipped
+I, [2014-06-22T14:11:33.120635 #2382]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T14:11:33.120722 #2382]  INFO -- : cleaned brand name is AbercrombieFitch
+I, [2014-06-22T14:11:33.409339 #2382]  INFO -- : DestFolder is : AbercrombieFitch/shipped
+I, [2014-06-22T14:11:33.413016 #2382]  INFO -- : Submit data to responseurl : {"order_no":"20032517082","order_date":"2014-02-27","shipping_date":"2014-02-27","subtotal":306.8,"total":306.8,"tax":0.0,"shipping":0.0,"items":[{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0}],"order_status":"shipped","brand":"AbercrombieFitch","email":"[\"kangyihong001@gmail.com\"]"}
+E, [2014-06-22T14:11:33.528711 #2382] ERROR -- : orderId: 20032517082422 Unprocessable Entity: Brand not found
+I, [2014-06-22T14:11:33.529183 #2382]  INFO -- : Response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-22T14:13:27.741135 #2421]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T14:13:27.741879 #2421]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T14:13:28.888462 #2421]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T14:13:28.982099 #2421]  INFO -- : Order status is : shipped
+I, [2014-06-22T14:13:28.982276 #2421]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T14:13:28.982371 #2421]  INFO -- : cleaned brand name is AbercrombieFitch
+I, [2014-06-22T14:21:30.562345 #2462]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T14:21:30.563089 #2462]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T14:21:32.466380 #2462]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T14:21:32.575244 #2462]  INFO -- : Order status is : shipped
+I, [2014-06-22T14:21:32.575406 #2462]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T14:21:32.575499 #2462]  INFO -- : cleaned brand name is AbercrombieFitch
+I, [2014-06-22T14:21:32.900645 #2462]  INFO -- : DestFolder is : AbercrombieFitch\/shipped
+I, [2014-06-22T14:21:32.904147 #2462]  INFO -- : Submit data to responseurl : {"order_no":"20032517082","order_date":"2014-02-27","shipping_date":"2014-02-27","subtotal":306.8,"total":306.8,"tax":0.0,"shipping":0.0,"items":[{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0}],"order_status":"shipped","brand":"AbercrombieFitch","email":"[\"kangyihong001@gmail.com\"]"}
+E, [2014-06-22T14:21:33.429326 #2462] ERROR -- : orderId: 20032517082422 Unprocessable Entity: Brand not found
+I, [2014-06-22T14:21:33.429720 #2462]  INFO -- : Response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-22T14:27:36.084217 #2581]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T14:27:36.085004 #2581]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T14:27:37.347182 #2581]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T14:27:37.460716 #2581]  INFO -- : Order status is : shipped
+I, [2014-06-22T14:27:37.460874 #2581]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T14:27:37.460962 #2581]  INFO -- : cleaned brand name is AbercrombieFitch
+I, [2014-06-22T14:27:37.744360 #2581]  INFO -- : DestFolder is : AbercrombieFitch/shipped
+I, [2014-06-22T14:27:37.746990 #2581]  INFO -- : Submit data to responseurl : {"order_no":"20032517082","order_date":"2014-02-27","shipping_date":"2014-02-27","subtotal":306.8,"total":306.8,"tax":0.0,"shipping":0.0,"items":[{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0}],"order_status":"shipped","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
+E, [2014-06-22T14:27:38.176090 #2581] ERROR -- : orderId: 20032517082422 Unprocessable Entity: Brand not found
+I, [2014-06-22T14:27:38.176743 #2581]  INFO -- : Response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-22T14:30:36.918875 #2623]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T14:30:36.919667 #2623]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T14:32:30.467081 #2663]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T14:32:30.467879 #2663]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T14:34:01.079203 #2702]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T14:34:01.080482 #2702]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T14:35:32.529736 #2739]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T14:35:32.530586 #2739]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T14:41:29.515845 #2780]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T14:41:29.516859 #2780]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T14:41:30.678034 #2780]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T14:41:30.770346 #2780]  INFO -- : Order status is : shipped
+I, [2014-06-22T14:41:30.770509 #2780]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T14:41:30.770610 #2780]  INFO -- : cleaned brand name is AbercrombieFitch
+I, [2014-06-22T14:42:40.177416 #2818]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T14:42:40.178597 #2818]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T14:42:40.927840 #2818]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T14:42:41.020475 #2818]  INFO -- : Order status is : shipped
+I, [2014-06-22T14:42:41.020636 #2818]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T14:42:41.020735 #2818]  INFO -- : cleaned brand name is AbercrombieFitch
+I, [2014-06-22T14:42:41.291326 #2818]  INFO -- : DestFolder is : AbercrombieFitch/shipped
+I, [2014-06-22T14:43:18.240233 #2855]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T14:43:18.241037 #2855]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T14:43:19.370203 #2855]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T14:43:19.464533 #2855]  INFO -- : Order status is : shipped
+I, [2014-06-22T14:43:19.464697 #2855]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T14:43:19.464787 #2855]  INFO -- : cleaned brand name is AbercrombieFitch
+I, [2014-06-22T14:44:41.220846 #2891]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T14:44:41.221705 #2891]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T14:44:41.986008 #2891]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T14:44:42.079655 #2891]  INFO -- : Order status is : shipped
+I, [2014-06-22T14:44:42.079843 #2891]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T14:44:42.079934 #2891]  INFO -- : cleaned brand name is AbercrombieFitch
+I, [2014-06-22T14:45:29.515717 #2928]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T14:45:29.516690 #2928]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T14:45:31.399047 #2928]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T14:45:31.496925 #2928]  INFO -- : Order status is : shipped
+I, [2014-06-22T14:45:31.497458 #2928]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T14:45:31.497557 #2928]  INFO -- : cleaned brand name is AbercrombieFitch
+I, [2014-06-22T14:45:31.750527 #2928]  INFO -- : DestFolder is : AbercrombieFitch/shipped
+I, [2014-06-22T14:45:31.753652 #2928]  INFO -- : Submit data to responseurl : {"order_no":"20032517082","order_date":"2014-02-27","shipping_date":"2014-02-27","subtotal":306.8,"total":306.8,"tax":0.0,"shipping":0.0,"items":[{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0}],"order_status":"shipped","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
+E, [2014-06-22T14:45:31.753846 #2928] ERROR -- : orderId: 20032517082#<NameError: undefined local variable or method `responseUrl' for EmailProcessor:Module>
+I, [2014-06-22T14:46:49.858058 #3008]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T14:46:49.858989 #3008]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T14:46:51.106480 #3008]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T14:46:51.202949 #3008]  INFO -- : Order status is : shipped
+I, [2014-06-22T14:46:51.203112 #3008]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T14:46:51.203226 #3008]  INFO -- : cleaned brand name is AbercrombieFitch
+I, [2014-06-22T14:48:17.922797 #3047]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T14:48:17.923543 #3047]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T14:48:19.041650 #3047]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T14:48:19.140178 #3047]  INFO -- : Order status is : shipped
+I, [2014-06-22T14:48:19.140342 #3047]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T14:48:19.140435 #3047]  INFO -- : cleaned brand name is AbercrombieFitch
+I, [2014-06-22T14:48:19.406535 #3047]  INFO -- : DestFolder is : AbercrombieFitch/shipped
+I, [2014-06-22T14:48:19.409115 #3047]  INFO -- : Submit data to responseurl : {"order_no":"20032517082","order_date":"2014-02-27","shipping_date":"2014-02-27","subtotal":306.8,"total":306.8,"tax":0.0,"shipping":0.0,"items":[{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0}],"order_status":"shipped","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
+E, [2014-06-22T14:48:19.915869 #3047] ERROR -- : orderId: 20032517082422 Unprocessable Entity: Brand not found
+I, [2014-06-22T14:50:22.650240 #3086]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T14:50:22.651034 #3086]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T14:50:23.449139 #3086]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T14:50:23.549499 #3086]  INFO -- : Order status is : shipped
+I, [2014-06-22T14:50:23.549662 #3086]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T14:50:23.549796 #3086]  INFO -- : cleaned brand name is AbercrombieFitch
+I, [2014-06-22T14:52:16.018845 #3124]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T14:52:16.019664 #3124]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T14:52:17.336707 #3124]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T14:52:17.431309 #3124]  INFO -- : Order status is : shipped
+I, [2014-06-22T14:52:17.431521 #3124]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T14:52:17.431663 #3124]  INFO -- : cleaned brand name is AbercrombieFitch
+I, [2014-06-22T14:52:50.720669 #3161]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T14:52:50.721466 #3161]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T14:52:51.718505 #3161]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T14:52:51.811628 #3161]  INFO -- : Order status is : shipped
+I, [2014-06-22T14:52:51.811825 #3161]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T14:52:51.811920 #3161]  INFO -- : cleaned brand name is AbercrombieFitch
+I, [2014-06-22T14:52:52.216854 #3161]  INFO -- : DestFolder is : AbercrombieFitch/shipped
+I, [2014-06-22T14:52:52.219987 #3161]  INFO -- : Submit data to responseurl : {"order_no":"20032517082","order_date":"2014-02-27","shipping_date":"2014-02-27","subtotal":306.8,"total":306.8,"tax":0.0,"shipping":0.0,"items":[{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0}],"order_status":"shipped","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
+E, [2014-06-22T14:52:52.757643 #3161] ERROR -- : orderId: 20032517082422 Unprocessable Entity: Brand not found
+I, [2014-06-22T14:52:52.758126 #3161]  INFO -- : response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-22T14:55:19.122728 #3199]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T14:55:19.123579 #3199]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T14:55:19.917977 #3199]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T14:55:20.015935 #3199]  INFO -- : Order status is : shipped
+I, [2014-06-22T14:55:20.016101 #3199]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T14:55:20.016210 #3199]  INFO -- : cleaned brand name is AbercrombieFitch
+I, [2014-06-22T14:56:21.220613 #3236]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T14:56:21.221367 #3236]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T14:56:21.965889 #3236]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T14:56:22.061226 #3236]  INFO -- : Order status is : shipped
+I, [2014-06-22T14:56:22.061387 #3236]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T14:56:22.061483 #3236]  INFO -- : cleaned brand name is AbercrombieFitch
+I, [2014-06-22T14:56:22.437504 #3236]  INFO -- : DestFolder is : AbercrombieFitch/shipped
+I, [2014-06-22T14:56:22.440176 #3236]  INFO -- : Submit data to responseurl : {"order_no":"20032517082","order_date":"2014-02-27","shipping_date":"2014-02-27","subtotal":306.8,"total":306.8,"tax":0.0,"shipping":0.0,"items":[{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0}],"order_status":"shipped","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
+E, [2014-06-22T14:56:22.494071 #3236] ERROR -- : orderId: 20032517082422 Unprocessable Entity: Brand not found
+I, [2014-06-22T14:56:22.494413 #3236]  INFO -- : response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-22T15:14:25.494001 #3297]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T15:14:25.529526 #3297]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T15:14:26.777350 #3297]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T15:14:26.887412 #3297]  INFO -- : Order status is : shipped
+I, [2014-06-22T15:14:26.887578 #3297]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T15:14:26.887676 #3297]  INFO -- : cleaned brand name is AbercrombieFitch
+I, [2014-06-22T15:14:27.253449 #3297]  INFO -- : DestFolder is : AbercrombieFitch/shipped
+I, [2014-06-22T15:14:27.276464 #3297]  INFO -- : Submit data to responseurl : {"order_no":"20032517082","order_date":"2014-02-27","shipping_date":"2014-02-27","subtotal":306.8,"total":306.8,"tax":0.0,"shipping":0.0,"items":[{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0}],"order_status":"shipped","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
+E, [2014-06-22T15:14:27.813243 #3297] ERROR -- : orderId: 20032517082422 Unprocessable Entity: Brand not found
+I, [2014-06-22T15:14:27.813671 #3297]  INFO -- : response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-22T15:16:58.399400 #3337]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T15:16:58.400157 #3337]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T15:16:59.197084 #3337]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T15:16:59.296400 #3337]  INFO -- : Order status is : shipped
+I, [2014-06-22T15:16:59.296569 #3337]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T15:16:59.296663 #3337]  INFO -- : cleaned brand name is AbercrombieFitch
+I, [2014-06-22T15:16:59.585678 #3337]  INFO -- : DestFolder is : AbercrombieFitch/shipped
+I, [2014-06-22T15:16:59.588701 #3337]  INFO -- : Submit data to responseurl : {"order_no":"20032517082","order_date":"2014-02-27","shipping_date":"2014-02-27","subtotal":306.8,"total":306.8,"tax":0.0,"shipping":0.0,"items":[{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0}],"order_status":"shipped","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
+I, [2014-06-22T15:19:26.816701 #3375]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T15:19:26.817584 #3375]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T15:19:27.961730 #3375]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T15:19:28.061112 #3375]  INFO -- : Order status is : shipped
+I, [2014-06-22T15:19:28.061280 #3375]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T15:19:28.061369 #3375]  INFO -- : cleaned brand name is AbercrombieFitch
+I, [2014-06-22T15:19:28.340656 #3375]  INFO -- : DestFolder is : AbercrombieFitch/shipped
+I, [2014-06-22T15:19:28.344271 #3375]  INFO -- : Submit data to responseurl : {"order_no":"20032517082","order_date":"2014-02-27","shipping_date":"2014-02-27","subtotal":306.8,"total":306.8,"tax":0.0,"shipping":0.0,"items":[{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0}],"order_status":"shipped","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
+E, [2014-06-22T15:19:28.399703 #3375] ERROR -- : orderId: 20032517082422 Unprocessable Entity
+I, [2014-06-22T15:19:28.400118 #3375]  INFO -- : response : 422 Unprocessable Entity
+I, [2014-06-22T15:20:57.338937 #3413]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T15:20:57.340055 #3413]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T15:20:58.544716 #3413]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T15:20:58.650875 #3413]  INFO -- : Order status is : shipped
+I, [2014-06-22T15:20:58.651032 #3413]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T15:20:58.651127 #3413]  INFO -- : cleaned brand name is AbercrombieFitch
+I, [2014-06-22T15:20:58.940452 #3413]  INFO -- : DestFolder is : AbercrombieFitch/shipped
+I, [2014-06-22T15:20:58.943796 #3413]  INFO -- : Submit data to responseurl : {"order_no":"20032517082","order_date":"2014-02-27","shipping_date":"2014-02-27","subtotal":306.8,"total":306.8,"tax":0.0,"shipping":0.0,"items":[{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0}],"order_status":"shipped","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
+E, [2014-06-22T15:20:59.004471 #3413] ERROR -- : orderId: 20032517082422 Unprocessable Entity
+I, [2014-06-22T15:20:59.005121 #3413]  INFO -- : response : 422 Unprocessable Entity
+I, [2014-06-22T15:23:44.778015 #3453]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T15:23:44.778940 #3453]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T15:23:46.646623 #3453]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T15:23:46.748105 #3453]  INFO -- : Order status is : shipped
+I, [2014-06-22T15:23:46.748269 #3453]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T15:23:46.748661 #3453]  INFO -- : cleaned brand name is AbercrombieFitch
+I, [2014-06-22T15:23:47.032096 #3453]  INFO -- : DestFolder is : AbercrombieFitch/shipped
+I, [2014-06-22T15:23:47.036229 #3453]  INFO -- : Submit data to responseurl : {"order_no":"20032517082","order_date":"2014-02-27","shipping_date":"2014-02-27","subtotal":306.8,"total":306.8,"tax":0.0,"shipping":0.0,"items":[{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0}],"order_status":"shipped","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
+E, [2014-06-22T15:23:47.576388 #3453] ERROR -- : orderId: 20032517082422 Unprocessable Entity
+I, [2014-06-22T15:23:47.576737 #3453]  INFO -- : response : 422 Unprocessable Entity
+I, [2014-06-22T20:49:39.662300 #3607]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T20:49:39.693149 #3607]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T20:49:41.063022 #3607]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T20:49:41.186300 #3607]  INFO -- : Order status is : shipped
+I, [2014-06-22T20:49:41.187315 #3607]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T20:49:41.189747 #3607]  INFO -- : Submit data to responseurl : {"order_no":"20032517082","order_date":"2014-02-27","shipping_date":"2014-02-27","subtotal":306.8,"total":306.8,"tax":0.0,"shipping":0.0,"items":[{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0}],"order_status":"shipped","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
+E, [2014-06-22T20:49:41.381081 #3607] ERROR -- : orderId: 20032517082422 Unprocessable Entity
+I, [2014-06-22T20:49:41.381389 #3607]  INFO -- : response : 422 Unprocessable Entity
+I, [2014-06-22T21:03:06.477629 #3737]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T21:03:06.478475 #3737]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T21:03:07.788866 #3737]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T21:03:07.902994 #3737]  INFO -- : Order status is : shipped
+I, [2014-06-22T21:03:07.903668 #3737]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T21:03:07.906326 #3737]  INFO -- : Submit data to responseurl : {"order_no":"20032517082","order_date":"2014-02-27","shipping_date":"2014-02-27","subtotal":306.8,"total":306.8,"tax":0.0,"shipping":0.0,"items":[{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
+E, [2014-06-22T21:03:08.427322 #3737] ERROR -- : orderId: 20032517082422 Unprocessable Entity
+I, [2014-06-22T21:03:08.427641 #3737]  INFO -- : response : 422 Unprocessable Entity
+I, [2014-06-22T21:09:08.103983 #3784]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T21:09:08.104883 #3784]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T21:09:09.435253 #3784]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T21:09:09.539952 #3784]  INFO -- : Order status is : shipped
+I, [2014-06-22T21:09:09.540114 #3784]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T21:09:09.542627 #3784]  INFO -- : Submit data to responseurl : {"order_no":"20032517082","order_date":"2014-02-27","shipping_date":"2014-02-27","subtotal":306.8,"total":306.8,"tax":0.0,"shipping":0.0,"items":[{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
+E, [2014-06-22T21:09:09.603890 #3784] ERROR -- : orderId: 20032517082422 Unprocessable Entity: Brand not found
+I, [2014-06-22T21:09:09.604276 #3784]  INFO -- : response : 422 Unprocessable Entity
+I, [2014-06-22T21:35:22.916908 #3863]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T21:35:22.927601 #3863]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T21:35:24.168343 #3863]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T21:35:24.275402 #3863]  INFO -- : Order status is : shipped
+I, [2014-06-22T21:35:24.275562 #3863]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T21:35:24.278297 #3863]  INFO -- : Submit data to responseurl : {"order_no":"20032517082","order_date":"2014-02-27","shipping_date":"2014-02-27","subtotal":306.8,"total":306.8,"tax":0.0,"shipping":0.0,"items":[{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
+E, [2014-06-22T21:35:24.434197 #3863] ERROR -- : orderId: 20032517082422 Unprocessable Entity
+I, [2014-06-22T21:35:24.434764 #3863]  INFO -- : response : 422 Unprocessable Entity
+I, [2014-06-22T21:36:52.340583 #3900]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T21:36:52.341431 #3900]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T21:36:53.104664 #3900]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T21:36:53.208632 #3900]  INFO -- : Order status is : shipped
+I, [2014-06-22T21:36:53.208813 #3900]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T21:36:53.211268 #3900]  INFO -- : Submit data to responseurl : {"order_no":"20032517082","order_date":"2014-02-27","shipping_date":"2014-02-27","subtotal":306.8,"total":306.8,"tax":0.0,"shipping":0.0,"items":[{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
+E, [2014-06-22T21:36:53.269975 #3900] ERROR -- : orderId: 20032517082422 Unprocessable Entity: Brand not found
+I, [2014-06-22T21:36:53.270375 #3900]  INFO -- : response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-22T21:39:59.017389 #3940]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T21:39:59.020691 #3940]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T21:40:00.180968 #3940]  INFO -- : Email : FWd:Fwd: Fw: Hollister Order #20038199099 Has Shipped is multipart type
+I, [2014-06-22T21:40:00.216440 #3940]  INFO -- : Order status is : shipped
+I, [2014-06-22T21:40:00.216601 #3940]  INFO -- : Brand name is : Hollister
+I, [2014-06-22T21:40:00.218753 #3940]  INFO -- : Submit data to responseurl : {"order_no":"20038199099","subtotal":183.94,"total":183.94,"tax":0.0,"shipping":0.0,"items":[],"order_status":"shipped","tracking_no":"","brand":"Hollister","email":"jiangyy12@gmail.com"}
+E, [2014-06-22T21:40:00.279547 #3940] ERROR -- : orderId: 20038199099422 Unprocessable Entity: Brand not found
+I, [2014-06-22T21:40:00.279945 #3940]  INFO -- : response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-22T21:44:49.348306 #3982]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T21:44:49.349135 #3982]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T21:44:50.591205 #3982]  INFO -- : Email : FWd:Fwd: Fw: Hollister Order #20038199099 Has Shipped is multipart type
+I, [2014-06-22T21:44:50.624736 #3982]  INFO -- : Order status is : shipped
+I, [2014-06-22T21:44:50.624897 #3982]  INFO -- : Brand name is : Hollister
+I, [2014-06-22T21:44:50.627040 #3982]  INFO -- : Submit data to responseurl : {"order_no":"20038199099","subtotal":183.94,"total":183.94,"tax":0.0,"shipping":0.0,"items":[],"order_status":"shipped","tracking_no":"","brand":"Hollister","email":"jiangyy12@gmail.com"}
+E, [2014-06-22T21:44:50.780132 #3982] ERROR -- : orderId: 20038199099422 Unprocessable Entity: Brand not found
+I, [2014-06-22T21:44:50.780405 #3982]  INFO -- : response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-22T21:47:54.620709 #4020]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T21:47:54.621558 #4020]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T21:47:55.427621 #4020]  INFO -- : Email : FWd:Fwd: Fw: Hollister Order #20038199099 Has Shipped is multipart type
+I, [2014-06-22T21:47:55.462038 #4020]  INFO -- : Order status is : shipped
+I, [2014-06-22T21:47:55.462204 #4020]  INFO -- : Brand name is : Hollister
+I, [2014-06-22T21:47:55.465838 #4020]  INFO -- : Submit data to responseurl : {"order_no":"20038199099","subtotal":183.94,"total":183.94,"tax":0.0,"shipping":0.0,"items":[],"order_status":"shipped","tracking_no":"","brand":"Hollister","email":"jiangyy12@gmail.com"}
+E, [2014-06-22T21:47:55.521188 #4020] ERROR -- : orderId: 20038199099422 Unprocessable Entity: Brand not found
+I, [2014-06-22T21:47:55.521509 #4020]  INFO -- : response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-22T21:50:42.657686 #4058]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T21:50:42.658480 #4058]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T21:50:43.833144 #4058]  INFO -- : Email : FWd:Fwd: Fw: Hollister Order #20038199099 Has Shipped is multipart type
+I, [2014-06-22T21:50:43.869167 #4058]  INFO -- : Order status is : shipped
+I, [2014-06-22T21:50:43.869326 #4058]  INFO -- : Brand name is : Hollister
+I, [2014-06-22T21:50:43.871454 #4058]  INFO -- : Submit data to responseurl : {"order_no":"20038199099","subtotal":183.94,"total":183.94,"tax":0.0,"shipping":0.0,"items":[],"order_status":"shipped","tracking_no":"","brand":"Hollister","email":"jiangyy12@gmail.com"}
+E, [2014-06-22T21:50:43.929290 #4058] ERROR -- : orderId: 20038199099422 Unprocessable Entity: Brand not found
+I, [2014-06-22T21:50:43.929646 #4058]  INFO -- : response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-22T21:52:25.522124 #4094]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T21:52:25.523160 #4094]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T21:52:26.383615 #4094]  INFO -- : Email : FWd:Fwd: Fw: Hollister Order #20038199099 Has Shipped is multipart type
+I, [2014-06-22T21:52:26.422167 #4094]  INFO -- : Order status is : shipped
+I, [2014-06-22T21:52:26.422396 #4094]  INFO -- : Brand name is : Hollister
+I, [2014-06-22T21:52:26.424837 #4094]  INFO -- : Submit data to responseurl : {"order_no":"20038199099","subtotal":183.94,"total":183.94,"tax":0.0,"shipping":0.0,"items":[],"order_status":"shipped","tracking_no":"","brand":"Hollister","email":"jiangyy12@gmail.com"}
+E, [2014-06-22T21:52:27.454799 #4094] ERROR -- : orderId: 20038199099500 Internal Server Error: <!DOCTYPE html>
+<html>
+<head>
+  <title>We're sorry, but something went wrong (500)</title>
+  <style type="text/css">
+    body { background-color: #fff; color: #666; text-align: center; font-family: arial, sans-serif; }
+    .dialog {
+      width: 25em;
+      padding: 0 4em;
+      margin: 4em auto 0 auto;
+      border: 1px solid #ccc;
+      border-right-color: #999;
+      border-bottom-color: #999;
+    }
+    h1 { font-size: 100%; color: #f00; line-height: 1.5em; }
+    #operator_info_panel {
+      width: 27em;
+      margin: 4em auto 0 auto;
+      line-height: 1.2em;
+    }
+    #show_operator_info { text-decoration: none; color: #99f; font-size: smaller; }
+    #show_operator_info:hover { text-decoration: underline; }
+    #operator_info { color: #444; text-align: justify; }
+  </style>
+</head>
+
+<body>
+  <div class="dialog">
+    <h1>We're sorry, but something went wrong.</h1>
+    <p>We've been notified about this issue and we'll take a look at it shortly.</p>
+  </div>
+  <div id="operator_info_panel">
+    <a id="show_operator_info" href="javascript:void(showOperatorInfo())">Information for the administrator of this website</a>
+    <div id="operator_info" style="display: none">
+      <p>The Phusion Passenger application server encountered an error while starting your web application.
+        Because you are running this web application in staging or production mode, the details of the error
+        have been omitted from this web page for security reasons.</p>
+      <p><strong>Please read the web server error log to find the details of the error.</strong>
+        If you don't know where the web server error log is, read the troubleshooting documentation below.</p>
+      <p>Alternatively, you can turn on the "friendly error pages" feature (see below), which will make Phusion Passenger show many details about the error right in the browser.</p>
+      <p>Phusion Passenger troubleshooting documentation:</p>
+      <ul>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#troubleshooting">Nginx integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Apache.html#troubleshooting">Apache integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Standalone.html#troubleshooting">Standalone mode</a></li>
+      </ul>
+      <p>To turn on friendly error pages:</p>
+      <ul>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#PassengerFriendlyErrorPages">Nginx integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Apache.html#PassengerFriendlyErrorPages">Apache integration mode</a></li>
+        <li>Standalone mode: pass the <code>--friendly-error-pages</code> parameter to the <code>passenger</code> command.</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function showOperatorInfo() {
+      document.getElementById('operator_info').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
+
+I, [2014-06-22T21:52:27.455184 #4094]  INFO -- : response : 500 Internal Server Error: <!DOCTYPE html>
+<html>
+<head>
+  <title>We're sorry, but something went wrong (500)</title>
+  <style type="text/css">
+    body { background-color: #fff; color: #666; text-align: center; font-family: arial, sans-serif; }
+    .dialog {
+      width: 25em;
+      padding: 0 4em;
+      margin: 4em auto 0 auto;
+      border: 1px solid #ccc;
+      border-right-color: #999;
+      border-bottom-color: #999;
+    }
+    h1 { font-size: 100%; color: #f00; line-height: 1.5em; }
+    #operator_info_panel {
+      width: 27em;
+      margin: 4em auto 0 auto;
+      line-height: 1.2em;
+    }
+    #show_operator_info { text-decoration: none; color: #99f; font-size: smaller; }
+    #show_operator_info:hover { text-decoration: underline; }
+    #operator_info { color: #444; text-align: justify; }
+  </style>
+</head>
+
+<body>
+  <div class="dialog">
+    <h1>We're sorry, but something went wrong.</h1>
+    <p>We've been notified about this issue and we'll take a look at it shortly.</p>
+  </div>
+  <div id="operator_info_panel">
+    <a id="show_operator_info" href="javascript:void(showOperatorInfo())">Information for the administrator of this website</a>
+    <div id="operator_info" style="display: none">
+      <p>The Phusion Passenger application server encountered an error while starting your web application.
+        Because you are running this web application in staging or production mode, the details of the error
+        have been omitted from this web page for security reasons.</p>
+      <p><strong>Please read the web server error log to find the details of the error.</strong>
+        If you don't know where the web server error log is, read the troubleshooting documentation below.</p>
+      <p>Alternatively, you can turn on the "friendly error pages" feature (see below), which will make Phusion Passenger show many details about the error right in the browser.</p>
+      <p>Phusion Passenger troubleshooting documentation:</p>
+      <ul>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#troubleshooting">Nginx integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Apache.html#troubleshooting">Apache integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Standalone.html#troubleshooting">Standalone mode</a></li>
+      </ul>
+      <p>To turn on friendly error pages:</p>
+      <ul>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#PassengerFriendlyErrorPages">Nginx integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Apache.html#PassengerFriendlyErrorPages">Apache integration mode</a></li>
+        <li>Standalone mode: pass the <code>--friendly-error-pages</code> parameter to the <code>passenger</code> command.</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function showOperatorInfo() {
+      document.getElementById('operator_info').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
+
+E, [2014-06-22T21:52:27.455334 #4094] ERROR -- : Got error when submit the data
+I, [2014-06-22T21:52:27.648797 #4094]  INFO -- : move email : 20038199099 to folder 
+I, [2014-06-22T21:52:27.855939 #4094]  INFO -- : Email : FWd:Fwd: Fw: Hollister Order #20038199099 Has Shipped is multipart type
+I, [2014-06-22T21:52:27.934501 #4094]  INFO -- : Order status is : shipped
+I, [2014-06-22T21:52:27.934687 #4094]  INFO -- : Brand name is : Hollister
+I, [2014-06-22T21:52:27.935204 #4094]  INFO -- : Submit data to responseurl : {"order_no":"20038199099","order_date":"2014-05-01","shipping_date":"2014-05-02","subtotal":183.94,"total":183.94,"tax":0.0,"shipping":0.0,"items":[{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98}],"order_status":"shipped","tracking_no":"","brand":"Hollister","email":"jiangyy12@gmail.com"}
+E, [2014-06-22T21:52:28.894225 #4094] ERROR -- : orderId: 20038199099500 Internal Server Error: <!DOCTYPE html>
+<html>
+<head>
+  <title>We're sorry, but something went wrong (500)</title>
+  <style type="text/css">
+    body { background-color: #fff; color: #666; text-align: center; font-family: arial, sans-serif; }
+    .dialog {
+      width: 25em;
+      padding: 0 4em;
+      margin: 4em auto 0 auto;
+      border: 1px solid #ccc;
+      border-right-color: #999;
+      border-bottom-color: #999;
+    }
+    h1 { font-size: 100%; color: #f00; line-height: 1.5em; }
+    #operator_info_panel {
+      width: 27em;
+      margin: 4em auto 0 auto;
+      line-height: 1.2em;
+    }
+    #show_operator_info { text-decoration: none; color: #99f; font-size: smaller; }
+    #show_operator_info:hover { text-decoration: underline; }
+    #operator_info { color: #444; text-align: justify; }
+  </style>
+</head>
+
+<body>
+  <div class="dialog">
+    <h1>We're sorry, but something went wrong.</h1>
+    <p>We've been notified about this issue and we'll take a look at it shortly.</p>
+  </div>
+  <div id="operator_info_panel">
+    <a id="show_operator_info" href="javascript:void(showOperatorInfo())">Information for the administrator of this website</a>
+    <div id="operator_info" style="display: none">
+      <p>The Phusion Passenger application server encountered an error while starting your web application.
+        Because you are running this web application in staging or production mode, the details of the error
+        have been omitted from this web page for security reasons.</p>
+      <p><strong>Please read the web server error log to find the details of the error.</strong>
+        If you don't know where the web server error log is, read the troubleshooting documentation below.</p>
+      <p>Alternatively, you can turn on the "friendly error pages" feature (see below), which will make Phusion Passenger show many details about the error right in the browser.</p>
+      <p>Phusion Passenger troubleshooting documentation:</p>
+      <ul>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#troubleshooting">Nginx integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Apache.html#troubleshooting">Apache integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Standalone.html#troubleshooting">Standalone mode</a></li>
+      </ul>
+      <p>To turn on friendly error pages:</p>
+      <ul>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#PassengerFriendlyErrorPages">Nginx integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Apache.html#PassengerFriendlyErrorPages">Apache integration mode</a></li>
+        <li>Standalone mode: pass the <code>--friendly-error-pages</code> parameter to the <code>passenger</code> command.</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function showOperatorInfo() {
+      document.getElementById('operator_info').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
+
+I, [2014-06-22T21:52:28.894657 #4094]  INFO -- : response : 500 Internal Server Error: <!DOCTYPE html>
+<html>
+<head>
+  <title>We're sorry, but something went wrong (500)</title>
+  <style type="text/css">
+    body { background-color: #fff; color: #666; text-align: center; font-family: arial, sans-serif; }
+    .dialog {
+      width: 25em;
+      padding: 0 4em;
+      margin: 4em auto 0 auto;
+      border: 1px solid #ccc;
+      border-right-color: #999;
+      border-bottom-color: #999;
+    }
+    h1 { font-size: 100%; color: #f00; line-height: 1.5em; }
+    #operator_info_panel {
+      width: 27em;
+      margin: 4em auto 0 auto;
+      line-height: 1.2em;
+    }
+    #show_operator_info { text-decoration: none; color: #99f; font-size: smaller; }
+    #show_operator_info:hover { text-decoration: underline; }
+    #operator_info { color: #444; text-align: justify; }
+  </style>
+</head>
+
+<body>
+  <div class="dialog">
+    <h1>We're sorry, but something went wrong.</h1>
+    <p>We've been notified about this issue and we'll take a look at it shortly.</p>
+  </div>
+  <div id="operator_info_panel">
+    <a id="show_operator_info" href="javascript:void(showOperatorInfo())">Information for the administrator of this website</a>
+    <div id="operator_info" style="display: none">
+      <p>The Phusion Passenger application server encountered an error while starting your web application.
+        Because you are running this web application in staging or production mode, the details of the error
+        have been omitted from this web page for security reasons.</p>
+      <p><strong>Please read the web server error log to find the details of the error.</strong>
+        If you don't know where the web server error log is, read the troubleshooting documentation below.</p>
+      <p>Alternatively, you can turn on the "friendly error pages" feature (see below), which will make Phusion Passenger show many details about the error right in the browser.</p>
+      <p>Phusion Passenger troubleshooting documentation:</p>
+      <ul>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#troubleshooting">Nginx integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Apache.html#troubleshooting">Apache integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Standalone.html#troubleshooting">Standalone mode</a></li>
+      </ul>
+      <p>To turn on friendly error pages:</p>
+      <ul>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#PassengerFriendlyErrorPages">Nginx integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Apache.html#PassengerFriendlyErrorPages">Apache integration mode</a></li>
+        <li>Standalone mode: pass the <code>--friendly-error-pages</code> parameter to the <code>passenger</code> command.</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function showOperatorInfo() {
+      document.getElementById('operator_info').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
+
+E, [2014-06-22T21:52:28.894796 #4094] ERROR -- : Got error when submit the data
+I, [2014-06-22T21:52:29.114675 #4094]  INFO -- : move email : 20038199099 to folder 
+I, [2014-06-22T21:52:29.320983 #4094]  INFO -- : Email : FWd:Fwd: Fw: Hollister Order #20038199099 Has Shipped is multipart type
+I, [2014-06-22T21:52:29.450059 #4094]  INFO -- : Order status is : shipped
+I, [2014-06-22T21:52:29.450262 #4094]  INFO -- : Brand name is : Hollister
+I, [2014-06-22T21:52:29.451266 #4094]  INFO -- : Submit data to responseurl : {"order_no":"20038199099","order_date":"2014-05-01","shipping_date":"2014-05-02","subtotal":183.94,"total":183.94,"tax":0.0,"shipping":0.0,"items":[{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98}],"order_status":"shipped","tracking_no":"","brand":"Hollister","email":"jiangyy12@gmail.com"}
+E, [2014-06-22T21:52:30.426551 #4094] ERROR -- : orderId: 20038199099500 Internal Server Error: <!DOCTYPE html>
+<html>
+<head>
+  <title>We're sorry, but something went wrong (500)</title>
+  <style type="text/css">
+    body { background-color: #fff; color: #666; text-align: center; font-family: arial, sans-serif; }
+    .dialog {
+      width: 25em;
+      padding: 0 4em;
+      margin: 4em auto 0 auto;
+      border: 1px solid #ccc;
+      border-right-color: #999;
+      border-bottom-color: #999;
+    }
+    h1 { font-size: 100%; color: #f00; line-height: 1.5em; }
+    #operator_info_panel {
+      width: 27em;
+      margin: 4em auto 0 auto;
+      line-height: 1.2em;
+    }
+    #show_operator_info { text-decoration: none; color: #99f; font-size: smaller; }
+    #show_operator_info:hover { text-decoration: underline; }
+    #operator_info { color: #444; text-align: justify; }
+  </style>
+</head>
+
+<body>
+  <div class="dialog">
+    <h1>We're sorry, but something went wrong.</h1>
+    <p>We've been notified about this issue and we'll take a look at it shortly.</p>
+  </div>
+  <div id="operator_info_panel">
+    <a id="show_operator_info" href="javascript:void(showOperatorInfo())">Information for the administrator of this website</a>
+    <div id="operator_info" style="display: none">
+      <p>The Phusion Passenger application server encountered an error while starting your web application.
+        Because you are running this web application in staging or production mode, the details of the error
+        have been omitted from this web page for security reasons.</p>
+      <p><strong>Please read the web server error log to find the details of the error.</strong>
+        If you don't know where the web server error log is, read the troubleshooting documentation below.</p>
+      <p>Alternatively, you can turn on the "friendly error pages" feature (see below), which will make Phusion Passenger show many details about the error right in the browser.</p>
+      <p>Phusion Passenger troubleshooting documentation:</p>
+      <ul>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#troubleshooting">Nginx integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Apache.html#troubleshooting">Apache integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Standalone.html#troubleshooting">Standalone mode</a></li>
+      </ul>
+      <p>To turn on friendly error pages:</p>
+      <ul>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#PassengerFriendlyErrorPages">Nginx integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Apache.html#PassengerFriendlyErrorPages">Apache integration mode</a></li>
+        <li>Standalone mode: pass the <code>--friendly-error-pages</code> parameter to the <code>passenger</code> command.</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function showOperatorInfo() {
+      document.getElementById('operator_info').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
+
+I, [2014-06-22T21:52:30.427465 #4094]  INFO -- : response : 500 Internal Server Error: <!DOCTYPE html>
+<html>
+<head>
+  <title>We're sorry, but something went wrong (500)</title>
+  <style type="text/css">
+    body { background-color: #fff; color: #666; text-align: center; font-family: arial, sans-serif; }
+    .dialog {
+      width: 25em;
+      padding: 0 4em;
+      margin: 4em auto 0 auto;
+      border: 1px solid #ccc;
+      border-right-color: #999;
+      border-bottom-color: #999;
+    }
+    h1 { font-size: 100%; color: #f00; line-height: 1.5em; }
+    #operator_info_panel {
+      width: 27em;
+      margin: 4em auto 0 auto;
+      line-height: 1.2em;
+    }
+    #show_operator_info { text-decoration: none; color: #99f; font-size: smaller; }
+    #show_operator_info:hover { text-decoration: underline; }
+    #operator_info { color: #444; text-align: justify; }
+  </style>
+</head>
+
+<body>
+  <div class="dialog">
+    <h1>We're sorry, but something went wrong.</h1>
+    <p>We've been notified about this issue and we'll take a look at it shortly.</p>
+  </div>
+  <div id="operator_info_panel">
+    <a id="show_operator_info" href="javascript:void(showOperatorInfo())">Information for the administrator of this website</a>
+    <div id="operator_info" style="display: none">
+      <p>The Phusion Passenger application server encountered an error while starting your web application.
+        Because you are running this web application in staging or production mode, the details of the error
+        have been omitted from this web page for security reasons.</p>
+      <p><strong>Please read the web server error log to find the details of the error.</strong>
+        If you don't know where the web server error log is, read the troubleshooting documentation below.</p>
+      <p>Alternatively, you can turn on the "friendly error pages" feature (see below), which will make Phusion Passenger show many details about the error right in the browser.</p>
+      <p>Phusion Passenger troubleshooting documentation:</p>
+      <ul>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#troubleshooting">Nginx integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Apache.html#troubleshooting">Apache integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Standalone.html#troubleshooting">Standalone mode</a></li>
+      </ul>
+      <p>To turn on friendly error pages:</p>
+      <ul>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#PassengerFriendlyErrorPages">Nginx integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Apache.html#PassengerFriendlyErrorPages">Apache integration mode</a></li>
+        <li>Standalone mode: pass the <code>--friendly-error-pages</code> parameter to the <code>passenger</code> command.</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function showOperatorInfo() {
+      document.getElementById('operator_info').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
+
+E, [2014-06-22T21:52:30.427625 #4094] ERROR -- : Got error when submit the data
+I, [2014-06-22T21:52:30.588878 #4094]  INFO -- : move email : 20038199099 to folder 
+I, [2014-06-22T21:52:30.773126 #4094]  INFO -- : Email : FWd:Fwd: Fw: Hollister Order #20038199099 Has Shipped is multipart type
+I, [2014-06-22T21:52:30.848015 #4094]  INFO -- : Order status is : shipped
+I, [2014-06-22T21:52:30.848176 #4094]  INFO -- : Brand name is : Hollister
+I, [2014-06-22T21:52:30.848931 #4094]  INFO -- : Submit data to responseurl : {"order_no":"20038199099","order_date":"2014-05-01","shipping_date":"2014-05-02","subtotal":183.94,"total":183.94,"tax":0.0,"shipping":0.0,"items":[{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98},{"code":611080290,"price":24.98}],"order_status":"shipped","tracking_no":"","brand":"Hollister","email":"jiangyy12@gmail.com"}
+E, [2014-06-22T21:52:31.858274 #4094] ERROR -- : orderId: 20038199099500 Internal Server Error: <!DOCTYPE html>
+<html>
+<head>
+  <title>We're sorry, but something went wrong (500)</title>
+  <style type="text/css">
+    body { background-color: #fff; color: #666; text-align: center; font-family: arial, sans-serif; }
+    .dialog {
+      width: 25em;
+      padding: 0 4em;
+      margin: 4em auto 0 auto;
+      border: 1px solid #ccc;
+      border-right-color: #999;
+      border-bottom-color: #999;
+    }
+    h1 { font-size: 100%; color: #f00; line-height: 1.5em; }
+    #operator_info_panel {
+      width: 27em;
+      margin: 4em auto 0 auto;
+      line-height: 1.2em;
+    }
+    #show_operator_info { text-decoration: none; color: #99f; font-size: smaller; }
+    #show_operator_info:hover { text-decoration: underline; }
+    #operator_info { color: #444; text-align: justify; }
+  </style>
+</head>
+
+<body>
+  <div class="dialog">
+    <h1>We're sorry, but something went wrong.</h1>
+    <p>We've been notified about this issue and we'll take a look at it shortly.</p>
+  </div>
+  <div id="operator_info_panel">
+    <a id="show_operator_info" href="javascript:void(showOperatorInfo())">Information for the administrator of this website</a>
+    <div id="operator_info" style="display: none">
+      <p>The Phusion Passenger application server encountered an error while starting your web application.
+        Because you are running this web application in staging or production mode, the details of the error
+        have been omitted from this web page for security reasons.</p>
+      <p><strong>Please read the web server error log to find the details of the error.</strong>
+        If you don't know where the web server error log is, read the troubleshooting documentation below.</p>
+      <p>Alternatively, you can turn on the "friendly error pages" feature (see below), which will make Phusion Passenger show many details about the error right in the browser.</p>
+      <p>Phusion Passenger troubleshooting documentation:</p>
+      <ul>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#troubleshooting">Nginx integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Apache.html#troubleshooting">Apache integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Standalone.html#troubleshooting">Standalone mode</a></li>
+      </ul>
+      <p>To turn on friendly error pages:</p>
+      <ul>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#PassengerFriendlyErrorPages">Nginx integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Apache.html#PassengerFriendlyErrorPages">Apache integration mode</a></li>
+        <li>Standalone mode: pass the <code>--friendly-error-pages</code> parameter to the <code>passenger</code> command.</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function showOperatorInfo() {
+      document.getElementById('operator_info').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
+
+I, [2014-06-22T21:52:31.858661 #4094]  INFO -- : response : 500 Internal Server Error: <!DOCTYPE html>
+<html>
+<head>
+  <title>We're sorry, but something went wrong (500)</title>
+  <style type="text/css">
+    body { background-color: #fff; color: #666; text-align: center; font-family: arial, sans-serif; }
+    .dialog {
+      width: 25em;
+      padding: 0 4em;
+      margin: 4em auto 0 auto;
+      border: 1px solid #ccc;
+      border-right-color: #999;
+      border-bottom-color: #999;
+    }
+    h1 { font-size: 100%; color: #f00; line-height: 1.5em; }
+    #operator_info_panel {
+      width: 27em;
+      margin: 4em auto 0 auto;
+      line-height: 1.2em;
+    }
+    #show_operator_info { text-decoration: none; color: #99f; font-size: smaller; }
+    #show_operator_info:hover { text-decoration: underline; }
+    #operator_info { color: #444; text-align: justify; }
+  </style>
+</head>
+
+<body>
+  <div class="dialog">
+    <h1>We're sorry, but something went wrong.</h1>
+    <p>We've been notified about this issue and we'll take a look at it shortly.</p>
+  </div>
+  <div id="operator_info_panel">
+    <a id="show_operator_info" href="javascript:void(showOperatorInfo())">Information for the administrator of this website</a>
+    <div id="operator_info" style="display: none">
+      <p>The Phusion Passenger application server encountered an error while starting your web application.
+        Because you are running this web application in staging or production mode, the details of the error
+        have been omitted from this web page for security reasons.</p>
+      <p><strong>Please read the web server error log to find the details of the error.</strong>
+        If you don't know where the web server error log is, read the troubleshooting documentation below.</p>
+      <p>Alternatively, you can turn on the "friendly error pages" feature (see below), which will make Phusion Passenger show many details about the error right in the browser.</p>
+      <p>Phusion Passenger troubleshooting documentation:</p>
+      <ul>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#troubleshooting">Nginx integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Apache.html#troubleshooting">Apache integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Standalone.html#troubleshooting">Standalone mode</a></li>
+      </ul>
+      <p>To turn on friendly error pages:</p>
+      <ul>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#PassengerFriendlyErrorPages">Nginx integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Apache.html#PassengerFriendlyErrorPages">Apache integration mode</a></li>
+        <li>Standalone mode: pass the <code>--friendly-error-pages</code> parameter to the <code>passenger</code> command.</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function showOperatorInfo() {
+      document.getElementById('operator_info').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
+
+E, [2014-06-22T21:52:31.862698 #4094] ERROR -- : Got error when submit the data
+I, [2014-06-22T21:52:32.031220 #4094]  INFO -- : move email : 20038199099 to folder 
+I, [2014-06-22T21:52:32.172233 #4094]  INFO -- : Email : FWd:Fwd: Fw: Hollister Order #20038199099 Has Shipped is text type
+E, [2014-06-22T21:52:32.176625 #4094] ERROR -- : empty email
+I, [2014-06-22T21:52:32.176770 #4094]  INFO -- : Order status is : shipped
+I, [2014-06-22T21:53:30.185134 #4132]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T21:53:30.186429 #4132]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T21:53:30.993177 #4132]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Has Shipped is multipart type
+I, [2014-06-22T21:53:31.105517 #4132]  INFO -- : Order status is : shipped
+I, [2014-06-22T21:53:31.105680 #4132]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T21:53:31.108348 #4132]  INFO -- : Submit data to responseurl : {"order_no":"20032517082","order_date":"2014-02-27","shipping_date":"2014-02-27","subtotal":306.8,"total":306.8,"tax":0.0,"shipping":0.0,"items":[{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0},{"code":610472347,"price":20.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
+E, [2014-06-22T21:53:32.170304 #4132] ERROR -- : orderId: 20032517082500 Internal Server Error: <!DOCTYPE html>
+<html>
+<head>
+  <title>We're sorry, but something went wrong (500)</title>
+  <style type="text/css">
+    body { background-color: #fff; color: #666; text-align: center; font-family: arial, sans-serif; }
+    .dialog {
+      width: 25em;
+      padding: 0 4em;
+      margin: 4em auto 0 auto;
+      border: 1px solid #ccc;
+      border-right-color: #999;
+      border-bottom-color: #999;
+    }
+    h1 { font-size: 100%; color: #f00; line-height: 1.5em; }
+    #operator_info_panel {
+      width: 27em;
+      margin: 4em auto 0 auto;
+      line-height: 1.2em;
+    }
+    #show_operator_info { text-decoration: none; color: #99f; font-size: smaller; }
+    #show_operator_info:hover { text-decoration: underline; }
+    #operator_info { color: #444; text-align: justify; }
+  </style>
+</head>
+
+<body>
+  <div class="dialog">
+    <h1>We're sorry, but something went wrong.</h1>
+    <p>We've been notified about this issue and we'll take a look at it shortly.</p>
+  </div>
+  <div id="operator_info_panel">
+    <a id="show_operator_info" href="javascript:void(showOperatorInfo())">Information for the administrator of this website</a>
+    <div id="operator_info" style="display: none">
+      <p>The Phusion Passenger application server encountered an error while starting your web application.
+        Because you are running this web application in staging or production mode, the details of the error
+        have been omitted from this web page for security reasons.</p>
+      <p><strong>Please read the web server error log to find the details of the error.</strong>
+        If you don't know where the web server error log is, read the troubleshooting documentation below.</p>
+      <p>Alternatively, you can turn on the "friendly error pages" feature (see below), which will make Phusion Passenger show many details about the error right in the browser.</p>
+      <p>Phusion Passenger troubleshooting documentation:</p>
+      <ul>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#troubleshooting">Nginx integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Apache.html#troubleshooting">Apache integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Standalone.html#troubleshooting">Standalone mode</a></li>
+      </ul>
+      <p>To turn on friendly error pages:</p>
+      <ul>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#PassengerFriendlyErrorPages">Nginx integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Apache.html#PassengerFriendlyErrorPages">Apache integration mode</a></li>
+        <li>Standalone mode: pass the <code>--friendly-error-pages</code> parameter to the <code>passenger</code> command.</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function showOperatorInfo() {
+      document.getElementById('operator_info').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
+
+I, [2014-06-22T21:53:32.170681 #4132]  INFO -- : response : 500 Internal Server Error: <!DOCTYPE html>
+<html>
+<head>
+  <title>We're sorry, but something went wrong (500)</title>
+  <style type="text/css">
+    body { background-color: #fff; color: #666; text-align: center; font-family: arial, sans-serif; }
+    .dialog {
+      width: 25em;
+      padding: 0 4em;
+      margin: 4em auto 0 auto;
+      border: 1px solid #ccc;
+      border-right-color: #999;
+      border-bottom-color: #999;
+    }
+    h1 { font-size: 100%; color: #f00; line-height: 1.5em; }
+    #operator_info_panel {
+      width: 27em;
+      margin: 4em auto 0 auto;
+      line-height: 1.2em;
+    }
+    #show_operator_info { text-decoration: none; color: #99f; font-size: smaller; }
+    #show_operator_info:hover { text-decoration: underline; }
+    #operator_info { color: #444; text-align: justify; }
+  </style>
+</head>
+
+<body>
+  <div class="dialog">
+    <h1>We're sorry, but something went wrong.</h1>
+    <p>We've been notified about this issue and we'll take a look at it shortly.</p>
+  </div>
+  <div id="operator_info_panel">
+    <a id="show_operator_info" href="javascript:void(showOperatorInfo())">Information for the administrator of this website</a>
+    <div id="operator_info" style="display: none">
+      <p>The Phusion Passenger application server encountered an error while starting your web application.
+        Because you are running this web application in staging or production mode, the details of the error
+        have been omitted from this web page for security reasons.</p>
+      <p><strong>Please read the web server error log to find the details of the error.</strong>
+        If you don't know where the web server error log is, read the troubleshooting documentation below.</p>
+      <p>Alternatively, you can turn on the "friendly error pages" feature (see below), which will make Phusion Passenger show many details about the error right in the browser.</p>
+      <p>Phusion Passenger troubleshooting documentation:</p>
+      <ul>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#troubleshooting">Nginx integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Apache.html#troubleshooting">Apache integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Standalone.html#troubleshooting">Standalone mode</a></li>
+      </ul>
+      <p>To turn on friendly error pages:</p>
+      <ul>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#PassengerFriendlyErrorPages">Nginx integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Apache.html#PassengerFriendlyErrorPages">Apache integration mode</a></li>
+        <li>Standalone mode: pass the <code>--friendly-error-pages</code> parameter to the <code>passenger</code> command.</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function showOperatorInfo() {
+      document.getElementById('operator_info').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
+
+E, [2014-06-22T21:53:32.170815 #4132] ERROR -- : Got error when submit the data
+I, [2014-06-22T21:53:32.341570 #4132]  INFO -- : move email : 20032517082 to folder 
+I, [2014-06-22T21:54:16.516664 #4168]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T21:54:16.517470 #4168]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T21:54:17.295342 #4168]  INFO -- : Email : Fwd: Fw: Fw: Abercrombie & Fitch Order #20031708794 Has Shipped is multipart type
+I, [2014-06-22T21:54:17.372037 #4168]  INFO -- : Order status is : shipped
+I, [2014-06-22T21:54:17.372553 #4168]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T21:54:17.375075 #4168]  INFO -- : Submit data to responseurl : {"order_no":"20031708794","order_date":"2014-02-16","shipping_date":"2014-02-18","subtotal":345.6,"total":366.34,"tax":20.74,"shipping":0.0,"items":[{"code":610490140,"price":40.0},{"code":610490140,"price":40.0},{"code":610490140,"price":40.0},{"code":610490140,"price":40.0},{"code":610490140,"price":40.0},{"code":610490140,"price":40.0},{"code":610490140,"price":40.0},{"code":610490140,"price":40.0},{"code":610490140,"price":40.0},{"code":610490140,"price":40.0},{"code":610490140,"price":40.0},{"code":610490140,"price":40.0},{"code":610490140,"price":40.0},{"code":610490140,"price":40.0},{"code":610490140,"price":40.0},{"code":610490140,"price":40.0},{"code":610490140,"price":40.0},{"code":610490140,"price":40.0},{"code":610490140,"price":40.0},{"code":610490140,"price":40.0},{"code":610490140,"price":40.0},{"code":610490140,"price":40.0},{"code":610490140,"price":40.0},{"code":610490140,"price":40.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
+E, [2014-06-22T21:54:18.455967 #4168] ERROR -- : orderId: 20031708794500 Internal Server Error: <!DOCTYPE html>
+<html>
+<head>
+  <title>We're sorry, but something went wrong (500)</title>
+  <style type="text/css">
+    body { background-color: #fff; color: #666; text-align: center; font-family: arial, sans-serif; }
+    .dialog {
+      width: 25em;
+      padding: 0 4em;
+      margin: 4em auto 0 auto;
+      border: 1px solid #ccc;
+      border-right-color: #999;
+      border-bottom-color: #999;
+    }
+    h1 { font-size: 100%; color: #f00; line-height: 1.5em; }
+    #operator_info_panel {
+      width: 27em;
+      margin: 4em auto 0 auto;
+      line-height: 1.2em;
+    }
+    #show_operator_info { text-decoration: none; color: #99f; font-size: smaller; }
+    #show_operator_info:hover { text-decoration: underline; }
+    #operator_info { color: #444; text-align: justify; }
+  </style>
+</head>
+
+<body>
+  <div class="dialog">
+    <h1>We're sorry, but something went wrong.</h1>
+    <p>We've been notified about this issue and we'll take a look at it shortly.</p>
+  </div>
+  <div id="operator_info_panel">
+    <a id="show_operator_info" href="javascript:void(showOperatorInfo())">Information for the administrator of this website</a>
+    <div id="operator_info" style="display: none">
+      <p>The Phusion Passenger application server encountered an error while starting your web application.
+        Because you are running this web application in staging or production mode, the details of the error
+        have been omitted from this web page for security reasons.</p>
+      <p><strong>Please read the web server error log to find the details of the error.</strong>
+        If you don't know where the web server error log is, read the troubleshooting documentation below.</p>
+      <p>Alternatively, you can turn on the "friendly error pages" feature (see below), which will make Phusion Passenger show many details about the error right in the browser.</p>
+      <p>Phusion Passenger troubleshooting documentation:</p>
+      <ul>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#troubleshooting">Nginx integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Apache.html#troubleshooting">Apache integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Standalone.html#troubleshooting">Standalone mode</a></li>
+      </ul>
+      <p>To turn on friendly error pages:</p>
+      <ul>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#PassengerFriendlyErrorPages">Nginx integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Apache.html#PassengerFriendlyErrorPages">Apache integration mode</a></li>
+        <li>Standalone mode: pass the <code>--friendly-error-pages</code> parameter to the <code>passenger</code> command.</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function showOperatorInfo() {
+      document.getElementById('operator_info').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
+
+I, [2014-06-22T21:54:18.456539 #4168]  INFO -- : response : 500 Internal Server Error: <!DOCTYPE html>
+<html>
+<head>
+  <title>We're sorry, but something went wrong (500)</title>
+  <style type="text/css">
+    body { background-color: #fff; color: #666; text-align: center; font-family: arial, sans-serif; }
+    .dialog {
+      width: 25em;
+      padding: 0 4em;
+      margin: 4em auto 0 auto;
+      border: 1px solid #ccc;
+      border-right-color: #999;
+      border-bottom-color: #999;
+    }
+    h1 { font-size: 100%; color: #f00; line-height: 1.5em; }
+    #operator_info_panel {
+      width: 27em;
+      margin: 4em auto 0 auto;
+      line-height: 1.2em;
+    }
+    #show_operator_info { text-decoration: none; color: #99f; font-size: smaller; }
+    #show_operator_info:hover { text-decoration: underline; }
+    #operator_info { color: #444; text-align: justify; }
+  </style>
+</head>
+
+<body>
+  <div class="dialog">
+    <h1>We're sorry, but something went wrong.</h1>
+    <p>We've been notified about this issue and we'll take a look at it shortly.</p>
+  </div>
+  <div id="operator_info_panel">
+    <a id="show_operator_info" href="javascript:void(showOperatorInfo())">Information for the administrator of this website</a>
+    <div id="operator_info" style="display: none">
+      <p>The Phusion Passenger application server encountered an error while starting your web application.
+        Because you are running this web application in staging or production mode, the details of the error
+        have been omitted from this web page for security reasons.</p>
+      <p><strong>Please read the web server error log to find the details of the error.</strong>
+        If you don't know where the web server error log is, read the troubleshooting documentation below.</p>
+      <p>Alternatively, you can turn on the "friendly error pages" feature (see below), which will make Phusion Passenger show many details about the error right in the browser.</p>
+      <p>Phusion Passenger troubleshooting documentation:</p>
+      <ul>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#troubleshooting">Nginx integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Apache.html#troubleshooting">Apache integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Standalone.html#troubleshooting">Standalone mode</a></li>
+      </ul>
+      <p>To turn on friendly error pages:</p>
+      <ul>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html#PassengerFriendlyErrorPages">Nginx integration mode</a></li>
+        <li><a href="https://www.phusionpassenger.com/documentation/Users%20guide%20Apache.html#PassengerFriendlyErrorPages">Apache integration mode</a></li>
+        <li>Standalone mode: pass the <code>--friendly-error-pages</code> parameter to the <code>passenger</code> command.</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function showOperatorInfo() {
+      document.getElementById('operator_info').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
+
+E, [2014-06-22T21:54:18.459162 #4168] ERROR -- : Got error when submit the data
+I, [2014-06-22T21:54:18.626915 #4168]  INFO -- : move email : 20031708794 to folder 
+I, [2014-06-22T21:56:57.080984 #4208]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T21:56:57.082136 #4208]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T22:02:10.357303 #4264]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T22:02:10.358171 #4264]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T22:02:11.206397 #4264]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross Park is html
+I, [2014-06-22T22:02:11.222916 #4264]  INFO -- : Order status is : shipped
+I, [2014-06-22T22:02:11.223512 #4264]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T22:02:11.226117 #4264]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-03","shipping_date":"2014-05-03","total":65.55,"subtotal":63.0,"tax":0.0,"shipping":0.0,"items":[{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"abercrombie@abercrombie-email.com"}
+E, [2014-06-22T22:02:12.562961 #4264] ERROR -- : orderId: 422 Unprocessable Entity: Brand not found
+I, [2014-06-22T22:05:17.176280 #4315]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T22:05:17.177389 #4315]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T22:05:18.324042 #4315]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross Park is html
+I, [2014-06-22T22:05:18.339317 #4315]  INFO -- : Order status is : shipped
+I, [2014-06-22T22:05:18.339708 #4315]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T22:05:18.342467 #4315]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-03","shipping_date":"2014-05-03","total":65.55,"subtotal":63.0,"tax":0.0,"shipping":0.0,"items":[{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"abercrombie@abercrombie-email.com"}
+E, [2014-06-22T22:05:18.402958 #4315] ERROR -- : orderId: 422 Unprocessable Entity: Brand not found
+I, [2014-06-22T22:09:33.573998 #4357]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T22:09:33.574797 #4357]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T22:09:34.333209 #4357]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross Park is html
+I, [2014-06-22T22:09:34.348396 #4357]  INFO -- : Order status is : shipped
+I, [2014-06-22T22:09:34.348700 #4357]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T22:09:34.351600 #4357]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-03","shipping_date":"2014-05-03","total":65.55,"subtotal":63.0,"tax":0.0,"shipping":0.0,"items":[{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"abercrombie@abercrombie-email.com"}
+E, [2014-06-22T22:09:34.407620 #4357] ERROR -- : orderId: 422 Unprocessable Entity: Brand not found
+I, [2014-06-22T22:21:32.217865 #4413]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T22:21:32.218914 #4413]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T22:21:32.963310 #4413]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross Park is html
+I, [2014-06-22T22:21:32.982638 #4413]  INFO -- : Order status is : shipped
+I, [2014-06-22T22:21:32.982850 #4413]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T22:21:32.985802 #4413]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-03","shipping_date":"2014-05-03","total":65.55,"subtotal":63.0,"tax":0.0,"shipping":0.0,"items":[{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"abercrombie@abercrombie-email.com"}
+E, [2014-06-22T22:21:33.523604 #4413] ERROR -- : orderId: 422 Unprocessable Entity: Brand not found
+I, [2014-06-22T22:23:13.209624 #4452]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T22:23:13.210416 #4452]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T22:23:13.882850 #4452]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross Park is html
+I, [2014-06-22T22:23:13.898950 #4452]  INFO -- : Order status is : shipped
+I, [2014-06-22T22:23:13.899108 #4452]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T22:23:13.901690 #4452]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-03","shipping_date":"2014-05-03","total":65.55,"subtotal":63.0,"tax":0.0,"shipping":0.0,"items":[{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"abercrombie@abercrombie-email.com"}
+E, [2014-06-22T22:23:13.959762 #4452] ERROR -- : orderId: 422 Unprocessable Entity: Brand not found
+I, [2014-06-22T22:23:13.960240 #4452]  INFO -- : response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-22T22:26:05.219901 #4491]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T22:26:05.220737 #4491]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T22:26:08.839904 #4491]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross Park is html
+I, [2014-06-22T22:26:08.854569 #4491]  INFO -- : Order status is : shipped
+I, [2014-06-22T22:26:08.854724 #4491]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T22:28:32.502463 #4530]  INFO -- : Loading the property file property.yml
+I, [2014-06-22T22:28:32.503312 #4530]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-22T22:28:34.309205 #4530]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross Park is html
+I, [2014-06-22T22:28:34.323660 #4530]  INFO -- : Order status is : shipped
+I, [2014-06-22T22:28:34.323877 #4530]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-22T22:28:34.327401 #4530]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-03","shipping_date":"2014-05-03","total":65.55,"subtotal":63.0,"tax":0.0,"shipping":0.0,"items":[{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"abercrombie@abercrombie-email.com","order_no":"10667794020140503"}
+E, [2014-06-22T22:28:34.381437 #4530] ERROR -- : orderId: 10667794020140503422 Unprocessable Entity: Brand not found
+I, [2014-06-22T22:28:34.382219 #4530]  INFO -- : response : 422 Unprocessable Entity: Brand not found

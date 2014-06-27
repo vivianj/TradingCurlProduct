@@ -7,10 +7,16 @@ require File.dirname(__FILE__) + '/Logger'
 module EmailProcessor
 include Log
 class UploadData
-   @url
-   @@response
-   @@responseStatus = ''
-   @@responseBody = ''
+     @url
+     @response
+
+     class<<self
+        attr_reader :responseStatus 
+        attr_reader :responseBody 
+     end
+
+   @responseStatus  = ""
+   @responseBody = ""
 
    def initialize(url)
        # Instance variables
@@ -19,22 +25,22 @@ class UploadData
  
   def post(data)
       begin
-      @@response = RestClient.post @url, data, :content_type => 'application/json', :accept => 'application/json'
-      @@responseBody =  @@response.to_s
-      @@responseStatus = @@response.headers[:status]
+      @response = RestClient.post @url, data, :content_type => 'application/json', :accept => 'application/json'
+      @responseBody =  @response.to_s
+      @responseStatus = @response.headers[:status]
              
       rescue => ex 
-      puts "Got error: #{ex.inspect}  when submit the data to api "
-           @@response = ex.inspect 
-           @@responseStatus = @@response.split(/:/)[0]
-           @@responseBody = @@response.split(/:/)[1]
+      EmailProcessor::logger.error "Got error: #{ex.inspect}  when submit the data to api "
+           @response = ex.inspect 
+           @responseStatus = @response.split(/:/)[0]
+           @responseBody = @response.split(/:/)[1]
       end
-         puts @@responseStatus
-         puts @@responseBody
+      EmailProcessor::logger.info "Got ResponseStatus: " + @responseStatus
+      EmailProcessor::logger.info "Got Response body: " + @responseBody
    end
 
   def isSuccess? 
-      if @@responseStatus.include? "201" or @@responseStatus.include? "200"
+      if @responseStatus.include? "201" or @responseStatus.include? "200"
          return true      
       else 
         return false
@@ -42,11 +48,11 @@ class UploadData
   end
   
   def responseStatus
-      @@responseStatus
+      @responseStatus
   end
 
   def responseBody
-      @@responseBody
+      @responseBody
   end
 end
 

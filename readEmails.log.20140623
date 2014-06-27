@@ -1,0 +1,412 @@
+# Logfile created on 2014-06-23 20:17:44 -0400 by logger.rb/44203
+I, [2014-06-23T20:17:44.475543 #7352]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T20:17:44.498977 #7352]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T20:17:45.851561 #7352]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross Park is html
+I, [2014-06-23T20:17:45.914109 #7352]  INFO -- : Order status is : shipped
+I, [2014-06-23T20:17:45.914334 #7352]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T20:17:45.919258 #7352]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-03","shipping_date":"2014-05-03","total":65.55,"subtotal":63.0,"tax":0.0,"shipping":0.0,"items":[{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"abercrombie@abercrombie-email.com","order_no":"10667794020140503"}
+E, [2014-06-23T20:17:46.212149 #7352] ERROR -- : orderId: 10667794020140503422 Unprocessable Entity: Brand not found
+I, [2014-06-23T20:17:46.212998 #7352]  INFO -- : response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-23T20:19:44.189061 #7395]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T20:19:44.189807 #7395]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T20:19:44.902678 #7395]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross Park is html
+I, [2014-06-23T20:19:44.917187 #7395]  INFO -- : Order status is : shipped
+I, [2014-06-23T20:19:44.917336 #7395]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T20:19:44.920561 #7395]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-03","shipping_date":"2014-05-03","total":65.55,"subtotal":63.0,"tax":0.0,"shipping":0.0,"items":[{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"abercrombie@abercrombie-email.com","order_no":"10667794020140503"}
+E, [2014-06-23T20:19:44.991303 #7395] ERROR -- : orderId: 10667794020140503422 Unprocessable Entity: Brand not found
+I, [2014-06-23T20:19:44.992175 #7395]  INFO -- : response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-23T20:20:26.027236 #7432]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T20:20:26.027981 #7432]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T20:20:26.764133 #7432]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross Park is html
+I, [2014-06-23T20:20:26.778471 #7432]  INFO -- : Order status is : shipped
+I, [2014-06-23T20:20:26.778605 #7432]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T20:20:26.782002 #7432]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-03","shipping_date":"2014-05-03","total":65.55,"subtotal":63.0,"tax":0.0,"shipping":0.0,"items":[{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"abercrombie@abercrombie-email.com","order_no":"10667794020140503"}
+E, [2014-06-23T20:20:26.841810 #7432] ERROR -- : orderId: 10667794020140503422 Unprocessable Entity: Brand not found
+I, [2014-06-23T20:20:26.842673 #7432]  INFO -- : response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-23T20:20:52.487961 #7468]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T20:20:52.488714 #7468]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T20:20:53.172198 #7468]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross Park is html
+I, [2014-06-23T20:20:53.188290 #7468]  INFO -- : Order status is : shipped
+I, [2014-06-23T20:20:53.188437 #7468]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T20:20:53.192267 #7468]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-03","shipping_date":"2014-05-03","total":65.55,"subtotal":63.0,"tax":0.0,"shipping":0.0,"items":[{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"abercrombie@abercrombie-email.com","order_no":"10667794020140503"}
+E, [2014-06-23T20:20:53.252882 #7468] ERROR -- : orderId: 10667794020140503422 Unprocessable Entity: Brand not found
+I, [2014-06-23T20:20:53.253872 #7468]  INFO -- : response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-23T20:21:31.005105 #7504]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T20:21:31.005887 #7504]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T20:21:32.035428 #7504]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross Park is html
+I, [2014-06-23T20:21:32.049761 #7504]  INFO -- : Order status is : shipped
+I, [2014-06-23T20:21:32.049924 #7504]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T20:21:32.054873 #7504]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-03","shipping_date":"2014-05-03","total":65.55,"subtotal":63.0,"tax":0.0,"shipping":0.0,"items":[{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55},{"code":611251773,"price":2.55}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"abercrombie@abercrombie-email.com","order_no":"10667794020140503"}
+E, [2014-06-23T20:21:32.115456 #7504] ERROR -- : orderId: 10667794020140503422 Unprocessable Entity: Brand not found
+I, [2014-06-23T20:21:32.116545 #7504]  INFO -- : response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-23T20:21:33.264985 #7504]  INFO -- : move email : 10667794020140503 to folder 
+I, [2014-06-23T21:27:20.055503 #7699]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T21:27:20.071412 #7699]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T21:30:41.885599 #7741]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T21:30:41.886348 #7741]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T21:31:52.755659 #7779]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T21:31:52.756386 #7779]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T21:31:53.627561 #7779]  INFO -- : Email : Fwd: Fw: Abercrombie & Fitch Order #20033616772 Has Shipped is multipart type
+I, [2014-06-23T21:31:53.779300 #7779]  INFO -- : Order status is : shipped
+I, [2014-06-23T21:31:53.779463 #7779]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T21:31:53.782474 #7779]  INFO -- : Submit data to responseurl : {"order_no":"20033616772","order_date":"2014-03-12","shipping_date":"2014-03-14","subtotal":369.18,"total":369.18,"tax":0.0,"shipping":0.0,"items":[{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0},{"code":610783874,"price":15.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
+E, [2014-06-23T21:31:58.263457 #7779] ERROR -- : orderId: 20033616772422 Unprocessable Entity: Brand not found
+I, [2014-06-23T21:31:58.263764 #7779]  INFO -- : response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-23T21:31:59.818631 #7779]  INFO -- : move email : 20033616772 to folder 
+I, [2014-06-23T21:34:25.698984 #7815]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T21:34:25.699713 #7815]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T21:34:47.943875 #7852]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T21:34:47.944645 #7852]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T21:34:48.722060 #7852]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Confirmation is multipart type
+I, [2014-06-23T21:35:29.893332 #7889]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T21:35:29.894088 #7889]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T21:35:30.645921 #7889]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Confirmation is multipart type
+I, [2014-06-23T21:35:30.734843 #7889]  INFO -- : Order status is : ordered
+I, [2014-06-23T21:35:30.735011 #7889]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T21:35:30.737624 #7889]  INFO -- : Submit data to responseurl : {"order_no":"20032517082","order_date":"2014-02-27","subtotal":370.6,"total":370.6,"tax":0.0,"shipping":0.0,"items":[{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0}],"order_status":"ordered","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
+E, [2014-06-23T21:35:34.765630 #7889] ERROR -- : orderId: 20032517082422 Unprocessable Entity: Brand not found
+I, [2014-06-23T21:35:34.765973 #7889]  INFO -- : response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-23T21:35:36.004762 #7889]  INFO -- : move email : 20032517082 to folder 
+I, [2014-06-23T21:35:36.227513 #7889]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20032517082 Confirmation is multipart type
+I, [2014-06-23T21:35:36.316441 #7889]  INFO -- : Order status is : ordered
+I, [2014-06-23T21:35:36.316590 #7889]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T21:35:36.317281 #7889]  INFO -- : Submit data to responseurl : {"order_no":"20032517082","order_date":"2014-02-27","subtotal":370.6,"total":370.6,"tax":0.0,"shipping":0.0,"items":[{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0},{"code":611054606,"price":63.0}],"order_status":"ordered","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
+E, [2014-06-23T21:35:36.374230 #7889] ERROR -- : orderId: 20032517082422 Unprocessable Entity: Brand not found
+I, [2014-06-23T21:35:36.374811 #7889]  INFO -- : response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-23T21:35:37.532459 #7889]  INFO -- : move email : 20032517082 to folder 
+I, [2014-06-23T21:42:46.243027 #7932]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T21:42:46.243796 #7932]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T21:42:47.438557 #7932]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20033365397 Confirmation is multipart type
+I, [2014-06-23T21:42:47.521391 #7932]  INFO -- : Order status is : ordered
+I, [2014-06-23T21:42:47.521560 #7932]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T21:42:47.524145 #7932]  INFO -- : Submit data to responseurl : {"order_no":"20033365397","order_date":"2014-03-09","subtotal":338.8,"total":338.8,"tax":0.0,"shipping":0.0,"items":[{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2}],"order_status":"ordered","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
+E, [2014-06-23T21:42:51.794049 #7932] ERROR -- : orderId: 20033365397422 Unprocessable Entity: Brand not found
+I, [2014-06-23T21:42:51.794445 #7932]  INFO -- : response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-23T21:42:53.350518 #7932]  INFO -- : move email : 20033365397 to folder 
+I, [2014-06-23T21:42:53.564058 #7932]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20033365397 Confirmation is multipart type
+I, [2014-06-23T21:42:53.649670 #7932]  INFO -- : Order status is : ordered
+I, [2014-06-23T21:42:53.649838 #7932]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T21:42:53.650534 #7932]  INFO -- : Submit data to responseurl : {"order_no":"20033365397","order_date":"2014-03-09","subtotal":338.8,"total":338.8,"tax":0.0,"shipping":0.0,"items":[{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2},{"code":611122138,"price":31.2}],"order_status":"ordered","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
+E, [2014-06-23T21:42:53.713534 #7932] ERROR -- : orderId: 20033365397422 Unprocessable Entity: Brand not found
+I, [2014-06-23T21:42:53.713933 #7932]  INFO -- : response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-23T21:42:54.783410 #7932]  INFO -- : move email : 20033365397 to folder 
+I, [2014-06-23T21:42:54.950753 #7932]  INFO -- : Email : Fwd: Fw: Fw: Abercrombie & Fitch Order #20031708794 Confirmation is multipart type
+I, [2014-06-23T21:42:55.029795 #7932]  INFO -- : Order status is : ordered
+I, [2014-06-23T21:42:55.029963 #7932]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T21:42:55.030617 #7932]  INFO -- : Submit data to responseurl : {"order_no":"20031708794","order_date":"2014-02-16","subtotal":345.6,"total":366.34,"tax":20.74,"shipping":0.0,"items":[{"code":611066375,"price":32.0},{"code":611066375,"price":32.0},{"code":611066375,"price":32.0},{"code":611066375,"price":32.0},{"code":611066375,"price":32.0},{"code":611066375,"price":32.0},{"code":611066375,"price":32.0},{"code":611066375,"price":32.0},{"code":611066375,"price":32.0},{"code":611066375,"price":32.0},{"code":611066375,"price":32.0},{"code":611066375,"price":32.0},{"code":611066375,"price":32.0},{"code":611066375,"price":32.0},{"code":611066375,"price":32.0},{"code":611066375,"price":32.0},{"code":611066375,"price":32.0},{"code":611066375,"price":32.0},{"code":611066375,"price":32.0},{"code":611066375,"price":32.0},{"code":611066375,"price":32.0},{"code":611066375,"price":32.0},{"code":611066375,"price":32.0},{"code":611066375,"price":32.0}],"order_status":"ordered","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
+E, [2014-06-23T21:42:55.087349 #7932] ERROR -- : orderId: 20031708794422 Unprocessable Entity: Brand not found
+I, [2014-06-23T21:42:55.087616 #7932]  INFO -- : response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-23T21:42:56.160290 #7932]  INFO -- : move email : 20031708794 to folder 
+I, [2014-06-23T21:47:18.635157 #7973]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T21:47:18.635881 #7973]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T21:47:19.902564 #7973]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #7217155 Confirmation is multipart type
+I, [2014-06-23T21:47:19.925724 #7973]  INFO -- : Order status is : ordered
+I, [2014-06-23T21:47:19.925879 #7973]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T21:47:19.928152 #7973]  INFO -- : Submit data to responseurl : {"order_no":"7217155","order_date":"2013-06-28","subtotal":365.4,"total":387.32,"tax":21.92,"shipping":0.0,"items":[],"order_status":"ordered","brand":"Abercrombie & Fitch","email":"abercrombie00001@gmail.com"}
+E, [2014-06-23T21:47:19.984430 #7973] ERROR -- : orderId: order_no422 Unprocessable Entity: Brand not found
+I, [2014-06-23T21:47:19.985003 #7973]  INFO -- : response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-23T21:47:21.495255 #7973]  INFO -- : move email : 7217155 to folder 
+I, [2014-06-23T21:49:21.383797 #8012]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T21:49:21.384665 #8012]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T21:49:22.189806 #8012]  INFO -- : Email : Fwd: Abercrombie & Fitch Order #20035727229 Confirmation is multipart type
+I, [2014-06-23T21:49:22.267393 #8012]  INFO -- : Order status is : ordered
+I, [2014-06-23T21:49:22.267551 #8012]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T21:49:22.269970 #8012]  INFO -- : Submit data to responseurl : {"order_no"=>"20035727229", "order_date"=>"2014-04-07", "subtotal"=>318.4, "total"=>318.4, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>611496922, "price"=>43.2}, {"code"=>611496922, "price"=>43.2}, {"code"=>611496922, "price"=>43.2}, {"code"=>611496922, "price"=>43.2}, {"code"=>611496922, "price"=>43.2}, {"code"=>611496922, "price"=>43.2}, {"code"=>611496922, "price"=>43.2}, {"code"=>611496922, "price"=>43.2}, {"code"=>611496922, "price"=>43.2}, {"code"=>611496922, "price"=>43.2}, {"code"=>611496922, "price"=>43.2}, {"code"=>611496922, "price"=>43.2}, {"code"=>611496922, "price"=>43.2}, {"code"=>611496922, "price"=>43.2}, {"code"=>611496922, "price"=>43.2}, {"code"=>611496922, "price"=>43.2}, {"code"=>611496922, "price"=>43.2}, {"code"=>611496922, "price"=>43.2}, {"code"=>611496922, "price"=>43.2}, {"code"=>611496922, "price"=>43.2}, {"code"=>611496922, "price"=>43.2}], "order_status"=>"ordered", "brand"=>"Abercrombie & Fitch", "email"=>"kangyihong001@gmail.com"}
+E, [2014-06-23T21:49:22.330909 #8012] ERROR -- : orderId: 20035727229422 Unprocessable Entity: Brand not found
+I, [2014-06-23T21:49:22.331297 #8012]  INFO -- : response : 422 Unprocessable Entity: Brand not found
+I, [2014-06-23T21:49:23.446592 #8012]  INFO -- : move email : 20035727229 to folder 
+I, [2014-06-23T21:51:42.511048 #8051]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T21:51:42.511786 #8051]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T21:51:43.557828 #8051]  INFO -- : Email : Fwd: Fw: Abercrombie & Fitch Order #20033616772 Confirmation is multipart type
+I, [2014-06-23T21:51:43.650283 #8051]  INFO -- : Order status is : ordered
+I, [2014-06-23T21:51:43.650437 #8051]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T21:51:43.652912 #8051]  INFO -- : Submit data to responseurl : {"order_no"=>"20033616772", "order_date"=>"2014-03-12", "subtotal"=>369.18, "total"=>369.18, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}, {"code"=>611122146, "price"=>31.2}], "order_status"=>"ordered", "brand"=>"Abercrombie & Fitch", "email"=>"kangyihong001@gmail.com"}
+E, [2014-06-23T21:51:43.718854 #8051] ERROR -- : orderId: 20033616772422 Unprocessable Entity: Email is read
+I, [2014-06-23T21:51:43.719280 #8051]  INFO -- : response : 422 Unprocessable Entity: Email is read
+I, [2014-06-23T21:51:45.074592 #8051]  INFO -- : move email : 20033616772 to folder 
+I, [2014-06-23T21:56:40.478023 #8090]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T21:56:40.478763 #8090]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T21:56:41.277066 #8090]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross ParkOrder #10667794020140503Order #10667794020140503 is html
+I, [2014-06-23T21:56:41.295103 #8090]  INFO -- : Order status is : shipped
+I, [2014-06-23T21:56:41.295326 #8090]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T21:56:41.299157 #8090]  INFO -- : Submit data to responseurl : {"order_date"=>"2014-05-03", "shipping_date"=>"2014-05-03", "total"=>65.55, "subtotal"=>63.0, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>611251773, "price"=>2.55}, {"code"=>611251773, "price"=>2.55}, {"code"=>611251773, "price"=>2.55}, {"code"=>611251773, "price"=>2.55}, {"code"=>611251773, "price"=>2.55}], "order_status"=>"shipped", "tracking_no"=>"", "brand"=>"Abercrombie & Fitch", "email"=>"abercrombie@abercrombie-email.com", "order_no"=>"10667794020140503"}
+E, [2014-06-23T21:56:41.832556 #8090] ERROR -- : orderId: 10667794020140503422 Unprocessable Entity: Email not found
+I, [2014-06-23T21:56:41.833031 #8090]  INFO -- : response : 422 Unprocessable Entity: Email not found
+I, [2014-06-23T21:56:42.916329 #8090]  INFO -- : move email : 10667794020140503 to folder 
+I, [2014-06-23T21:57:57.037346 #8126]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T21:57:57.038106 #8126]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T21:57:57.759920 #8126]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Robinson Town CentreOrder #10585533720140504 is html
+I, [2014-06-23T21:57:57.783046 #8126]  INFO -- : Order status is : shipped
+I, [2014-06-23T21:57:57.783230 #8126]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T21:57:57.787290 #8126]  INFO -- : Submit data to responseurl : {"order_date"=>"2014-05-04", "shipping_date"=>"2014-05-04", "total"=>223.04, "subtotal"=>223.04, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>611054631, "price"=>223.04}, {"code"=>611054631, "price"=>223.04}, {"code"=>611054631, "price"=>223.04}, {"code"=>611054631, "price"=>223.04}, {"code"=>611054631, "price"=>223.04}, {"code"=>611054631, "price"=>223.04}, {"code"=>611054631, "price"=>223.04}, {"code"=>611054631, "price"=>223.04}, {"code"=>611054631, "price"=>223.04}, {"code"=>611054631, "price"=>223.04}, {"code"=>611054631, "price"=>223.04}], "order_status"=>"shipped", "tracking_no"=>"", "brand"=>"Abercrombie & Fitch", "email"=>"abercrombie@abercrombie-email.com", "order_no"=>"10585533720140504"}
+E, [2014-06-23T21:57:57.919488 #8126] ERROR -- : orderId: 10585533720140504502 Bad Gateway: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.6.0</center>
+</body>
+</html>
+
+I, [2014-06-23T21:57:57.919868 #8126]  INFO -- : response : 502 Bad Gateway: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.6.0</center>
+</body>
+</html>
+
+E, [2014-06-23T21:57:57.920000 #8126] ERROR -- : Got error when submit the data
+I, [2014-06-23T21:57:58.089199 #8126]  INFO -- : move email : 10585533720140504 to folder 
+I, [2014-06-23T21:57:58.323754 #8126]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Robinson Town CentreOrder #10585533720140504 is html
+I, [2014-06-23T21:57:58.345593 #8126]  INFO -- : Order status is : shipped
+I, [2014-06-23T21:57:58.345787 #8126]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T21:57:58.348589 #8126]  INFO -- : Submit data to responseurl : {"order_date"=>"2014-05-04", "shipping_date"=>"2014-05-04", "total"=>223.04, "subtotal"=>223.04, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>611054631, "price"=>223.04}, {"code"=>611054631, "price"=>223.04}, {"code"=>611054631, "price"=>223.04}, {"code"=>611054631, "price"=>223.04}, {"code"=>611054631, "price"=>223.04}, {"code"=>611054631, "price"=>223.04}, {"code"=>611054631, "price"=>223.04}, {"code"=>611054631, "price"=>223.04}, {"code"=>611054631, "price"=>223.04}, {"code"=>611054631, "price"=>223.04}, {"code"=>611054631, "price"=>223.04}], "order_status"=>"shipped", "tracking_no"=>"", "brand"=>"Abercrombie & Fitch", "email"=>"abercrombie@abercrombie-email.com", "order_no"=>"10585533720140504"}
+E, [2014-06-23T21:57:58.428321 #8126] ERROR -- : orderId: 10585533720140504502 Bad Gateway: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.6.0</center>
+</body>
+</html>
+
+I, [2014-06-23T21:57:58.428604 #8126]  INFO -- : response : 502 Bad Gateway: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.6.0</center>
+</body>
+</html>
+
+E, [2014-06-23T21:57:58.428673 #8126] ERROR -- : Got error when submit the data
+I, [2014-06-23T21:57:58.599193 #8126]  INFO -- : move email : 10585533720140504 to folder 
+I, [2014-06-23T21:59:07.010130 #8163]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T21:59:07.010945 #8163]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T21:59:07.823166 #8163]  INFO -- : Email : Fwd: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667893820140519 is multipart type
+I, [2014-06-23T21:59:07.843087 #8163]  INFO -- : Order status is : shipped
+I, [2014-06-23T21:59:07.843242 #8163]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T21:59:07.846682 #8163]  INFO -- : Submit data to responseurl : {"order_date"=>"2014-05-19", "shipping_date"=>"2014-05-19", "total"=>90.0, "subtotal"=>90.0, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>611496914, "price"=>45.0}], "order_status"=>"shipped", "tracking_no"=>"", "brand"=>"Abercrombie & Fitch", "email"=>"kangyihong001@gmail.com", "order_no"=>"10667893820140519"}
+E, [2014-06-23T21:59:07.908406 #8163] ERROR -- : orderId: 10667893820140519502 Bad Gateway: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.6.0</center>
+</body>
+</html>
+
+I, [2014-06-23T21:59:07.908720 #8163]  INFO -- : response : 502 Bad Gateway: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.6.0</center>
+</body>
+</html>
+
+E, [2014-06-23T21:59:07.908794 #8163] ERROR -- : Got error when submit the data
+I, [2014-06-23T21:59:08.072561 #8163]  INFO -- : move email : 10667893820140519 to folder 
+I, [2014-06-23T22:00:50.883221 #8203]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T22:00:50.883983 #8203]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T22:00:51.755099 #8203]  INFO -- : Email : Fwd: Your E-Receipt from Abercrombie & Fitch, Ross Park## Order #10667893820140519 is multipart type
+I, [2014-06-23T22:00:51.777838 #8203]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:00:51.778000 #8203]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T22:00:51.786128 #8203]  INFO -- : Submit data to responseurl : {"order_date"=>"2014-05-19", "shipping_date"=>"2014-05-19", "total"=>90.0, "subtotal"=>90.0, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>611496914, "price"=>45.0}], "order_status"=>"shipped", "tracking_no"=>"", "brand"=>"Abercrombie & Fitch", "email"=>"kangyihong001@gmail.com", "order_no"=>"10667893820140519"}
+E, [2014-06-23T22:00:51.856190 #8203] ERROR -- : orderId: 10667893820140519502 Bad Gateway: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.6.0</center>
+</body>
+</html>
+
+I, [2014-06-23T22:00:51.856551 #8203]  INFO -- : response : 502 Bad Gateway: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.6.0</center>
+</body>
+</html>
+
+E, [2014-06-23T22:00:51.856655 #8203] ERROR -- : Got error when submit the data
+I, [2014-06-23T22:00:52.024481 #8203]  INFO -- : move email : 10667893820140519 to folder 
+I, [2014-06-23T22:10:59.170778 #8299]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T22:10:59.171671 #8299]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T22:11:00.379561 #8299]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross ParkOrder #10667794020140503 is html
+I, [2014-06-23T22:11:00.395395 #8299]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:11:00.395549 #8299]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T22:11:00.398997 #8299]  INFO -- : Submit data to responseurl : {"order_date"=>"2014-05-03", "shipping_date"=>"2014-05-03", "total"=>65.55, "subtotal"=>63.0, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>611251773, "price"=>2.55}, {"code"=>611251773, "price"=>2.55}, {"code"=>611251773, "price"=>2.55}, {"code"=>611251773, "price"=>2.55}, {"code"=>611251773, "price"=>2.55}], "order_status"=>"shipped", "tracking_no"=>"", "brand"=>"Abercrombie & Fitch", "email"=>"abercrombie@abercrombie-email.com", "order_no"=>"10667794020140503"}
+I, [2014-06-23T22:11:05.429178 #8299]  INFO -- : response : 
+E, [2014-06-23T22:11:05.429343 #8299] ERROR -- : Got error when submit the data
+I, [2014-06-23T22:11:05.610804 #8299]  INFO -- : move email : 10667794020140503 to folder 
+I, [2014-06-23T22:11:05.772689 #8299]  INFO -- : Email : Your E-Receipt from Abercrombie & Fitch, Ross ParkOrder #10667794020140503 is html
+I, [2014-06-23T22:11:05.786719 #8299]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:11:05.786868 #8299]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T22:11:05.788356 #8299]  INFO -- : Submit data to responseurl : {"order_date"=>"2014-05-03", "shipping_date"=>"2014-05-03", "total"=>65.55, "subtotal"=>63.0, "tax"=>0.0, "shipping"=>0.0, "items"=>[{"code"=>611251773, "price"=>2.55}, {"code"=>611251773, "price"=>2.55}, {"code"=>611251773, "price"=>2.55}, {"code"=>611251773, "price"=>2.55}, {"code"=>611251773, "price"=>2.55}], "order_status"=>"shipped", "tracking_no"=>"", "brand"=>"Abercrombie & Fitch", "email"=>"abercrombie@abercrombie-email.com", "order_no"=>"10667794020140503"}
+E, [2014-06-23T22:11:05.841017 #8299] ERROR -- : orderId: 10667794020140503422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:11:05.841285 #8299]  INFO -- : response : 422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:11:07.310171 #8299]  INFO -- : move email : 10667794020140503 to folder 
+I, [2014-06-23T22:11:58.358832 #8337]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T22:11:58.359680 #8337]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T22:12:58.602131 #8374]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T22:12:58.602939 #8374]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T22:12:59.563293 #8374]  INFO -- : Email : Fwd: Your E-Receipt from Abercrombie & Fitch, Ross Park## Order #10667893820140519 Order #10667893820140519 is multipart type
+I, [2014-06-23T22:12:59.585028 #8374]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:12:59.585191 #8374]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T22:12:59.588488 #8374]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-19","shipping_date":"2014-05-19","total":90.0,"subtotal":90.0,"tax":0.0,"shipping":0.0,"items":[{"code":611496914,"price":45.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com","order_no":"10667893820140519"}
+E, [2014-06-23T22:12:59.664140 #8374] ERROR -- : orderId: 10667893820140519#<NameError: undefined local variable or method `reponse' for EmailProcessor:Module>
+I, [2014-06-23T22:12:59.668035 #8374]  INFO -- : response : #<NameError: undefined local variable or method `reponse' for EmailProcessor:Module>
+E, [2014-06-23T22:12:59.668201 #8374] ERROR -- : Got error when submit the data
+I, [2014-06-23T22:12:59.870225 #8374]  INFO -- : move email : 10667893820140519 to folder 
+I, [2014-06-23T22:16:02.126566 #8430]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T22:16:02.127380 #8430]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T22:16:03.324441 #8430]  INFO -- : Email : Fwd: Your E-Receipt from Abercrombie & Fitch, Ross Park## Order #10667893820140519 Order #10667893820140519 is multipart type
+I, [2014-06-23T22:16:03.346238 #8430]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:16:03.346419 #8430]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T22:16:03.354230 #8430]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-19","shipping_date":"2014-05-19","total":90.0,"subtotal":90.0,"tax":0.0,"shipping":0.0,"items":[{"code":611496914,"price":45.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com","order_no":"10667893820140519"}
+E, [2014-06-23T22:16:03.424414 #8430] ERROR -- : orderId: 10667893820140519422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:16:03.424897 #8430]  INFO -- : response : 422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:16:04.994318 #8430]  INFO -- : move email : 10667893820140519 to folder 
+I, [2014-06-23T22:16:05.164675 #8430]  INFO -- : Email : Fwd: Your E-Receipt from Abercrombie & Fitch, Ross Park## Order #10667893820140519 is multipart type
+I, [2014-06-23T22:16:05.190397 #8430]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:16:05.190549 #8430]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T22:16:05.192035 #8430]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-19","shipping_date":"2014-05-19","total":90.0,"subtotal":90.0,"tax":0.0,"shipping":0.0,"items":[{"code":611496914,"price":45.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com","order_no":"10667893820140519"}
+E, [2014-06-23T22:16:05.245094 #8430] ERROR -- : orderId: 10667893820140519422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:16:05.245466 #8430]  INFO -- : response : 422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:16:06.255010 #8430]  INFO -- : move email : 10667893820140519 to folder 
+I, [2014-06-23T22:16:06.430026 #8430]  INFO -- : Email : Fwd: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667893820140519 is multipart type
+I, [2014-06-23T22:16:06.451529 #8430]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:16:06.451685 #8430]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T22:16:06.453098 #8430]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-19","shipping_date":"2014-05-19","total":90.0,"subtotal":90.0,"tax":0.0,"shipping":0.0,"items":[{"code":611496914,"price":45.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com","order_no":"10667893820140519"}
+E, [2014-06-23T22:16:06.506714 #8430] ERROR -- : orderId: 10667893820140519422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:16:06.507519 #8430]  INFO -- : response : 422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:16:07.443888 #8430]  INFO -- : move email : 10667893820140519 to folder 
+I, [2014-06-23T22:18:09.597819 #8469]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T22:18:09.599627 #8469]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T22:18:10.798693 #8469]  INFO -- : Email : Fwd: FW: Your E-Receipt from Abercrombie & Fitch, Ross Park is multipart type
+I, [2014-06-23T22:18:10.822064 #8469]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:18:10.822214 #8469]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T22:18:10.825260 #8469]  INFO -- : Submit data to responseurl : {"order_date":"2014-06-21","shipping_date":"2014-06-21","total":118.0,"subtotal":118.0,"tax":0.0,"shipping":0.0,"items":[{"code":611552470,"price":25.0},{"code":611552470,"price":25.0},{"code":611552470,"price":25.0},{"code":611552470,"price":25.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com","order_no":"10667166920140621"}
+E, [2014-06-23T22:18:10.884483 #8469] ERROR -- : orderId: 10667166920140621422 Unprocessable Entity: Email not found
+I, [2014-06-23T22:18:10.885316 #8469]  INFO -- : response : 422 Unprocessable Entity: Email not found
+I, [2014-06-23T22:18:11.917256 #8469]  INFO -- : move email : 10667166920140621 to folder 
+I, [2014-06-23T22:19:30.721648 #8505]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T22:19:30.722392 #8505]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T22:19:31.410325 #8505]  INFO -- : Email : Fwd: FW: Your E-Receipt from Abercrombie & Fitch, Ross Park is multipart type
+I, [2014-06-23T22:19:31.433493 #8505]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:19:31.433674 #8505]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T22:19:31.438639 #8505]  INFO -- : Submit data to responseurl : {"order_date":"2014-06-21","shipping_date":"2014-06-21","total":118.0,"subtotal":118.0,"tax":0.0,"shipping":0.0,"items":[{"code":611552470,"price":25.0},{"code":611552470,"price":25.0},{"code":611552470,"price":25.0},{"code":611552470,"price":25.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com","order_no":"10667166920140621"}
+I, [2014-06-23T22:19:31.626776 #8505]  INFO -- : response : 
+E, [2014-06-23T22:19:31.626967 #8505] ERROR -- : Got error when submit the data
+I, [2014-06-23T22:19:31.832395 #8505]  INFO -- : move email : 10667166920140621 to folder 
+I, [2014-06-23T22:26:02.466885 #8552]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T22:26:02.467824 #8552]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T22:26:24.309047 #8589]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T22:26:24.309991 #8589]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T22:26:25.074186 #8589]  INFO -- : Email : Fwd: FW: Your E-Receipt from Abercrombie & Fitch, Ross Park is multipart type
+I, [2014-06-23T22:26:25.106610 #8589]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:26:25.106825 #8589]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T22:26:25.110923 #8589]  INFO -- : Submit data to responseurl : {"order_date":"2014-06-21","shipping_date":"2014-06-21","total":118.0,"subtotal":118.0,"tax":0.0,"shipping":0.0,"items":[{"code":611552470,"price":25.0},{"code":611552470,"price":25.0},{"code":611552470,"price":25.0},{"code":611552470,"price":25.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com","order_no":"10667166920140621"}
+E, [2014-06-23T22:26:25.644879 #8589] ERROR -- : orderId: 10667166920140621422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:26:25.645836 #8589]  INFO -- : response : 422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:26:26.730138 #8589]  INFO -- : Email : Fwd: Your E-Receipt from Abercrombie & Fitch, Ross Park## Order #10667893820140519 Order #10667893820140519 is multipart type
+I, [2014-06-23T22:26:26.754003 #8589]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:26:26.754201 #8589]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T22:26:26.755784 #8589]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-19","shipping_date":"2014-05-19","total":90.0,"subtotal":90.0,"tax":0.0,"shipping":0.0,"items":[{"code":611496914,"price":45.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com","order_no":"10667893820140519"}
+E, [2014-06-23T22:26:26.856903 #8589] ERROR -- : orderId: 10667893820140519422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:26:26.857275 #8589]  INFO -- : response : 422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:26:27.815601 #8589]  INFO -- : Email : Fwd: Your E-Receipt from Abercrombie & Fitch, Ross Park## Order #10667893820140519 is multipart type
+I, [2014-06-23T22:26:27.840840 #8589]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:26:27.841038 #8589]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T22:26:27.842764 #8589]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-19","shipping_date":"2014-05-19","total":90.0,"subtotal":90.0,"tax":0.0,"shipping":0.0,"items":[{"code":611496914,"price":45.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com","order_no":"10667893820140519"}
+E, [2014-06-23T22:26:27.909998 #8589] ERROR -- : orderId: 10667893820140519422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:26:27.910341 #8589]  INFO -- : response : 422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:26:29.013018 #8589]  INFO -- : Email : Fwd: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667893820140519 is multipart type
+I, [2014-06-23T22:26:29.038657 #8589]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:26:29.038823 #8589]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T22:26:29.040560 #8589]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-19","shipping_date":"2014-05-19","total":90.0,"subtotal":90.0,"tax":0.0,"shipping":0.0,"items":[{"code":611496914,"price":45.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com","order_no":"10667893820140519"}
+E, [2014-06-23T22:26:29.095554 #8589] ERROR -- : orderId: 10667893820140519422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:26:29.095976 #8589]  INFO -- : response : 422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:52:26.613597 #764]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T22:52:26.654771 #764]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T22:52:28.444773 #764]  INFO -- : Email : Fwd: FW: Your E-Receipt from Abercrombie & Fitch, Ross Park is multipart type
+I, [2014-06-23T22:52:28.828336 #764]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:52:28.828557 #764]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T22:52:28.889794 #764]  INFO -- : Submit data to responseurl : {"order_date":"2014-06-21","shipping_date":"2014-06-21","total":118.0,"subtotal":118.0,"tax":0.0,"shipping":0.0,"items":[{"code":611552470,"price":25.0},{"code":611552470,"price":25.0},{"code":611552470,"price":25.0},{"code":611552470,"price":25.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com","order_no":"10667166920140621"}
+E, [2014-06-23T22:52:29.051702 #764] ERROR -- : orderId: 10667166920140621422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:52:29.052779 #764]  INFO -- : response : 422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:52:30.587587 #764]  INFO -- : Email : Fwd: Your E-Receipt from Abercrombie & Fitch, Ross Park## Order #10667893820140519 Order #10667893820140519 is multipart type
+I, [2014-06-23T22:52:30.707373 #764]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:52:30.707755 #764]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T22:52:30.712221 #764]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-19","shipping_date":"2014-05-19","total":90.0,"subtotal":90.0,"tax":0.0,"shipping":0.0,"items":[{"code":611496914,"price":45.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com","order_no":"10667893820140519"}
+E, [2014-06-23T22:52:30.772570 #764] ERROR -- : orderId: 10667893820140519422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:52:30.772873 #764]  INFO -- : response : 422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:52:31.877032 #764]  INFO -- : Email : Fwd: Your E-Receipt from Abercrombie & Fitch, Ross Park## Order #10667893820140519 is multipart type
+I, [2014-06-23T22:52:31.972391 #764]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:52:31.972555 #764]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T22:52:31.973998 #764]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-19","shipping_date":"2014-05-19","total":90.0,"subtotal":90.0,"tax":0.0,"shipping":0.0,"items":[{"code":611496914,"price":45.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com","order_no":"10667893820140519"}
+E, [2014-06-23T22:52:32.150003 #764] ERROR -- : orderId: 10667893820140519422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:52:32.150308 #764]  INFO -- : response : 422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:52:33.183209 #764]  INFO -- : Email : Fwd: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667893820140519 is multipart type
+I, [2014-06-23T22:52:33.295077 #764]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:52:33.295234 #764]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T22:52:33.302638 #764]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-19","shipping_date":"2014-05-19","total":90.0,"subtotal":90.0,"tax":0.0,"shipping":0.0,"items":[{"code":611496914,"price":45.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com","order_no":"10667893820140519"}
+E, [2014-06-23T22:52:33.503398 #764] ERROR -- : orderId: 10667893820140519422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:52:33.503775 #764]  INFO -- : response : 422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:52:34.976238 #764]  INFO -- : Email : Fwd: FW: Your E-Receipt from Hollister Co., Ross Park is multipart type
+I, [2014-06-23T22:52:35.063129 #764]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:52:35.063319 #764]  INFO -- : Brand name is : Hollister
+I, [2014-06-23T22:52:35.182171 #764]  INFO -- : Submit data to responseurl : {"order_date":"2014-06-21","shipping_date":"2014-06-21","total":74.86,"subtotal":74.86,"tax":0.0,"shipping":0.0,"items":[{"code":610883218,"price":8.98},{"code":610883218,"price":8.98},{"code":610883218,"price":8.98},{"code":610883218,"price":8.98},{"code":610883218,"price":8.98},{"code":610883218,"price":8.98}],"order_status":"shipped","tracking_no":"","brand":"Hollister","email":"kangyihong001@gmail.com","order_no":"30176578120140621"}
+E, [2014-06-23T22:52:35.247011 #764] ERROR -- : orderId: 30176578120140621422 Unprocessable Entity: ExpressBrandAssignment not found
+I, [2014-06-23T22:52:35.247912 #764]  INFO -- : response : 422 Unprocessable Entity: ExpressBrandAssignment not found
+I, [2014-06-23T22:52:36.256688 #764]  INFO -- : Email : FWd:Fwd: Your E-Receipt from Hollister Co., Ross Park is multipart type
+I, [2014-06-23T22:52:36.311533 #764]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:52:36.311716 #764]  INFO -- : Brand name is : Hollister
+I, [2014-06-23T22:52:36.313038 #764]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-19","shipping_date":"2014-05-19","total":48.0,"subtotal":48.0,"tax":0.0,"shipping":0.0,"items":[{"code":610750204,"price":48.0},{"code":610750204,"price":48.0},{"code":610750204,"price":48.0},{"code":610750204,"price":48.0},{"code":610750204,"price":48.0}],"order_status":"shipped","tracking_no":"","brand":"Hollister","email":"jiangyy12@gmail.com","order_no":"30176197520140519"}
+E, [2014-06-23T22:52:36.369870 #764] ERROR -- : orderId: 30176197520140519422 Unprocessable Entity: Email not found
+I, [2014-06-23T22:52:36.370733 #764]  INFO -- : response : 422 Unprocessable Entity: Email not found
+I, [2014-06-23T22:54:31.056271 #801]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T22:54:31.057053 #801]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T22:54:31.757946 #801]  INFO -- : Email : Fwd: FW: Your E-Receipt from Abercrombie & Fitch, Ross Park is multipart type
+I, [2014-06-23T22:54:31.783647 #801]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:54:31.783849 #801]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T22:54:31.787780 #801]  INFO -- : Submit data to responseurl : {"order_date":"2014-06-21","shipping_date":"2014-06-21","total":118.0,"subtotal":118.0,"tax":0.0,"shipping":0.0,"items":[{"code":611552470,"price":25.0},{"code":611552470,"price":25.0},{"code":611552470,"price":25.0},{"code":611552470,"price":25.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com","order_no":"10667166920140621"}
+E, [2014-06-23T22:54:31.842082 #801] ERROR -- : orderId: 10667166920140621422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:54:31.843195 #801]  INFO -- : response : 422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:54:32.897468 #801]  INFO -- : Email : Fwd: Your E-Receipt from Abercrombie & Fitch, Ross Park## Order #10667893820140519 Order #10667893820140519 is multipart type
+I, [2014-06-23T22:54:32.920098 #801]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:54:32.920279 #801]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T22:54:32.921884 #801]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-19","shipping_date":"2014-05-19","total":90.0,"subtotal":90.0,"tax":0.0,"shipping":0.0,"items":[{"code":611496914,"price":45.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com","order_no":"10667893820140519"}
+E, [2014-06-23T22:54:32.972254 #801] ERROR -- : orderId: 10667893820140519422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:54:32.972586 #801]  INFO -- : response : 422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:54:34.059610 #801]  INFO -- : Email : Fwd: Your E-Receipt from Abercrombie & Fitch, Ross Park## Order #10667893820140519 is multipart type
+I, [2014-06-23T22:54:34.081698 #801]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:54:34.081853 #801]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T22:54:34.083777 #801]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-19","shipping_date":"2014-05-19","total":90.0,"subtotal":90.0,"tax":0.0,"shipping":0.0,"items":[{"code":611496914,"price":45.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com","order_no":"10667893820140519"}
+E, [2014-06-23T22:54:34.137264 #801] ERROR -- : orderId: 10667893820140519422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:54:34.137565 #801]  INFO -- : response : 422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:54:35.180977 #801]  INFO -- : Email : Fwd: Your E-Receipt from Abercrombie & Fitch, Ross Park Order #10667893820140519 is multipart type
+I, [2014-06-23T22:54:35.201820 #801]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:54:35.201990 #801]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T22:54:35.204112 #801]  INFO -- : Submit data to responseurl : {"order_date":"2014-05-19","shipping_date":"2014-05-19","total":90.0,"subtotal":90.0,"tax":0.0,"shipping":0.0,"items":[{"code":611496914,"price":45.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com","order_no":"10667893820140519"}
+E, [2014-06-23T22:54:35.254835 #801] ERROR -- : orderId: 10667893820140519422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:54:35.257069 #801]  INFO -- : response : 422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:56:41.997509 #855]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T22:56:41.998288 #855]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T22:56:43.576025 #855]  INFO -- : Email : Fwd: FW: Your E-Receipt from Abercrombie & Fitch, Ross Park is multipart type
+I, [2014-06-23T22:56:43.607984 #855]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:56:43.608160 #855]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T22:56:43.611473 #855]  INFO -- : Submit data to responseurl : {"order_date":"2014-06-21","shipping_date":"2014-06-21","total":118.0,"subtotal":118.0,"tax":0.0,"shipping":0.0,"items":[{"code":611552470,"price":25.0},{"code":611552470,"price":25.0},{"code":611552470,"price":25.0},{"code":611552470,"price":25.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com","order_no":"10667166920140621"}
+E, [2014-06-23T22:56:43.831976 #855] ERROR -- : orderId: 10667166920140621422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:56:43.832726 #855]  INFO -- : response : 422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:56:44.992875 #855]  INFO -- : Email : Fwd: FW: Your E-Receipt from Abercrombie & Fitch, Ross Park is multipart type
+I, [2014-06-23T22:56:45.014825 #855]  INFO -- : Order status is : shipped
+I, [2014-06-23T22:56:45.014998 #855]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T22:56:45.017130 #855]  INFO -- : Submit data to responseurl : {"order_date":"2014-06-21","shipping_date":"2014-06-21","total":118.0,"subtotal":118.0,"tax":0.0,"shipping":0.0,"items":[{"code":611552470,"price":25.0},{"code":611552470,"price":25.0},{"code":611552470,"price":25.0},{"code":611552470,"price":25.0}],"order_status":"shipped","tracking_no":"","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com","order_no":"10667166920140621"}
+E, [2014-06-23T22:56:45.071570 #855] ERROR -- : orderId: 10667166920140621422 Unprocessable Entity: Email is read
+I, [2014-06-23T22:56:45.072670 #855]  INFO -- : response : 422 Unprocessable Entity: Email is read
+I, [2014-06-23T23:00:18.008514 #897]  INFO -- : Loading the property file property.yml
+I, [2014-06-23T23:00:18.009553 #897]  INFO -- : Username :jiangyy12@gmail.com, Password :jane@8612, Mailbox: AF, responseUrl: http://ourtradingplatform:otp$api*secrect@test.uscaigou.com/api/v1/orders/new_email
+I, [2014-06-23T23:00:19.174518 #897]  INFO -- : Email : Fwd: 转发：Fwd: Abercrombie & Fitch Order #200399 is multipart type
+I, [2014-06-23T23:00:19.302169 #897]  INFO -- : Order status is : other
+I, [2014-06-23T23:00:19.302399 #897]  INFO -- : Brand name is : Abercrombie & Fitch
+I, [2014-06-23T23:00:19.304881 #897]  INFO -- : Submit data to responseurl : {"order_no":"20039904053","order_date":"2014-05-23","shipping_date":"2014-05-24","subtotal":361.8,"total":361.8,"tax":0.0,"shipping":0.0,"items":[{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0},{"code":610674037,"price":34.0}],"order_status":"other","brand":"Abercrombie & Fitch","email":"kangyihong001@gmail.com"}
+I, [2014-06-23T23:00:19.511583 #897]  INFO -- : response : 
+E, [2014-06-23T23:00:19.511796 #897] ERROR -- : Got error : #{response}

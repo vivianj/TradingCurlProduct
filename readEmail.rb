@@ -57,18 +57,20 @@ def readEmail(account, mailbox, uploadData)
            next
         end
  
+        logger.info "Start processing the new email : #{mail.subject}"
         extractor = Extractor.new(mail)
         
         if extractor.extractEmail?
            data = extractor.orderData
 
-           uploadData.post(data.to_json)
+           EmailProcessor::logger.info "Extracted the correct data and starting to submit to the database"
+           uploadData.post(data)
 
            if not uploadData.isSuccess?
+              EmailProcessor::logger.info "Submit the data failure!"
               sendErrorMessage(account, uploadData.responseBody)
-            else
-              data = Hash.new
-              data = extractor.orderData
+           else
+              
               destFolder = getDestFolder(imap, data['brand'], data['order_status'])
               
               if not /.*?order\s*#\d+.*/.match(mail.subject.downcase) and not data['order_no'].nil?
@@ -80,8 +82,6 @@ def readEmail(account, mailbox, uploadData)
               forwardEmail(mail, newSubject, account, uploadData.responseBody)
               moveMessage(imap, destFolder, mail, id, data['order_no'])
            end
-        else
-           return
         end
    end
    account.close_imap
@@ -112,6 +112,7 @@ end
 def moveMessage(imap, destFolder, mail, messageId, orderId)
     if not /.*?order\s*#\d+.*/.match(mail.subject.downcase) and not orderId.nil?
        newMail = Mail.new
+       newMail = mail
        newMail.subject = mail.subject << "order #{orderId}"
        imap.append(destFolder, newMail.to_s)
     else
