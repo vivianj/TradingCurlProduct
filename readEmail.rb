@@ -100,13 +100,17 @@ end
 def getDestFolder(imap, brand, orderStatus)
     folder  = brand.gsub(/[^0-9a-zA-Z]/,'')
     logger.info "cleaned brand name is #{folder}"
-    if not imap.list(folder, orderStatus) and  not folder.nil?
-      imap.create(folder+'/'+orderStatus)
-      return folder+'/'+orderStatus
-    elsif folder.nil? and not imap.list('', orderStatus)
-        imap.create(orderStatus)
-        return orderStatus
+    if not folder.nil?
+       folder<<"/"<<orderStatus
+    else
+       folder<<orderStatus
     end
+
+    if not imap.list("", folder) 
+      imap.create(folder+'/'+orderStatus)
+    end
+     
+    return folder
 end
 
 def moveMessage(imap, destFolder, mail, messageId, orderId)
